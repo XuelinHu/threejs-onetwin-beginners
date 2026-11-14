@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="把基础组件拖进三维场景，边搭建边理解 Three.js 的坐标、材质、灯光和关键 API。">
+  <title>拖拽练习 · Three.js 学习工坊</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">{"imports":{"three":"../vendor/three.module.js","three/addons/":"../vendor/addons/"}}</script>
+</head>
+<body>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="icon-cube" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9Zm-8 4.5 8 4.6 8-4.6M12 12v9"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="icon-undo" viewBox="0 0 24 24"><path d="M8 5 3 10l5 5M3 10h10a7 7 0 0 1 7 7v2"/></symbol>
+    <symbol id="icon-redo" viewBox="0 0 24 24"><path d="m16 5 5 5-5 5M21 10H11a7 7 0 0 0-7 7v2"/></symbol>
+    <symbol id="icon-move" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M9 6l3-3 3 3m-6 12 3 3 3-3M6 9l-3 3 3 3m12-6 3 3-3 3"/></symbol>
+    <symbol id="icon-rotate" viewBox="0 0 24 24"><path d="M20 9a8 8 0 1 0 .5 5M20 3v6h-6"/></symbol>
+    <symbol id="icon-scale" viewBox="0 0 24 24"><path d="M9 4H4v5m11 11h5v-5M4 4l6 6m10 10-6-6M15 4h5v5M4 15v5h5M20 4l-6 6M4 20l6-6"/></symbol>
+    <symbol id="icon-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></symbol>
+    <symbol id="icon-delete" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 15v6h16v-6"/></symbol>
+    <symbol id="icon-code" viewBox="0 0 24 24"><path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 4l-4 16"/></symbol>
+    <symbol id="icon-settings" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="9" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="8" cy="18" r="2"/></symbol>
+    <symbol id="icon-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  </defs></svg>
+
+  <header class="topbar">
+    <div class="brand-group">
+      <a class="brand" href="../" aria-label="返回 Three.js 学习工坊"><span class="brand-mark"><svg aria-hidden="true"><use href="#icon-cube"/></svg></span><span>Three.js <strong>拖拽练习</strong></span></a>
+      <span class="header-caption">先搭出来，再看懂代码。</span>
+    </div>
+    <nav class="header-actions" aria-label="练习导航">
+      <a class="text-link back-to-course" href="../">返回课程</a>
+      <a class="text-link back-to-entry" href="../../">统一入口</a>
+      <button id="open-code" class="button" type="button" aria-haspopup="dialog" aria-controls="code-dialog"><svg aria-hidden="true"><use href="#icon-code"/></svg><span>查看代码</span></button>
+      <button id="download-project" class="button primary" type="button"><svg aria-hidden="true"><use href="#icon-download"/></svg><span>下载项目</span></button>
+    </nav>
+  </header>
+
+  <div class="app-shell">
+    <aside id="library-panel" class="library-panel side-panel" aria-label="组件与场景对象">
+      <header class="panel-header"><div><p class="eyebrow">从基础图形开始</p><h1>组件盒子</h1></div><button id="close-library" class="icon-button panel-close" type="button" aria-label="收起组件盒子"><svg aria-hidden="true"><use href="#icon-close"/></svg></button></header>
+      <div class="library-scroll">
+        <section class="component-section" aria-labelledby="palette-title">
+          <div class="section-title"><h2 id="palette-title">选一个，拖进场景</h2><span class="step-badge">01</span></div>
+          <p class="section-description">也可以直接点击组件添加。</p>
+          <div id="palette" class="palette" aria-label="可添加的基础组件"></div>
+        </section>
+        <section class="objects-section" aria-labelledby="objects-title"><div class="section-title"><h2 id="objects-title">场景中的对象</h2><span class="step-badge">02</span></div><p class="section-description">点击对象，修改它的属性。</p><div id="object-list" class="object-list" role="list" aria-label="场景对象列表"></div></section>
+      </div>
+      <footer class="library-footer"><span aria-hidden="true">✳</span><p>一个组件，一次小实验。<br>试着搭出自己的第一个场景。</p></footer>
+    </aside>
+
+    <main class="canvas-workspace" aria-label="三维搭建工作台">
+      <section class="task-card" aria-labelledby="task-title"><span class="task-symbol" aria-hidden="true">↗</span><div class="task-copy"><p class="eyebrow">今天，亲手搭一个</p><h2 id="task-title">基础图形小实验</h2><p id="task-description">拖入一个组件，调整位置和颜色，观察场景的变化。</p></div><label class="preset-picker" for="preset-select"><span>选择练习</span><select id="preset-select"><option value="basics">基础图形</option><option value="materials">材质与颜色</option><option value="lights">灯光实验</option><option value="workshop">制药车间</option><option value="production">工业产线</option><option value="exhibition">绿色展厅</option><option value="maintenance">设备运维</option><option value="energy">智慧能源</option></select></label></section>
+
+      <section class="scene-panel" aria-label="实时三维场景">
+        <div class="scene-toolbar" role="toolbar" aria-label="场景编辑工具">
+          <div class="toolbar-group transform-tools"><button class="tool-button active" type="button" data-mode="translate" aria-pressed="true" title="移动（W）"><svg aria-hidden="true"><use href="#icon-move"/></svg><span>移动</span></button><button class="tool-button" type="button" data-mode="rotate" aria-pressed="false" title="旋转（E）"><svg aria-hidden="true"><use href="#icon-rotate"/></svg><span>旋转</span></button><button class="tool-button" type="button" data-mode="scale" aria-pressed="false" title="缩放（R）"><svg aria-hidden="true"><use href="#icon-scale"/></svg><span>缩放</span></button></div>
+          <span class="toolbar-divider" aria-hidden="true"></span>
+          <div class="toolbar-group history-tools"><button id="undo" class="icon-button" type="button" aria-label="撤销" title="撤销（Ctrl + Z）" disabled><svg aria-hidden="true"><use href="#icon-undo"/></svg></button><button id="redo" class="icon-button" type="button" aria-label="重做" title="重做（Ctrl + Shift + Z）" disabled><svg aria-hidden="true"><use href="#icon-redo"/></svg></button><button id="duplicate" class="icon-button" type="button" aria-label="复制选中对象" title="复制选中对象" disabled><svg aria-hidden="true"><use href="#icon-copy"/></svg></button><button id="delete-object" class="icon-button danger" type="button" aria-label="删除选中对象" title="删除（Delete）" disabled><svg aria-hidden="true"><use href="#icon-delete"/></svg></button></div>
+          <div class="toolbar-group view-tools"><button id="reset-camera" class="tool-button" type="button" title="回到总览视角"><svg aria-hidden="true"><use href="#icon-eye"/></svg><span>总览</span></button></div>
+        </div>
+        <div id="viewport" class="viewport" tabindex="0" aria-label="三维场景：拖入组件或点击对象进行编辑">
+          <canvas id="scene" aria-label="实时三维预览"></canvas>
+          <div id="empty-hint" class="empty-hint"><span class="empty-cube" aria-hidden="true"><svg><use href="#icon-cube"/></svg></span><strong>这里是你的三维画布</strong><p>从左侧拖入一个组件，开始搭建。</p></div>
+          <div id="drop-hint" class="drop-hint" hidden><span aria-hidden="true">＋</span><strong>松开鼠标，放在这里</strong></div>
+          <p id="scene-message" class="scene-message" role="status" aria-live="polite" hidden></p>
+          <div class="canvas-badge" aria-hidden="true"><span></span> 实时预览</div>
+          <div class="mobile-panel-actions"><button id="toggle-library" class="button" type="button" aria-controls="library-panel" aria-expanded="false"><svg aria-hidden="true"><use href="#icon-cube"/></svg>添加组件</button><button id="toggle-properties" class="button" type="button" aria-controls="property-panel" aria-expanded="false"><svg aria-hidden="true"><use href="#icon-settings"/></svg>属性与 API</button></div>
+        </div>
+        <footer class="canvas-footer"><div class="canvas-options"><label><input id="snap-grid" type="checkbox" checked>网格吸附</label><label><input id="show-grid" type="checkbox" checked>显示网格</label></div><p class="canvas-instructions">拖坐标轴移动 · 空白处拖动视角 · 滚轮缩放</p></footer>
+      </section>
+
+      <div class="scene-filebar"><div class="file-actions"><button id="export-json" class="text-button" type="button">保存场景</button><span aria-hidden="true">·</span><button id="import-json" class="text-button" type="button">打开场景</button><input id="import-file" type="file" accept="application/json,.json" hidden></div><button id="reset-scene" class="text-button reset-scene" type="button">重新开始本练习</button></div>
+    </main>
+
+    <aside id="property-panel" class="property-panel side-panel" aria-label="对象属性与关键 API">
+      <header class="panel-header"><div><p class="eyebrow">改一改，理解变化</p><h2>属性与 API</h2></div><button id="close-properties" class="icon-button panel-close" type="button" aria-label="收起属性面板"><svg aria-hidden="true"><use href="#icon-close"/></svg></button></header>
+      <div class="property-scroll">
+        <div id="no-selection" class="no-selection"><svg aria-hidden="true"><use href="#icon-settings"/></svg><h3>先选中一个对象</h3><p>点击场景或左侧列表中的对象，这里就能调整它的参数。</p></div>
+        <form id="property-form" class="property-form" hidden autocomplete="off">
+          <fieldset class="property-section"><legend>对象</legend><label class="field-label" for="object-name">名称<input id="object-name" type="text" maxlength="40" placeholder="给它起个名字"></label><label class="check-field"><input id="object-visible" type="checkbox" checked>在场景中显示</label></fieldset>
+          <fieldset class="property-section"><legend>位置、旋转与缩放</legend><p class="field-note">位置按场景单位，旋转按角度。</p><div id="transform-fields" class="transform-fields"></div></fieldset>
+          <fieldset class="property-section appearance-section"><legend>外观</legend><label class="color-field" for="object-color"><span>颜色</span><input id="object-color" type="color" value="#e76143"></label></fieldset>
+          <fieldset id="mesh-fields" class="property-section"><legend>材质</legend><label class="field-label range-label" for="object-roughness"><span>粗糙度 <small>光滑 → 粗糙</small></span><input id="object-roughness" type="range" min="0" max="1" step="0.05" value="0.65"></label><label class="field-label range-label" for="object-metalness"><span>金属度 <small>非金属 → 金属</small></span><input id="object-metalness" type="range" min="0" max="1" step="0.05" value="0.1"></label><label class="check-field"><input id="object-wireframe" type="checkbox">显示线框，观察三角面</label></fieldset>
+          <fieldset id="light-fields" class="property-section" hidden><legend>灯光</legend><label class="field-label" for="light-intensity">光照强度<input id="light-intensity" type="number" min="0" max="20" step="0.1" value="3"></label><label class="field-label" for="light-distance">照射距离<input id="light-distance" type="number" min="0" max="100" step="1" value="15"></label><p class="field-note">距离为 0 时不设置范围上限。</p></fieldset>
+        </form>
+        <section class="api-guide" aria-labelledby="api-title"><div class="api-heading"><span aria-hidden="true">&lt;/&gt;</span><p class="eyebrow">连接画面与代码</p></div><h3 id="api-title">每个操作，都有对应的 API</h3><code id="api-call" class="api-call">scene.add(mesh)</code><p id="api-description" class="api-description">把组件添加到场景，试着调整一个参数，再看看调用如何变化。</p><dl id="api-parameters" class="api-parameters"></dl><div class="principle-note"><strong>理解一个小原理</strong><p id="api-principle">三维对象的位置、旋转和缩放共同决定它在画面中的样子。</p></div></section>
+      </div>
+    </aside>
+    <button id="panel-backdrop" class="panel-backdrop" type="button" aria-label="关闭侧栏" tabindex="-1"></button>
+  </div>
+
+  <footer class="statusbar"><p id="status-text" role="status" aria-live="polite">准备好了，拖入你的第一个组件。</p><p class="shortcut-hint"><kbd>W</kbd> 移动 <kbd>E</kbd> 旋转 <kbd>R</kbd> 缩放 <kbd>Delete</kbd> 删除</p></footer>
+
+  <dialog id="code-dialog" class="code-dialog" aria-labelledby="code-dialog-title"><header class="dialog-header"><div><p class="eyebrow">你刚刚搭建的场景</p><h2 id="code-dialog-title">对应的 Three.js 代码</h2></div><button id="close-code" class="icon-button" type="button" aria-label="关闭代码弹窗"><svg aria-hidden="true"><use href="#icon-close"/></svg></button></header><p class="dialog-description">每次调整组件，代码也会跟着更新。你可以复制代码，或下载完整项目继续练习。</p><pre id="generated-code" class="generated-code" tabindex="0" aria-label="根据当前场景生成的 JavaScript 代码"></pre><footer class="dialog-footer"><p>先看懂一行，再试着改一行。</p><button id="copy-code" class="button primary" type="button"><svg aria-hidden="true"><use href="#icon-copy"/></svg>复制代码</button></footer></dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

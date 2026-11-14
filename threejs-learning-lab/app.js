@@ -115,6 +115,8 @@ function selectLesson(id,{scroll=false}={}){
   const index=lessons.indexOf(lesson);
   $('lesson-number').textContent=`LESSON ${String(index+1).padStart(2,'0')} / ${lessons.length}`;
   $('lesson-title').textContent=lesson.title;$('lesson-summary').textContent=lesson.summary;
+  const dragPreset=({factory:'workshop',production:'production',exhibition:'exhibition',equipment:'maintenance',energy:'energy'})[lesson.project]||(/material|texture|uv/.test(lesson.id)?'materials':/light|shadow/.test(lesson.id)?'lights':'basics');
+  $('drag-practice').href=`./drag-lab/?preset=${dragPreset}`;
   $('code-dialog-title').textContent=`${lesson.title} · 代码`;
   $('lesson-level').textContent=lesson.level;$('lesson-duration').textContent=`约 ${lesson.minutes} 分钟`;
   $('lesson-goals').replaceChildren(...lesson.goals.map(goal=>{const li=document.createElement('li');li.textContent=goal;return li;}));

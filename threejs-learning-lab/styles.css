@@ -399,3 +399,5 @@ body{color:#111;font-size:15px}
   .api-item-title code{font-size:10px}
   .api-item p,.api-bullets{font-size:10px}
 }
+.drag-practice-link{text-decoration:none;white-space:nowrap;background:#fff0e9;border-color:#e6b9a9;color:#151515}
+@media(max-width:600px){.topbar .drag-practice-link{padding:8px 9px;font-size:14px}.learning-progress{display:none}}

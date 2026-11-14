@@ -6,6 +6,7 @@
   "description": "独立的 Three.js 零基础互动学习工坊",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node tools/check-courses.mjs"
+    "check": "node tools/check-courses.mjs",
+    "check:drag": "node tools/check-drag-lab.mjs"
   }
 }
