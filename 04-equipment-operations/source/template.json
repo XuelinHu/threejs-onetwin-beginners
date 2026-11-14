@@ -1,0 +1,1788 @@
+{
+  "source": "https://onetwin.cn/#/dashboard",
+  "templateId": "6a0dc72fd1cab66fb4f6dc41",
+  "capturedAt": "2026-11-14T07:25:48.781Z",
+  "name": "设备运维系统",
+  "cover": "http://qiniu.wantonly-drag.com.cn/image/blog/1779288201000_17792882013334972.png",
+  "canvasStyle": {
+    "width": 2048,
+    "height": 1080,
+    "scale": 100,
+    "color": "#000",
+    "opacity": 1,
+    "background": "rgba(0, 0, 0, 0)",
+    "fontSize": 14,
+    "backgroundColor": "",
+    "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16805952127428163.png",
+    "transform-style": "preserve-3d"
+  },
+  "canvasData": [
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "component": "Picture",
+      "label": "图片(可编辑)",
+      "icon": "tupian",
+      "propValue": {
+        "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16820470910574297.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 642,
+        "height": 280,
+        "borderRadius": 0,
+        "top": 109,
+        "left": 56
+      },
+      "id": "ZT3KsDhm3W4ZInvEKC6mu"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "component": "Picture",
+      "label": "图片(可编辑)",
+      "icon": "tupian",
+      "propValue": {
+        "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16820471207202736.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2048,
+        "height": 87,
+        "borderRadius": 0,
+        "top": 0,
+        "left": 0
+      },
+      "id": "fN0Ci0fbvSzSpKlZ4_2zA"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "component": "Picture",
+      "label": "图片(可编辑)",
+      "icon": "tupian",
+      "propValue": {
+        "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16820471044787936.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1322,
+        "height": 248,
+        "borderRadius": 0,
+        "top": 109,
+        "left": 715
+      },
+      "id": "p0Y13xPyUKBy0gkkUIy3f"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "component": "Picture",
+      "label": "图片(可编辑)",
+      "icon": "tupian",
+      "propValue": {
+        "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16820470910574297.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 643,
+        "height": 280,
+        "borderRadius": 0,
+        "top": 427,
+        "left": 61
+      },
+      "id": "Yuyb1e7O3K8FpfcgWG7HM"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/border6.png",
+      "component": "borderBox6",
+      "propValue": "",
+      "label": "边框6",
+      "icon": "biankuang",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1312,
+        "height": 648,
+        "otherColorLeft": "rgba(147, 141, 141, 1)",
+        "otherColorRigth": "rgba(177, 169, 169, 1)",
+        "otherBgColor": "",
+        "top": 225,
+        "left": 725
+      },
+      "id": "FTBmYPtMWvsU2W1JGKVfh"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/border6.png",
+      "component": "borderBox6",
+      "propValue": "",
+      "label": "边框6",
+      "icon": "biankuang",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 635,
+        "height": 355,
+        "otherColorLeft": "rgba(147, 141, 141, 1)",
+        "otherColorRigth": "rgba(177, 169, 169, 1)",
+        "otherBgColor": "",
+        "top": 710,
+        "left": 57
+      },
+      "id": "-2q0Q4vMNa9dVr4uLJujT"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/dc10.png",
+      "component": "Decoration10",
+      "propValue": "",
+      "label": "装饰10",
+      "icon": "zhuangshi",
+      "elementicon": "",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1307,
+        "height": 8,
+        "otherColorLeft": "",
+        "otherColorRigth": "",
+        "top": 866,
+        "left": 720
+      },
+      "id": "J2JRZh6NsFfUoN-H4Di7f"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/table1.png",
+      "component": "ScrollTable",
+      "label": "轮播表格",
+      "icon": "biaoge",
+      "propValue": {
+        "config": {
+          "header": [],
+          "data": [],
+          "align": [
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center",
+            "center"
+          ],
+          "rowNum": 4,
+          "headerBGC": "rgba(19, 16, 244, 0)",
+          "index": true,
+          "indexHeader": "#",
+          "carousel": "single",
+          "hoverPause": true,
+          "waitTime": 2000,
+          "oddRowBGC": "rgba(0, 0, 0, 0)",
+          "evenRowBGC": "rgba(0, 0, 0, 0.01)"
+        },
+        "stripe": true,
+        "thBold": true,
+        "data": [
+          [
+            "表头1",
+            "表头2",
+            "表头3",
+            "表头4"
+          ],
+          [
+            "<span style=\"color:red;\">1</span>",
+            "2",
+            "3",
+            "4"
+          ],
+          [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          [
+            "1",
+            "2",
+            "<span style=\"color:blue;\">1</span>",
+            "4"
+          ],
+          [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        ]
+      },
+      "request": {
+        "method": "GET",
+        "data": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "",
+        "requestCount": 0
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 619,
+        "height": 194,
+        "fontSize": 0,
+        "fontWeight": 400,
+        "textAlign": "center",
+        "color": "#fff",
+        "backgroundColor": "",
+        "top": 480,
+        "left": 74
+      },
+      "id": "scFHMVv9IBxTcH1b1oehJ"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "component": "Time",
+      "label": "时间",
+      "propValue": "",
+      "icon": "dingshi_timing",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 60,
+        "color": "#fff",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "borderRadius": 0,
+        "backgroundColor": "rgba(122, 214, 228, 0)",
+        "top": 29,
+        "left": 1595
+      },
+      "id": "U2U1OBcdRb0jg9pI1gwdI"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "component": "VText",
+      "label": "文字",
+      "propValue": "设备实时信息",
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "url": "",
+        "series": false,
+        "time": 1000,
+        "paramType": "",
+        "requestCount": 0
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 212,
+        "height": 33,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "color": "#fff",
+        "top": 125,
+        "left": 66
+      },
+      "id": "2Z6HSKQD2hCguWQZphaSv"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "component": "VText",
+      "label": "文字",
+      "propValue": "设备实时信息",
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "url": "",
+        "series": false,
+        "time": 1000,
+        "paramType": "",
+        "requestCount": 0
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 212,
+        "height": 33,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "color": "#fff",
+        "top": 437,
+        "left": 69
+      },
+      "id": "OC4EtcvZYh3dYefTod7Ds"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "component": "VText",
+      "label": "文字",
+      "propValue": "设备实时信息",
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "url": "",
+        "series": false,
+        "time": 1000,
+        "paramType": "",
+        "requestCount": 0
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 212,
+        "height": 33,
+        "fontSize": 14,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "left",
+        "color": "#fff",
+        "top": 720,
+        "left": 80
+      },
+      "id": "nJUGtM0GR2KyY7AbsNvw-"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "https://onetwin.cn/assets/3ddemo-BIMHT5xX.png",
+      "component": "Container3D",
+      "hideSelf": false,
+      "label": "单模型展示",
+      "icon": "zhuangshi",
+      "propValue": {
+        "attribute": {
+          "img": "//qiniu.wantonly-drag.com.cn/componentListImg/threeOne.png",
+          "url": "//qiniu.wantonly-drag.com.cn/model/16719757054819227.gltf",
+          "mtl": "",
+          "bgColor": "#1f245a",
+          "bgAlpha": 0,
+          "controls": {
+            "enableRotate": true,
+            "enableZoom": true,
+            "enablePan": true
+          },
+          "lights": [
+            {
+              "type": "HemisphereLight",
+              "position": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+              },
+              "skyColor": "#fff",
+              "groundColor": "#fff",
+              "intensity": 1
+            },
+            {
+              "type": "DirectionalLight",
+              "position": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "color": "#fff",
+              "intensity": 0.8
+            }
+          ],
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "controllable": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "cameraPosition": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "cameraRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": "y",
+          "run": 0.001
+        },
+        "rotation": {
+          "x": 0,
+          "y": 111.188000000167,
+          "z": 0
+        }
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 538,
+        "height": 397,
+        "borderRadius": 0,
+        "top": 317,
+        "left": 1368
+      },
+      "id": "eaBSqoTXNjcg00XkKsShx"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/bar.png",
+      "component": "Chart",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "propValue": {
+        "data": {
+          "xData": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+          ],
+          "seriesData": [
+            [
+              2,
+              4.9,
+              7,
+              23.2,
+              25.6,
+              76.7,
+              135.6,
+              162.2,
+              32.6,
+              20,
+              6.4,
+              3.3
+            ]
+          ]
+        },
+        "option": {
+          "backgroundColor": "",
+          "title": {
+            "text": "",
+            "top": 20,
+            "left": 20,
+            "textStyle": {
+              "color": "#fff",
+              "fontSize": 14,
+              "fontWeight": "600"
+            }
+          },
+          "grid": {
+            "top": "10%",
+            "left": "10%",
+            "right": "10%",
+            "bottom": "20%"
+          },
+          "tooltip": {
+            "trigger": "axis",
+            "axisPointer": {
+              "type": "cross",
+              "lineStyle": {
+                "color": "#fff"
+              },
+              "label": {
+                "color": "#F00"
+              }
+            }
+          },
+          "legend": {
+            "show": true,
+            "itemStyle": {
+              "color": "inherit"
+            },
+            "orient": "horizontal",
+            "left": "center",
+            "top": "bottom",
+            "data": [],
+            "textStyle": {
+              "color": "inherit",
+              "fontSize": 10,
+              "fontWeight": "500"
+            }
+          },
+          "toolbox": {
+            "show": false,
+            "orient": "vertical",
+            "left": "right",
+            "top": "center",
+            "feature": {
+              "mark": {
+                "show": true
+              },
+              "dataView": {
+                "show": true,
+                "readOnly": false
+              },
+              "magicType": {
+                "show": true,
+                "type": [
+                  "line",
+                  "bar",
+                  "stack"
+                ]
+              },
+              "restore": {
+                "show": true
+              },
+              "saveAsImage": {
+                "show": true
+              }
+            }
+          },
+          "dataZoom": [
+            {
+              "show": false,
+              "type": "slider",
+              "xAxisIndex": 0,
+              "start": 0,
+              "end": 100,
+              "backgroundColor": "rgba(47,69,84,0)",
+              "fillerColor": "inherit"
+            }
+          ],
+          "xAxis": [
+            {
+              "show": true,
+              "type": "category",
+              "axisTick": {
+                "alignWithLabel": true
+              },
+              "axisLine": {
+                "lineStyle": {
+                  "color": "#fff"
+                }
+              },
+              "axisLabel": {
+                "rotate": 0,
+                "textStyle": {
+                  "color": "#fff",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              },
+              "data": []
+            }
+          ],
+          "yAxis": [
+            {
+              "name": "m/s",
+              "show": false,
+              "nameTextStyle": {
+                "color": "#fff",
+                "fontSize": 12
+              },
+              "type": "value",
+              "splitLine": {
+                "show": false,
+                "lineStyle": {
+                  "type": "dashed",
+                  "color": "#fff"
+                }
+              },
+              "axisTick": {
+                "show": true
+              },
+              "axisLine": {
+                "show": true,
+                "lineStyle": {
+                  "color": "#fff"
+                }
+              },
+              "min": 0,
+              "max": "dataMax",
+              "interval": null,
+              "axisLabel": {
+                "textStyle": {
+                  "color": "#fff",
+                  "fontSize": 12
+                },
+                "formatter": "{value}"
+              }
+            },
+            {
+              "type": "value",
+              "name": "%",
+              "show": false,
+              "nameTextStyle": {
+                "color": "#165c9e",
+                "fontSize": 12
+              },
+              "splitLine": {
+                "show": false,
+                "lineStyle": {
+                  "type": "dashed",
+                  "color": "#165c9e"
+                }
+              },
+              "axisTick": {
+                "show": true
+              },
+              "axisLine": {
+                "show": true,
+                "lineStyle": {
+                  "color": "#5390ce"
+                }
+              },
+              "min": 0,
+              "max": "dataMax",
+              "interval": null,
+              "axisLabel": {
+                "textStyle": {
+                  "color": "#5390ce",
+                  "fontSize": 12
+                },
+                "formatter": "{value} %"
+              }
+            }
+          ],
+          "series": [
+            {
+              "name": "柱形图1",
+              "type": "line",
+              "yAxisIndex": 0,
+              "smooth": false,
+              "itemStyle": {
+                "color": {
+                  "type": "linear",
+                  "x": 0,
+                  "y": 0,
+                  "x2": 0,
+                  "y2": 1,
+                  "colorStops": [
+                    {
+                      "offset": 0,
+                      "color": "rgba(9, 200, 239, 1)"
+                    },
+                    {
+                      "offset": 1,
+                      "color": "rgba(9, 200, 239, 1)"
+                    }
+                  ]
+                },
+                "barBorderRadius": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "barGap": 0,
+              "barWidth": 0,
+              "data": [],
+              "markPoint": {
+                "data": []
+              },
+              "markLine": {
+                "data": []
+              },
+              "areaStyle": {
+                "show": false,
+                "color": "rgba(35,174,229,0)"
+              },
+              "label": {
+                "normal": {
+                  "show": false,
+                  "position": "top",
+                  "textStyle": {
+                    "color": "white",
+                    "fontSize": 10,
+                    "fontWeight": "normal"
+                  }
+                }
+              },
+              "stack": "",
+              "emphasis": {
+                "focus": "series"
+              }
+            }
+          ]
+        },
+        "autoPlay": false,
+        "autoPlayTime": 5,
+        "loopSeries": false,
+        "seriesIndex": 0
+      },
+      "label": "柱形/折线/散点",
+      "icon": "shangwutubiao-",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 626,
+        "height": 211,
+        "top": 156,
+        "left": 60
+      },
+      "id": "whfexsBB_5o-TVUUmWr0_"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/radar.png",
+      "component": "Radar",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "propValue": {
+        "data": {
+          "indicators": [
+            {
+              "name": "指标1",
+              "max": 100,
+              "min": 0
+            },
+            {
+              "name": "指标2",
+              "max": 100,
+              "min": 0
+            },
+            {
+              "name": "指标3",
+              "max": 100,
+              "min": 0
+            },
+            {
+              "name": "指标4",
+              "max": 100,
+              "min": 0
+            },
+            {
+              "name": "指标5",
+              "max": 100,
+              "min": 0
+            }
+          ],
+          "seriesData": [
+            [
+              80,
+              70,
+              60,
+              50,
+              90
+            ]
+          ]
+        },
+        "option": {
+          "backgroundColor": "transparent",
+          "title": {
+            "text": "",
+            "left": "center",
+            "top": 20,
+            "textStyle": {
+              "color": "#fff",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          },
+          "tooltip": {
+            "trigger": "item",
+            "backgroundColor": "rgba(50,50,50,0.7)",
+            "borderColor": "#333",
+            "textStyle": {
+              "color": "#fff"
+            }
+          },
+          "legend": {
+            "show": true,
+            "orient": "horizontal",
+            "left": "center",
+            "top": "bottom",
+            "textStyle": {
+              "color": "#fff",
+              "fontSize": 12
+            }
+          },
+          "radar": {
+            "shape": "polygon",
+            "center": [
+              "50%",
+              "50%"
+            ],
+            "radius": "75%",
+            "startAngle": 90,
+            "splitNumber": 4,
+            "name": {
+              "textStyle": {
+                "color": "#fff",
+                "fontSize": 14,
+                "fontWeight": "normal"
+              },
+              "formatter": "{value}"
+            },
+            "axisLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "rgba(255,255,255,0.3)"
+              }
+            },
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "color": "rgba(255,255,255,0.3)"
+              }
+            },
+            "splitArea": {
+              "show": true,
+              "areaStyle": {
+                "color": [
+                  "rgba(255,255,255,0.05)",
+                  "rgba(255,255,255,0.1)"
+                ]
+              }
+            }
+          },
+          "series": [
+            {
+              "name": "系列1",
+              "symbol": "circle",
+              "symbolSize": 6,
+              "itemStyle": {
+                "color": "#4BFFFC",
+                "shadowBlur": 10,
+                "shadowColor": "#4BFFFC",
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 0
+              },
+              "lineStyle": {
+                "width": 2,
+                "type": "solid"
+              },
+              "areaStyle": {
+                "color": "#4BFFFC",
+                "opacity": 0.3
+              },
+              "label": {
+                "show": false,
+                "position": "top",
+                "color": "#fff",
+                "fontSize": 12
+              }
+            }
+          ]
+        },
+        "autoPlay": false,
+        "autoPlayTime": 5
+      },
+      "label": "雷达图",
+      "icon": "leidatu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 640,
+        "height": 500,
+        "top": 295,
+        "left": 756
+      },
+      "id": "MCfYTR5Dtv5XKgZ3lUo8S"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/RadarTagWall.png",
+      "component": "RadarTagWall",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "边界入侵信号",
+            "value": "12",
+            "unit": "次",
+            "status": "warning",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          },
+          {
+            "name": "视频巡检目标",
+            "value": "86",
+            "unit": "个",
+            "status": "active",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          },
+          {
+            "name": "离线传感设备",
+            "value": "4",
+            "unit": "台",
+            "status": "danger",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          },
+          {
+            "name": "正常监测节点",
+            "value": "128",
+            "unit": "个",
+            "status": "normal",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          },
+          {
+            "name": "重点区域联动",
+            "value": "9",
+            "unit": "处",
+            "status": "active",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          },
+          {
+            "name": "风险区域热度",
+            "value": "67",
+            "unit": "%",
+            "status": "warning",
+            "statusText": "",
+            "valueColor": "",
+            "statusColor": "",
+            "cardBg": "",
+            "borderColor": ""
+          }
+        ],
+        "activeNames": [
+          "1"
+        ],
+        "title": "雷达标签墙",
+        "showTitle": false,
+        "showMore": false,
+        "showUnit": true,
+        "showStatus": true,
+        "coreText": "雷达监测",
+        "emptyText": "暂无数据",
+        "containerBg": "rgba(18, 28, 48, 0.6)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.3)",
+        "radius": 4,
+        "containerShadow": 0,
+        "shadowColor": "rgba(0, 233, 219, 0.2)",
+        "paddingX": 10,
+        "paddingY": 10,
+        "titleColor": "#00e9db",
+        "titleSize": 16,
+        "titleWeight": 700,
+        "lineColor": "rgba(0, 233, 219, 0.3)",
+        "moreColor": "#00e9db",
+        "headerGap": 10,
+        "cardBg": "rgba(255,255,255,0.03)",
+        "cardBorderWidth": 1,
+        "cardRadius": 4,
+        "cardGlow": 8,
+        "rowGap": 8,
+        "lineWidth": 2,
+        "dotSize": 8,
+        "dotGlow": 8,
+        "coreSize": 120,
+        "coreBorderWidth": 1,
+        "coreBorderColor": "rgba(0,234,255,0.5)",
+        "coreGlowColor": "rgba(0,234,255,0.35)",
+        "coreGlow": 20,
+        "ringColor": "rgba(0,234,255,0.25)",
+        "coreTextColor": "#00eaff",
+        "coreTextSize": 16,
+        "coreTextWeight": 700,
+        "nameColor": "#ffffff",
+        "nameSize": 14,
+        "nameWeight": 500,
+        "valueColor": "#00eaff",
+        "valueSize": 24,
+        "valueWeight": 700,
+        "valueGap": 4,
+        "valueGlow": true,
+        "valueGlowColor": "rgba(0,234,255,0.55)",
+        "valueGlowSize": 10,
+        "unitColor": "#ffffff",
+        "unitSize": 12,
+        "statusSize": 12,
+        "statusGap": 6,
+        "normalColor": "#67C23A",
+        "activeColor": "#00eaff",
+        "warningColor": "#E6A23C",
+        "dangerColor": "#F56C6C",
+        "emptyColor": "#999999"
+      },
+      "label": "雷达标签墙",
+      "icon": "leida",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 597,
+        "height": 328,
+        "top": 752,
+        "left": 84
+      },
+      "id": "JtzuY1d_8st4zGXdF_zYb"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "设备运维系统"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 414,
+        "height": 60,
+        "fontSize": 33,
+        "fontWeight": 400,
+        "lineHeight": 0,
+        "letterSpacing": 9,
+        "textAlign": "center",
+        "color": "#fff",
+        "fontFamily": "黑体",
+        "textShadow": "-2px 0 #ff00c1, 2px 0 #01ffff",
+        "top": 16,
+        "left": 56,
+        "themeKey": "glitch-effect"
+      },
+      "id": "vuJEM5nHNDCQlulCPYf8V"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "http://qiniu.wantonly-drag.com.cn/componentListImg/mountain.png",
+      "component": "ChartsMountain",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "propValue": {
+        "data": {
+          "xAxis": [
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018"
+          ],
+          "series": [
+            861,
+            559,
+            343,
+            604,
+            459,
+            728,
+            844
+          ]
+        },
+        "config": {
+          "symbol": "path://M0,10 L10,10 C5.5,10 5.5,5 5,0 C4.5,5 4.5,10 0,10 z",
+          "symbolRepeat": false,
+          "barCategoryGap": "10%",
+          "colorStops": [
+            {
+              "offset": 0,
+              "color": "#9A11FF"
+            },
+            {
+              "offset": 1,
+              "color": "#08DFFE"
+            }
+          ]
+        },
+        "option": {
+          "backgroundColor": "rgba(0,0,0,0)",
+          "grid": {
+            "left": "10%",
+            "right": "10%",
+            "top": "20%",
+            "bottom": "15%",
+            "containLabel": true
+          },
+          "tooltip": {
+            "show": true,
+            "trigger": "axis"
+          },
+          "xAxis": {
+            "type": "category",
+            "axisTick": {
+              "show": false
+            },
+            "axisLine": {
+              "lineStyle": {
+                "color": "rgba(255,255,255,0.2)"
+              }
+            },
+            "axisLabel": {
+              "color": "rgba(255,255,255,.7)",
+              "fontSize": 12,
+              "rotate": 0
+            }
+          },
+          "yAxis": {
+            "type": "value",
+            "splitLine": {
+              "show": true,
+              "lineStyle": {
+                "type": "dotted",
+                "color": "rgba(255,255,255,0.1)"
+              }
+            },
+            "axisLabel": {
+              "color": "rgba(255,255,255,.7)",
+              "fontSize": 12
+            }
+          },
+          "series": {
+            "label": {
+              "show": true,
+              "position": "top",
+              "distance": 15,
+              "color": "#08DFFE",
+              "fontSize": 15,
+              "fontWeight": "bolder"
+            }
+          }
+        }
+      },
+      "label": "山峰象形图",
+      "icon": "shangwutubiao-",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1247,
+        "height": 171,
+        "top": 893,
+        "left": 738
+      },
+      "id": "2dSEEZlJYRR1kqDy6OZSK"
+    }
+  ]
+}

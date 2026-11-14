@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"range\" requested-end=\"doxcnh7ueAmygWtBmjIJ9rk3fIb\" requested-start=\"doxcnh7ueAmygWtBmjIJ9rk3fIb\"><img id=\"doxcnh7ueAmygWtBmjIJ9rk3fIb\" name=\"verified-04.png\" caption=\"本机运行截图：用于学习与对照，仍在逐项核对原版细节&#xA;\" height=\"563\" mime=\"image/png\" scale=\"1.000000\" src=\"Mju3bY8kjoa1P4xavJYc8xgSnfb\" width=\"1000\"/></fragment>",
+      "document_id": "HZATdXne0orXzaxg0rScQgMHncd",
+      "revision_id": 9
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.78",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.78, run: lark-cli update"
+    }
+  }
+}

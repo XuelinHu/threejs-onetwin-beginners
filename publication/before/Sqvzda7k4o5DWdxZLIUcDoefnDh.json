@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"Sqvzda7k4o5DWdxZLIUcDoefnDh\">Three.js 数字孪生新手学习路线</title><p id=\"doxcnKNmcDzvHxjKMiHFh7ere28\">这套课程以 OneTwin 的五个模板为案例，带新手从场景、相机、渲染器、Object3D、材质、纹理、灯光、天气、标注、DOM 面板、数据绑定、射线拾取和基础物理逐步学习。每个本地项目都能单独运行，先使用基础几何体，再替换为 GLB、真实纹理、API 或物理引擎。</p><h2 id=\"doxcnXbXOb1VHYHuTBC6pyWH65f\">建议顺序</h2><ol><li id=\"doxcnflJqN3XIjETW6mTI9hFoJg\" seq=\"1\" seq-marker=\"1. \">GMP 制药车间：工业场景、灯光、标签和相机预设。</li><li id=\"doxcnlLC9ouz9UNhYKP3hgzOWje\" seq-marker=\"2. \">工业控制：Object3D 层级、节点状态和 Raycaster。</li><li id=\"doxcnHAsJAsECREBJ060BW9h0Tf\" seq-marker=\"3. \">绿色主题展厅：材质、环境光、雾、纹理和漫游。</li><li id=\"doxcnfuOo2hFHtp05ISp6nY9yke\" seq-marker=\"4. \">设备运维系统：userData、选中态和详情面板。</li><li id=\"doxcnl4ZkKnH9FXdlM5YUs2Bqrf\" seq-marker=\"5. \">智慧能源：数据驱动、数字翻牌、趋势图和断网降级。</li></ol><h2 id=\"doxcn2bDEEtQLdLGpj0kqTWokhf\">通用 AI 提示词</h2><pre id=\"doxcnapVGJsV1sqmxpAn7Xru4Pd\" caption=\"&#xA;\" lang=\"text\" wrap=\"false\"><code>你是一名 Three.js 教学工程师。请先解释场景、相机、渲染器、Object3D 层级和坐标系，再按“最小可运行代码、DOM 面板、数据绑定、交互、性能降级”的顺序实现数字孪生页面。所有依赖使用本地 Three.js，给出目录、运行命令、关键 API、常见错误和新手练习。</code></pre>",
+      "document_id": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+      "revision_id": 3
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.78",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.78, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<title id=\"HZATdXne0orXzaxg0rScQgMHncd\">04 设备运维系统：从模板到 Three.js</title><h2 id=\"doxcnFEzmWn79uasUCsscPRoYRO\">1. 先看懂界面</h2><p id=\"doxcnA1ohSTQwlU747aud4gHo3u\">设备台账、维护状态、雷达指标和三维选中反馈。把页面拆成场景层、面板层和数据层：Three.js 管空间、模型、灯光和交互；DOM 管标题、指标、表格和按钮；状态对象让两边保持一致。</p><h2 id=\"doxcnmfQD2rDhyCzRgVYB4YGPRe\">2. 本地运行</h2><pre id=\"doxcnZRryoXDPKtHNnLkSqLlvBq\" caption=\"&#xA;\" lang=\"powershell\" wrap=\"false\"><code>cd 04-equipment-operations<br/>node server.mjs</code></pre><p id=\"doxcnDkHh6sgmV5T1mBoUm4LHzf\">打开对应端口，点击总览、设备、维护，切换四种天气，最后点击三维对象查看选中状态。</p><h2 id=\"doxcnABUYRP7sXSd4eJpE8SYgNe\">3. 场景、对象和相机</h2><pre id=\"doxcnoL3YIWp1GeDDAHD9ALrqrf\" caption=\"&#xA;\" lang=\"js\" wrap=\"false\"><code>const machine = new THREE.Mesh(new THREE.BoxGeometry(1.8, 2.8, 2.1), material);<br/>machine.position.set(-3, 1.4, 0);<br/>group.add(machine);<br/>camera.position.set(0, 6, 12);<br/>camera.lookAt(0, 1.4, 0);</code></pre><p id=\"doxcn2xGCBjNw3tuudiqZ9xsHbe\">先修改 position，再观察 rotation、scale 和 group 层级。相机预设本质上是位置与观察目标的一组数据。</p><h2 id=\"doxcnisSw5LM5IoX50YJnOG5Fde\">4. 材质、灯光、纹理和天气</h2><p id=\"doxcn6N7e0DKhsfjpP6oxdD8Wog\">MeshStandardMaterial 适合设备；颜色纹理使用 sRGB，法线和粗糙度保持线性空间。天气按钮通过背景色、主光颜色和强度改变氛围。真实项目还应限制纹理尺寸、阴影贴图和像素比。</p><h2 id=\"doxcnumE7BBuaCFebUacD0wlZXb\">5. 面板、数据和 Raycaster</h2><p id=\"doxcncx5JxMPRFQbzBTniqO1sMd\">设备表使用统一状态数组，状态变化时同时更新表格、指标和三维材质。接口断开时保留最后一次成功数据并提示延迟。Raycaster 把鼠标坐标转换为射线，userData 保存设备编号和业务状态，命中后改变 emissive 并刷新详情。</p><h2 id=\"doxcnc2fUxiERnF2vIeYUGrkqKf\">6. 本案例 AI 提示词</h2><pre id=\"doxcnKaF7LJR8boGzyUAR8OrtXf\" caption=\"&#xA;\" lang=\"text\" wrap=\"false\"><code>请制作 Three.js 设备运维页面：3D 设备、设备台账、维护状态、雷达指标和详情面板，并解释 userData、Raycaster、材质替换和数据表格。</code></pre><p id=\"doxcnk4PPqdsloyOgZucs393Ewc\">请让 AI 继续输出目录、运行命令、每个 API 的作用、常见错误、性能降级和练习答案。</p><h2 id=\"doxcnmZgH2q78L0Mf6T6dtYt82f\">7. 新手验收</h2><ul><li id=\"doxcnKkIRYBIsT24jCc1HAIANTm\">页面能启动，Three.js 依赖从本地加载。</li><li id=\"doxcnZBYNwPzl48nSxnjuw5vFch\">相机、天气和设备选中都能操作。</li><li id=\"doxcnPEdtBHPz5sb8v0GEM2Whqb\">指标和表格能刷新，异常时仍保留页面。</li><li id=\"doxcn0ontROTyuPFqu344jK1hGc\">能解释场景、相机、材质、数据和交互代码分别在哪里。</li><li id=\"doxcneU3m4RYpV85GpOJ7WilIYg\">能把基础几何体替换为 GLB，并为模型失败提供占位体。</li></ul>",
+      "document_id": "HZATdXne0orXzaxg0rScQgMHncd",
+      "revision_id": 3
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.78",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.78, run: lark-cli update"
+    }
+  }
+}

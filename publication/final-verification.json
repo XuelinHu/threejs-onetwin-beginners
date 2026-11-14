@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-11-14T09:17:44.972Z",
+  "documents": [
+    {
+      "documentId": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+      "revision": 7,
+      "patchesVerified": 2,
+      "images": 0,
+      "preservedImage": true,
+      "codeBlocks": 1
+    },
+    {
+      "documentId": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+      "revision": 23,
+      "patchesVerified": 11,
+      "images": 2,
+      "preservedImage": true,
+      "codeBlocks": 5
+    },
+    {
+      "documentId": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+      "revision": 24,
+      "patchesVerified": 12,
+      "images": 2,
+      "preservedImage": true,
+      "codeBlocks": 5
+    },
+    {
+      "documentId": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+      "revision": 25,
+      "patchesVerified": 13,
+      "images": 2,
+      "preservedImage": true,
+      "codeBlocks": 5
+    },
+    {
+      "documentId": "HZATdXne0orXzaxg0rScQgMHncd",
+      "revision": 21,
+      "patchesVerified": 9,
+      "images": 2,
+      "preservedImage": true,
+      "codeBlocks": 5
+    },
+    {
+      "documentId": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+      "revision": 21,
+      "patchesVerified": 9,
+      "images": 2,
+      "preservedImage": true,
+      "codeBlocks": 5
+    }
+  ]
+}

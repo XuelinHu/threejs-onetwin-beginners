@@ -1,0 +1,4878 @@
+{
+  "source": "https://onetwin.cn/#/dashboard",
+  "templateId": "6aaf48496e35aa3450bb7847",
+  "capturedAt": "2026-11-14T07:25:48.657Z",
+  "name": "工业控制",
+  "cover": "https://qiniu.wantonly-drag.com.cn/image/blog/canvas_1789872250705_178987223047152.png",
+  "canvasStyle": {
+    "width": 2048,
+    "height": 1080,
+    "scale": 100,
+    "color": "#000",
+    "opacity": 1,
+    "background": "rgba(0, 0, 0, 0)",
+    "fontSize": 14,
+    "backgroundColor": "",
+    "url": "/static/img/defualt.png",
+    "transform-style": "preserve-3d"
+  },
+  "canvasData": [
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/threeEidt.png",
+      "component": "Three",
+      "hideSelf": false,
+      "label": "数字孪生-three",
+      "icon": "ThreeJs",
+      "propValue": {
+        "socket": false,
+        "onTransformUpdated": {
+          "version": 1,
+          "timestamp": 1789827847995,
+          "objects": []
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "lights": [
+          {
+            "lightType": "DirectionalLight",
+            "lightPosition": {
+              "x": 19,
+              "y": 42,
+              "z": 6
+            },
+            "lightColor": "#ffffff",
+            "intensity": 2.6,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          },
+          {
+            "lightType": "SpotLight",
+            "lightPosition": {
+              "x": 36,
+              "y": 66,
+              "z": 0
+            },
+            "lightColor": "rgba(26, 201, 204, 1)",
+            "intensity": 5,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.6,
+            "spotPenumbra": 0.9,
+            "spotFocus": 66.9,
+            "spotDistance": 102
+          },
+          {
+            "lightType": "PointLight",
+            "lightPosition": {
+              "x": 40,
+              "y": 22,
+              "z": 5
+            },
+            "lightColor": "#CC0F0F",
+            "intensity": 0.8,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          },
+          {
+            "lightType": "AmbientLight",
+            "lightPosition": {
+              "x": 40,
+              "y": 22,
+              "z": 5
+            },
+            "lightColor": "#ffffff",
+            "intensity": 0.8,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          }
+        ],
+        "stats": false,
+        "modelCache": true,
+        "camera": {
+          "cameraPosition": {
+            "x": 2.02,
+            "y": 10.25,
+            "z": 14.34
+          },
+          "cameraRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "cameraLookAt": {
+            "x": 2.22,
+            "y": 0.79,
+            "z": -4.13
+          },
+          "fov": 58,
+          "near": 1,
+          "far": 3000,
+          "occlusionVisible": false,
+          "maxPixelRatio": 2
+        },
+        "bottons": [
+          {
+            "name": "自动旋转",
+            "types": [
+              "autoRotate"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "a-zujiantianchong_huaban1fuben18",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowClor": "rgba(46, 159, 107, 0.47)",
+            "position": {
+              "x": 512,
+              "y": 108
+            },
+            "showText": false,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 50,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "checkedKeys": [],
+              "checkedData": [],
+              "ifRobot": false,
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [],
+              "jumpForce": 6,
+              "mergeVertices": "off",
+              "mergeMaterials": "off",
+              "role": "阿力"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": []
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 5000,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "url": "",
+              "loop": true,
+              "name": "默认音频"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null,
+              "index": ""
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5
+          },
+          {
+            "name": "重置相机",
+            "types": [
+              "restore"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "zhongzhixiangji",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowClor": "rgba(46, 159, 107, 0.47)",
+            "position": {
+              "x": 512,
+              "y": 163
+            },
+            "showText": false,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 50,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": false,
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "role": "阿力",
+              "mergeVertices": "off",
+              "mergeMaterials": "off"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "paly": [],
+              "stop": [],
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "url": "",
+              "loop": true,
+              "name": "默认音频"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5
+          },
+          {
+            "name": "启动",
+            "types": [
+              "playAnimation"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "icon_bofangdonghua-kejilan",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(25, 183, 20, 0.67)",
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5,
+            "position": {
+              "x": 778,
+              "y": 800
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 50,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": false,
+              "role": "阿力",
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [],
+              "jumpForce": 6,
+              "mergeVertices": "off",
+              "mergeMaterials": "off"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [
+                "自动产线1_Animation"
+              ],
+              "stop": []
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "loop": true,
+              "name": "默认音频",
+              "url": "https://onetwin.cn/beij.mp3"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "https://test.com",
+              "method": "POST",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowClor": "rgba(46, 159, 107, 0.47)"
+          },
+          {
+            "name": "停止",
+            "types": [
+              "playAnimation"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "icon_bofangdonghua-kejilan",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgb(255, 120, 0)",
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5,
+            "position": {
+              "x": 995,
+              "y": 800
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 50,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": false,
+              "role": "阿力",
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [],
+              "jumpForce": 6,
+              "mergeVertices": "off",
+              "mergeMaterials": "off"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": [
+                "自动产线1_Animation"
+              ]
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "loop": true,
+              "name": "默认音频",
+              "url": "https://onetwin.cn/beij.mp3"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowClor": "rgba(46, 159, 107, 0.47)"
+          },
+          {
+            "name": "急停",
+            "types": [
+              "playAnimation"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "icon_bofangdonghua-kejilan",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgb(255, 0, 0)",
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5,
+            "position": {
+              "x": 1195,
+              "y": 800
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 50,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": false,
+              "role": "阿力",
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [],
+              "jumpForce": 6,
+              "mergeVertices": "off",
+              "mergeMaterials": "off"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": [
+                "自动产线1_Animation"
+              ]
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "loop": true,
+              "name": "默认音频",
+              "url": "https://onetwin.cn/beij.mp3"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowClor": "rgba(46, 159, 107, 0.47)"
+          },
+          {
+            "name": "机器人巡检",
+            "types": [
+              "robot"
+            ],
+            "isGroup": false,
+            "expandDirection": "right",
+            "children": [],
+            "icon": "jiqiren",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowColor": "rgba(46, 159, 107, 0.47)",
+            "borderRadius": 6,
+            "shape": "rounded",
+            "opacity": 0.7,
+            "glowColor": "rgba(0, 234, 219, 0.5)",
+            "glowSize": 10,
+            "imageUrl": "",
+            "paddingX": 10,
+            "paddingY": 5,
+            "position": {
+              "x": 512,
+              "y": 221
+            },
+            "showText": false,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 130,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": true,
+              "role": "阿力",
+              "a": 30,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": -2,
+                "y": 1,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 140,
+                "z": 0
+              },
+              "enableGravity": true,
+              "enableCollision": true,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [
+                "Object_5",
+                "Object_7",
+                "Object_9",
+                "Object_12",
+                "Object_14",
+                "Object_16",
+                "Object_19",
+                "Object_21",
+                "Object_23",
+                "Object_26",
+                "Object_28",
+                "Object_30",
+                "Object_32",
+                "Object_35",
+                "Object_37",
+                "Object_39",
+                "Object_41",
+                "Object_44",
+                "Object_46",
+                "Object_48",
+                "Object_50",
+                "Object_53",
+                "Object_55",
+                "Object_57",
+                "Object_59",
+                "Object_62",
+                "Object_65",
+                "Object_68",
+                "Object_71",
+                "Object_74",
+                "Object_76",
+                "Object_78",
+                "Object_81",
+                "Object_83",
+                "Object_85",
+                "Object_87",
+                "Object_90",
+                "Object_92",
+                "Object_94",
+                "Object_96",
+                "Object_99",
+                "Object_102",
+                "Object_104",
+                "Object_107",
+                "Object_109",
+                "Object_111",
+                "Object_113",
+                "Object_115",
+                "Object_118",
+                "Object_120",
+                "Object_123",
+                "Object_125",
+                "Object_127",
+                "Object_129",
+                "Object_132",
+                "Object_135",
+                "Object_138",
+                "Object_140",
+                "Object_142",
+                "Object_144",
+                "Object_146",
+                "Object_148",
+                "Object_150",
+                "Object_152",
+                "Object_155",
+                "Object_158",
+                "Object_160",
+                "Object_162",
+                "Object_164",
+                "Object_166",
+                "Object_169",
+                "Object_171",
+                "Object_173",
+                "Object_176",
+                "Object_179",
+                "Object_182",
+                "Object_185",
+                "Object_188",
+                "Object_190",
+                "Object_193",
+                "Object_195",
+                "Object_197",
+                "Object_199",
+                "Object_202",
+                "Object_204",
+                "Object_206",
+                "Object_208",
+                "Object_211",
+                "Object_213",
+                "Object_215",
+                "Object_217",
+                "Object_220",
+                "Object_222",
+                "Object_224",
+                "Object_226",
+                "Object_229",
+                "Object_231",
+                "Object_233",
+                "Object_235",
+                "Object_238",
+                "Object_240",
+                "Object_242",
+                "Object_244",
+                "Object_247",
+                "Object_249",
+                "Object_251",
+                "Object_253",
+                "Object_256",
+                "Object_258",
+                "Object_260",
+                "Object_262",
+                "Object_265",
+                "Object_267",
+                "Object_269",
+                "Object_272",
+                "Object_274",
+                "Object_276",
+                "Object_278",
+                "Object_281",
+                "Object_283",
+                "Object_285",
+                "Object_287",
+                "Object_289",
+                "Object_291",
+                "Object_293",
+                "Object_295",
+                "Object_297",
+                "Object_300",
+                "Object_302",
+                "Object_304",
+                "Object_306",
+                "Object_308",
+                "Object_310",
+                "Object_312",
+                "Object_315",
+                "Object_317",
+                "Object_319",
+                "Object_321",
+                "Object_324",
+                "Object_326",
+                "Object_329",
+                "Object_331",
+                "Object_334",
+                "Object_337",
+                "Object_339",
+                "Object_341",
+                "Object_343",
+                "Object_346",
+                "Object_348",
+                "Object_350",
+                "Object_352",
+                "Object_355",
+                "Object_357",
+                "Object_359",
+                "Object_362",
+                "Object_364",
+                "Object_366",
+                "Object_368",
+                "Object_371",
+                "Object_373",
+                "Object_375",
+                "Object_378",
+                "Object_380",
+                "Object_382",
+                "Object_385",
+                "Object_387",
+                "Object_389",
+                "Object_391",
+                "Object_394",
+                "Object_397",
+                "Object_399",
+                "Object_401",
+                "Object_403",
+                "Object_406",
+                "Object_409",
+                "Object_411",
+                "Object_413",
+                "Object_415",
+                "Object_418",
+                "Object_421",
+                "Object_423",
+                "Object_425",
+                "Object_427",
+                "Object_429",
+                "Object_431",
+                "Object_433",
+                "Object_435",
+                "Object_437",
+                "Object_439",
+                "Object_441",
+                "Object_443",
+                "Object_445",
+                "Object_447",
+                "Object_449",
+                "Object_451",
+                "Object_453",
+                "Object_455",
+                "Object_457",
+                "Object_459",
+                "Object_461",
+                "Object_463",
+                "Object_465",
+                "Object_467",
+                "Object_469",
+                "Object_471",
+                "Object_473",
+                "Object_475",
+                "Object_478",
+                "Object_479",
+                "Object_480",
+                "Object_482",
+                "Object_484",
+                "Object_487",
+                "Object_489",
+                "Object_491",
+                "Object_493",
+                "Object_495",
+                "Object_497",
+                "Object_499",
+                "Object_501",
+                "Object_503",
+                "Object_505",
+                "Object_507",
+                "Object_509",
+                "Object_512",
+                "Object_514",
+                "Object_516",
+                "Object_518",
+                "Object_520",
+                "Object_522",
+                "Object_524",
+                "Object_526",
+                "Object_528",
+                "Object_530",
+                "Object_532",
+                "Object_534",
+                "Object_536",
+                "Object_538",
+                "Object_541",
+                "Object_543",
+                "Object_545",
+                "Object_548",
+                "Object_550",
+                "Object_552",
+                "Object_555",
+                "Object_557",
+                "Object_559",
+                "Object_562",
+                "Object_564",
+                "Object_566",
+                "Object_568",
+                "Object_570",
+                "Object_572",
+                "Object_575",
+                "Object_577",
+                "Object_579",
+                "Object_581",
+                "Object_583",
+                "Object_586",
+                "Object_588",
+                "Object_590",
+                "Object_592",
+                "Object_594",
+                "Object_596",
+                "Object_599",
+                "Object_601",
+                "Object_603",
+                "Object_606",
+                "Object_608",
+                "Object_610",
+                "Object_613",
+                "Object_615",
+                "Object_617",
+                "Object_619",
+                "Object_621",
+                "Object_623",
+                "Object_625",
+                "Object_627",
+                "Object_629",
+                "Object_631",
+                "Object_633",
+                "Object_635",
+                "Object_638",
+                "Object_640",
+                "Object_642",
+                "Object_644",
+                "Object_646",
+                "Object_648",
+                "Object_650",
+                "Object_653",
+                "Object_656",
+                "Object_659",
+                "Object_662",
+                "Object_664",
+                "Object_666",
+                "Object_668",
+                "Object_671",
+                "Object_674",
+                "Object_677",
+                "Object_680",
+                "Object_683",
+                "Object_686",
+                "Object_689",
+                "Object_692",
+                "Object_695",
+                "Object_698",
+                "Object_700",
+                "Object_703",
+                "Object_706",
+                "Object_709",
+                "Object_712",
+                "Object_715",
+                "Object_718",
+                "Object_721",
+                "Object_724",
+                "Object_727",
+                "Object_730",
+                "Object_733",
+                "Object_736",
+                "Object_739",
+                "Object_741",
+                "Object_743",
+                "Object_746",
+                "Object_748",
+                "Object_750",
+                "Object_752",
+                "Object_755",
+                "Object_757",
+                "Object_759",
+                "Object_762",
+                "Object_764",
+                "Object_766",
+                "Object_769",
+                "Object_771",
+                "Object_773",
+                "Object_776",
+                "Object_778",
+                "Object_780",
+                "Object_783",
+                "Object_785",
+                "Object_787",
+                "Object_790",
+                "Object_792",
+                "Object_794",
+                "Object_797",
+                "Object_799",
+                "Object_801",
+                "Object_804",
+                "Object_806",
+                "Object_808",
+                "Object_811",
+                "Object_813",
+                "Object_815",
+                "Object_818",
+                "Object_820",
+                "Object_822",
+                "Object_825",
+                "Object_827",
+                "Object_829",
+                "Object_832",
+                "Object_834",
+                "Object_836",
+                "Object_839",
+                "Object_841",
+                "Object_843",
+                "Object_846",
+                "Object_848",
+                "Object_850",
+                "Object_853",
+                "Object_855",
+                "Object_857",
+                "Object_860",
+                "Object_863",
+                "Object_866",
+                "Object_869",
+                "Object_872",
+                "Object_875",
+                "Object_878",
+                "Object_880",
+                "Object_883",
+                "Object_885",
+                "Object_888",
+                "Object_891",
+                "Object_894",
+                "Object_896",
+                "Object_898",
+                "Object_900",
+                "Object_902",
+                "Object_905",
+                "Object_907",
+                "Object_909",
+                "Object_911",
+                "Object_914",
+                "Object_916",
+                "Object_918",
+                "Object_920",
+                "Object_923",
+                "Object_926",
+                "Object_929",
+                "Object_931",
+                "Object_934",
+                "Object_936",
+                "Object_939",
+                "Object_942",
+                "Object_945",
+                "Object_947",
+                "Object_950",
+                "Object_953",
+                "Object_956",
+                "Object_959",
+                "Object_962",
+                "Object_965",
+                "Object_968",
+                "Object_971",
+                "Object_974",
+                "Object_977",
+                "Object_979",
+                "Object_981",
+                "Object_983",
+                "Object_985",
+                "Object_987",
+                "Object_990",
+                "Object_992",
+                "Object_994",
+                "Object_996",
+                "Object_998",
+                "Object_1000",
+                "Object_1003",
+                "Object_1005",
+                "Object_1007",
+                "Object_1010",
+                "Object_1013",
+                "Object_1016",
+                "Object_1018",
+                "Object_1021",
+                "Object_1023",
+                "Object_1026",
+                "Object_1029",
+                "Object_1032",
+                "Object_1035",
+                "Object_1038",
+                "Object_1041",
+                "Object_1044",
+                "Cube002",
+                "Cube002_1",
+                "Cube002_2"
+              ],
+              "jumpForce": 6,
+              "mergeVertices": "off",
+              "mergeMaterials": "off"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": []
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "loop": true,
+              "name": "默认音频",
+              "url": "https://onetwin.cn/beij.mp3"
+            },
+            "modelMove": {
+              "doing": 1,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "selectModel": {
+              "name": "",
+              "cameraNear": {
+                "enabled": false,
+                "offsetX": 10,
+                "offsetY": 10,
+                "offsetZ": 10
+              }
+            },
+            "triggerCss2d": {
+              "css2dName": ""
+            },
+            "tts": {
+              "text": "",
+              "rate": 1,
+              "volume": 1,
+              "pitch": 1,
+              "lang": "zh-CN",
+              "voice": null,
+              "loop": false,
+              "apiConfig": {
+                "enable": false,
+                "url": "",
+                "method": "GET",
+                "params": [],
+                "headers": [],
+                "showResponseLog": true,
+                "responseTextKey": ""
+              }
+            },
+            "shadowClor": "rgba(46, 159, 107, 0.47)"
+          }
+        ],
+        "tabsBtn": {
+          "show": false,
+          "direction": "row",
+          "currentTab": "1",
+          "bgImg": "",
+          "fontSize": 14,
+          "color": "#fff",
+          "activeStyle": {
+            "color": "#fff",
+            "bgImg": "",
+            "fontSize": 18
+          },
+          "paddingCol": 10,
+          "paddingRow": 10,
+          "x": 874,
+          "y": 902,
+          "width": 300,
+          "height": 70,
+          "tabData": [
+            {
+              "value": "1",
+              "name": "",
+              "label": "按钮组1",
+              "type": [],
+              "showComponents": [],
+              "hideComponents": [],
+              "showCss2dGroup": [],
+              "camera": {
+                "cameraPreview": false,
+                "changeCameraPosition": {
+                  "x": -80,
+                  "y": 60,
+                  "z": 48
+                },
+                "changeCameraLookAt": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "robot": {
+                "ifRobot": false,
+                "role": "阿力",
+                "a": 30,
+                "maxV": 5,
+                "damping": -0.2,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "upAndDowm": true,
+                "pitchLimit": "45",
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "jumpForce": 6,
+                "enableGravity": false,
+                "enableCollision": false,
+                "enableRayVisualization": false,
+                "enableBVHhelp": false,
+                "collidableObjects": [],
+                "mergeVertices": "off",
+                "mergeMaterials": "off"
+              },
+              "model": {
+                "show": [],
+                "hide": []
+              },
+              "animation": {
+                "loop": "LoopRepeat",
+                "timeScale": 1,
+                "weight": 1,
+                "paly": [],
+                "stop": []
+              },
+              "transform": {
+                "transformPreview": false,
+                "groupArray": [],
+                "mode": "default",
+                "explodeNum": 5
+              },
+              "margin": 10,
+              "eachbgImg": "/image/tabsBg1.png",
+              "activeEachbgImg": "/image/tabsBg1-c.png",
+              "enterAnimation": {
+                "show": false,
+                "loop": false,
+                "setTimeout": 100,
+                "setInterval": 180000,
+                "animations": []
+              },
+              "flowLines": {
+                "show": [],
+                "hide": []
+              },
+              "shader": {
+                "show": [],
+                "hide": []
+              },
+              "meshReplace": {
+                "replace": {
+                  "type": "replace",
+                  "groupArray": []
+                },
+                "restore": {
+                  "type": "restore",
+                  "groupArray": []
+                }
+              },
+              "scenePreset": {
+                "name": ""
+              },
+              "selectModel": {
+                "name": "",
+                "cameraNear": {
+                  "enabled": false,
+                  "offsetX": 10,
+                  "offsetY": 10,
+                  "offsetZ": 10
+                }
+              },
+              "triggerCss2d": {
+                "css2dName": ""
+              },
+              "tts": {
+                "text": "",
+                "rate": 1,
+                "volume": 1,
+                "pitch": 1,
+                "lang": "zh-CN",
+                "voice": null,
+                "loop": false,
+                "apiConfig": {
+                  "enable": false,
+                  "url": "",
+                  "method": "GET",
+                  "params": [],
+                  "headers": [],
+                  "showResponseLog": true,
+                  "responseTextKey": ""
+                }
+              }
+            },
+            {
+              "value": "2",
+              "name": "",
+              "label": "按钮组2",
+              "type": [],
+              "showComponents": [],
+              "hideComponents": [],
+              "showCss2dGroup": [],
+              "camera": {
+                "cameraPreview": false,
+                "changeCameraPosition": {
+                  "x": -80,
+                  "y": 60,
+                  "z": 48
+                },
+                "changeCameraLookAt": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "robot": {
+                "ifRobot": false,
+                "role": "阿力",
+                "a": 30,
+                "maxV": 5,
+                "damping": -0.2,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "upAndDowm": true,
+                "pitchLimit": "45",
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "jumpForce": 6,
+                "enableGravity": false,
+                "enableCollision": false,
+                "enableRayVisualization": false,
+                "enableBVHhelp": false,
+                "collidableObjects": [],
+                "mergeVertices": "off",
+                "mergeMaterials": "off"
+              },
+              "model": {
+                "show": [],
+                "hide": []
+              },
+              "animation": {
+                "loop": "LoopRepeat",
+                "timeScale": 1,
+                "weight": 1,
+                "paly": [],
+                "stop": []
+              },
+              "transform": {
+                "transformPreview": false,
+                "groupArray": [],
+                "mode": "default",
+                "explodeNum": 5
+              },
+              "margin": 10,
+              "eachbgImg": "/image/tabsBg1.png",
+              "activeEachbgImg": "/image/tabsBg1-c.png",
+              "enterAnimation": {
+                "show": false,
+                "loop": false,
+                "setTimeout": 100,
+                "setInterval": 180000,
+                "animations": []
+              },
+              "flowLines": {
+                "show": [],
+                "hide": []
+              },
+              "shader": {
+                "show": [],
+                "hide": []
+              },
+              "meshReplace": {
+                "replace": {
+                  "type": "replace",
+                  "groupArray": []
+                },
+                "restore": {
+                  "type": "restore",
+                  "groupArray": []
+                }
+              },
+              "scenePreset": {
+                "name": ""
+              },
+              "selectModel": {
+                "name": "",
+                "cameraNear": {
+                  "enabled": false,
+                  "offsetX": 10,
+                  "offsetY": 10,
+                  "offsetZ": 10
+                }
+              },
+              "triggerCss2d": {
+                "css2dName": ""
+              },
+              "tts": {
+                "text": "",
+                "rate": 1,
+                "volume": 1,
+                "pitch": 1,
+                "lang": "zh-CN",
+                "voice": null,
+                "loop": false,
+                "apiConfig": {
+                  "enable": false,
+                  "url": "",
+                  "method": "GET",
+                  "params": [],
+                  "headers": [],
+                  "showResponseLog": true,
+                  "responseTextKey": ""
+                }
+              }
+            },
+            {
+              "value": "3",
+              "name": "",
+              "label": "按钮组3",
+              "type": [],
+              "showComponents": [],
+              "hideComponents": [],
+              "showCss2dGroup": [],
+              "camera": {
+                "cameraPreview": false,
+                "changeCameraPosition": {
+                  "x": -80,
+                  "y": 60,
+                  "z": 48
+                },
+                "changeCameraLookAt": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                }
+              },
+              "robot": {
+                "ifRobot": false,
+                "role": "阿力",
+                "a": 30,
+                "maxV": 5,
+                "damping": -0.2,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "upAndDowm": true,
+                "pitchLimit": "45",
+                "scale": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "rotation": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "jumpForce": 6,
+                "enableGravity": false,
+                "enableCollision": false,
+                "enableRayVisualization": false,
+                "enableBVHhelp": false,
+                "collidableObjects": [],
+                "mergeVertices": "off",
+                "mergeMaterials": "off"
+              },
+              "model": {
+                "show": [],
+                "hide": []
+              },
+              "animation": {
+                "loop": "LoopRepeat",
+                "timeScale": 1,
+                "weight": 1,
+                "paly": [],
+                "stop": []
+              },
+              "transform": {
+                "transformPreview": false,
+                "groupArray": [],
+                "mode": "default",
+                "explodeNum": 5
+              },
+              "margin": 10,
+              "eachbgImg": "/image/tabsBg1.png",
+              "activeEachbgImg": "/image/tabsBg1-c.png",
+              "enterAnimation": {
+                "show": false,
+                "loop": false,
+                "setTimeout": 100,
+                "setInterval": 180000,
+                "animations": []
+              },
+              "flowLines": {
+                "show": [],
+                "hide": []
+              },
+              "shader": {
+                "show": [],
+                "hide": []
+              },
+              "meshReplace": {
+                "replace": {
+                  "type": "replace",
+                  "groupArray": []
+                },
+                "restore": {
+                  "type": "restore",
+                  "groupArray": []
+                }
+              },
+              "scenePreset": {
+                "name": ""
+              },
+              "selectModel": {
+                "name": "",
+                "cameraNear": {
+                  "enabled": false,
+                  "offsetX": 10,
+                  "offsetY": 10,
+                  "offsetZ": 10
+                }
+              },
+              "triggerCss2d": {
+                "css2dName": ""
+              },
+              "tts": {
+                "text": "",
+                "rate": 1,
+                "volume": 1,
+                "pitch": 1,
+                "lang": "zh-CN",
+                "voice": null,
+                "loop": false,
+                "apiConfig": {
+                  "enable": false,
+                  "url": "",
+                  "method": "GET",
+                  "params": [],
+                  "headers": [],
+                  "showResponseLog": true,
+                  "responseTextKey": ""
+                }
+              }
+            }
+          ],
+          "global": false,
+          "globalKey": "",
+          "globalValue": "",
+          "globalName": ""
+        },
+        "modelList": [
+          {
+            "name": "自动产线1",
+            "url": "http://qiniu.wantonly-drag.com.cn/model/自动产线1_17799680367021619.glb",
+            "draco": true,
+            "onprogress": true,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "hide": false,
+            "animations": [
+              {
+                "name": "自动产线1_Animation"
+              }
+            ],
+            "selectAnimations": [
+              "自动产线1_Animation"
+            ],
+            "animationsPlay": true,
+            "loop": "LoopRepeat",
+            "timeScale": 1,
+            "weight": 1
+          },
+          {
+            "name": "地板",
+            "url": "http://qiniu.wantonly-drag.com.cn/model/地板_17731245240747550.glb",
+            "draco": true,
+            "onprogress": true,
+            "scale": {
+              "x": 0.39,
+              "y": 1,
+              "z": 0.34
+            },
+            "position": {
+              "x": 3,
+              "y": 1.5,
+              "z": -5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "hide": false,
+            "animations": [],
+            "selectAnimations": [],
+            "animationsPlay": false,
+            "loop": "LoopRepeat",
+            "timeScale": 1,
+            "weight": 1
+          }
+        ],
+        "css2D": [
+          {
+            "css2DType": "Marking",
+            "label": "六轴工业机器人",
+            "color": "#2196f3",
+            "fontColor": "#ffffff",
+            "padding": 5,
+            "fontSize": 16,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": 3.06,
+              "y": 3.32,
+              "z": -1.25
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 20,
+            "nearNumOffset": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": 3.06,
+              "y": 3.02,
+              "z": -0.85
+            },
+            "css2dComponent": true,
+            "css2dComponentValue": {
+              "id": "custom_1789833278760_b7lwda",
+              "animations": [],
+              "isLock": false,
+              "collapseName": "",
+              "linkage": {
+                "duration": 0,
+                "data": [
+                  {
+                    "id": "",
+                    "label": "",
+                    "event": "",
+                    "style": [
+                      {
+                        "key": "",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              "component": "CustomChart",
+              "hideSelf": false,
+              "propValue": {
+                "url": "",
+                "html": "",
+                "style": "",
+                "script": "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"component-size\" content=\"500x600\">\n  <script src=\"/iframeJs/echarts.min.js\"></script>\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    html { height: 100%; }\n    body { \n      width: 100%;\n      height: 100%; \n      font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;\n      background: #050b1f;\n      color: #fff;\n      overflow: hidden;\n      padding: 6px;\n    }\n    .container {\n      width: 100%;\n      height: 100%;\n      display: flex;\n      flex-direction: column;\n      gap: 5px;\n    }\n    .panel {\n      background: linear-gradient(135deg, rgba(0,40,80,0.3) 0%, rgba(0,20,40,0.3) 100%);\n      border: 1px solid rgba(0,191,255,0.25);\n      border-radius: 3px;\n      position: relative;\n    }\n    .panel::before, .panel::after {\n      content: '';\n      position: absolute;\n      width: 8px;\n      height: 8px;\n      border-color: #00e9db;\n      border-style: solid;\n    }\n    .panel::before { top: -1px; left: -1px; border-width: 1px 0 0 1px; }\n    .panel::after { bottom: -1px; right: -1px; border-width: 0 1px 1px 0; }\n    .header {\n      height: 42px;\n      padding: 0 12px;\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      flex-shrink: 0;\n    }\n    .title {\n      font-size: 14px;\n      color: #00e9db;\n      font-weight: bold;\n      letter-spacing: 1px;\n      display: flex;\n      align-items: center;\n      gap: 8px;\n    }\n    .title-icon {\n      width: 12px;\n      height: 12px;\n      background: #00e9db;\n      clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);\n    }\n    .status-badge {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      padding: 3px 10px;\n      background: rgba(0,255,128,0.1);\n      border: 1px solid rgba(0,255,128,0.4);\n      border-radius: 12px;\n      font-size: 11px;\n      color: #00ff80;\n    }\n    .status-dot {\n      width: 7px;\n      height: 7px;\n      background: #00ff80;\n      border-radius: 50%;\n      box-shadow: 0 0 8px #00ff80;\n      animation: pulse 1.5s infinite;\n    }\n    @keyframes pulse {\n      0%, 100% { opacity: 1; transform: scale(1); }\n      50% { opacity: 0.4; transform: scale(0.7); }\n    }\n    .main-area {\n      flex: 1;\n      display: flex;\n      gap: 5px;\n      min-height: 0;\n    }\n    .robot-panel {\n      flex: 1;\n      position: relative;\n      overflow: hidden;\n    }\n    .grid-bg {\n      position: absolute;\n      inset: 0;\n      background-image: \n        linear-gradient(rgba(0,191,255,0.05) 1px, transparent 1px),\n        linear-gradient(90deg, rgba(0,191,255,0.05) 1px, transparent 1px);\n      background-size: 20px 20px;\n      pointer-events: none;\n    }\n    .robot-svg {\n      width: 100%;\n      height: 100%;\n      position: relative;\n    }\n    .axis-panel {\n      width: 170px;\n      padding: 8px 10px;\n      display: flex;\n      flex-direction: column;\n      gap: 3px;\n    }\n    .axis-title {\n      font-size: 11px;\n      color: #00e9db;\n      text-align: center;\n      border-bottom: 1px solid rgba(0,233,219,0.2);\n      padding-bottom: 4px;\n      margin-bottom: 2px;\n      letter-spacing: 2px;\n    }\n    .axis-row {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-size: 10px;\n      height: 18px;\n    }\n    .axis-label {\n      color: #00e9db;\n      width: 20px;\n      font-weight: bold;\n      font-family: Consolas, monospace;\n    }\n    .axis-bar-bg {\n      flex: 1;\n      height: 8px;\n      background: rgba(0,191,255,0.08);\n      border-radius: 2px;\n      position: relative;\n      overflow: hidden;\n    }\n    .axis-bar-fill {\n      position: absolute;\n      top: 0;\n      bottom: 0;\n      background: linear-gradient(90deg, #00bfff, #00e9db);\n      transition: left 0.2s ease, right 0.2s ease;\n    }\n    .axis-bar-center {\n      position: absolute;\n      top: 0;\n      bottom: 0;\n      left: 50%;\n      width: 1px;\n      background: rgba(255,255,255,0.35);\n      z-index: 2;\n    }\n    .axis-value {\n      color: #fff;\n      width: 44px;\n      text-align: right;\n      font-family: Consolas, monospace;\n      font-size: 10px;\n    }\n    .axis-extra {\n      margin-top: auto;\n      border-top: 1px solid rgba(0,191,255,0.15);\n      padding-top: 8px;\n      display: flex;\n      flex-direction: column;\n      gap: 6px;\n    }\n    .extra-row {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      font-size: 10px;\n    }\n    .extra-label { color: #88aaff; }\n    .extra-value {\n      color: #00e9db;\n      font-family: Consolas, monospace;\n      font-weight: bold;\n    }\n    .pos-panel {\n      height: 90px;\n      padding: 8px 10px;\n      flex-shrink: 0;\n    }\n    .panel-title {\n      font-size: 11px;\n      color: #00e9db;\n      margin-bottom: 6px;\n      letter-spacing: 1px;\n    }\n    .panel-title::before {\n      content: '▌';\n      color: #00e9db;\n      margin-right: 3px;\n    }\n    .pos-grid {\n      display: grid;\n      grid-template-columns: repeat(6, 1fr);\n      gap: 4px;\n    }\n    .pos-cell {\n      background: rgba(0,191,255,0.06);\n      border: 1px solid rgba(0,191,255,0.15);\n      border-radius: 2px;\n      padding: 4px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n    .pos-axis {\n      font-size: 9px;\n      color: #88aaff;\n      letter-spacing: 1px;\n    }\n    .pos-num {\n      font-size: 13px;\n      color: #00e9db;\n      font-weight: bold;\n      font-family: Consolas, monospace;\n      line-height: 1.2;\n    }\n    .pos-unit {\n      font-size: 8px;\n      color: #6688aa;\n    }\n    .kpi-row {\n      height: 80px;\n      display: flex;\n      gap: 5px;\n      flex-shrink: 0;\n    }\n    .kpi-card {\n      flex: 1;\n      padding: 7px 10px;\n      display: flex;\n      flex-direction: column;\n      justify-content: space-between;\n      position: relative;\n    }\n    .kpi-card::before {\n      content: '';\n      position: absolute;\n      top: 8px;\n      left: 0;\n      bottom: 8px;\n      width: 2px;\n      background: linear-gradient(180deg, #00e9db, #00bfff);\n    }\n    .kpi-label {\n      font-size: 10px;\n      color: #88aaff;\n      letter-spacing: 1px;\n    }\n    .kpi-value-row {\n      display: flex;\n      align-items: baseline;\n      gap: 3px;\n    }\n    .kpi-value {\n      font-size: 20px;\n      color: #00e9db;\n      font-weight: bold;\n      font-family: Consolas, monospace;\n      line-height: 1;\n    }\n    .kpi-unit {\n      font-size: 9px;\n      color: #88aaff;\n    }\n  </style>\n</head>\n<body>\n  <div class=\"container\">\n    <!-- Header -->\n    <div class=\"panel header\">\n      <div class=\"title\">\n        <span class=\"title-icon\"></span>\n        六轴工业机器人 #01\n      </div>\n      <div class=\"status-badge\">\n        <div class=\"status-dot\"></div>\n        <span>运行中</span>\n      </div>\n    </div>\n    \n    <!-- Main: Robot + Axes -->\n    <div class=\"main-area\">\n      <div class=\"panel robot-panel\">\n        <div class=\"grid-bg\"></div>\n        <svg class=\"robot-svg\" viewBox=\"0 0 240 240\" preserveAspectRatio=\"xMidYMid meet\">\n          <defs>\n            <linearGradient id=\"metal1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n              <stop offset=\"0%\" stop-color=\"#0a1530\"/>\n              <stop offset=\"50%\" stop-color=\"#3a5580\"/>\n              <stop offset=\"100%\" stop-color=\"#0a1530\"/>\n            </linearGradient>\n            <linearGradient id=\"metal2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n              <stop offset=\"0%\" stop-color=\"#1a3050\"/>\n              <stop offset=\"50%\" stop-color=\"#4a6580\"/>\n              <stop offset=\"100%\" stop-color=\"#1a3050\"/>\n            </linearGradient>\n          </defs>\n          \n          <!-- 地面参考线 -->\n          <line x1=\"20\" y1=\"225\" x2=\"220\" y2=\"225\" stroke=\"#00bfff\" stroke-width=\"0.5\" stroke-dasharray=\"3,2\" opacity=\"0.4\"/>\n          \n          <!-- 底座（固定） -->\n          <rect x=\"80\" y=\"218\" width=\"80\" height=\"8\" fill=\"#1a3050\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n          <rect x=\"95\" y=\"208\" width=\"50\" height=\"12\" fill=\"url(#metal1)\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n          \n          <!-- J1 腰关节 (绕基座中心旋转) -->\n          <g id=\"j1\" transform=\"rotate(0 120 208)\">\n            <rect x=\"113\" y=\"170\" width=\"14\" height=\"40\" fill=\"url(#metal2)\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n            <circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"#1a3050\" stroke=\"#00e9db\" stroke-width=\"1.2\"/>\n            <circle cx=\"120\" cy=\"170\" r=\"3.5\" fill=\"#0a1530\" stroke=\"#00e9db\" stroke-width=\"0.6\"/>\n            <text x=\"135\" y=\"173\" font-size=\"8\" fill=\"#00e9db\" font-family=\"Consolas\">J1</text>\n            \n            <!-- J2 肩关节 -->\n            <g id=\"j2\" transform=\"rotate(-30 120 170)\">\n              <rect x=\"115\" y=\"100\" width=\"10\" height=\"72\" fill=\"url(#metal1)\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n              <circle cx=\"120\" cy=\"100\" r=\"7\" fill=\"#1a3050\" stroke=\"#00bfff\" stroke-width=\"1\"/>\n              <circle cx=\"120\" cy=\"100\" r=\"3\" fill=\"#0a1530\"/>\n              <text x=\"135\" y=\"103\" font-size=\"8\" fill=\"#00bfff\" font-family=\"Consolas\">J2</text>\n              \n              <!-- J3 肘关节 -->\n              <g id=\"j3\" transform=\"rotate(60 120 100)\">\n                <rect x=\"116\" y=\"55\" width=\"8\" height=\"48\" fill=\"url(#metal2)\" stroke=\"#00e9db\" stroke-width=\"0.6\"/>\n                <circle cx=\"120\" cy=\"55\" r=\"6\" fill=\"#1a3050\" stroke=\"#00e9db\" stroke-width=\"1\"/>\n                <circle cx=\"120\" cy=\"55\" r=\"2.5\" fill=\"#0a1530\"/>\n                <text x=\"132\" y=\"58\" font-size=\"8\" fill=\"#00e9db\" font-family=\"Consolas\">J3</text>\n                \n                <!-- J4 腕旋转 -->\n                <g id=\"j4\" transform=\"rotate(15 120 55)\">\n                  <rect x=\"116\" y=\"40\" width=\"8\" height=\"18\" fill=\"url(#metal1)\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n                  <circle cx=\"120\" cy=\"40\" r=\"5\" fill=\"#1a3050\" stroke=\"#00bfff\" stroke-width=\"1\"/>\n                  <circle cx=\"120\" cy=\"40\" r=\"2\" fill=\"#0a1530\"/>\n                  <text x=\"132\" y=\"42\" font-size=\"7\" fill=\"#00bfff\" font-family=\"Consolas\">J4</text>\n                  \n                  <!-- J5 腕弯曲 -->\n                  <g id=\"j5\" transform=\"rotate(-20 120 40)\">\n                    <rect x=\"117\" y=\"28\" width=\"6\" height=\"14\" fill=\"url(#metal2)\" stroke=\"#00e9db\" stroke-width=\"0.6\"/>\n                    <circle cx=\"120\" cy=\"28\" r=\"4\" fill=\"#1a3050\" stroke=\"#00e9db\" stroke-width=\"1\"/>\n                    <text x=\"130\" y=\"30\" font-size=\"7\" fill=\"#00e9db\" font-family=\"Consolas\">J5</text>\n                    \n                    <!-- J6 末端旋转 / TCP -->\n                    <g id=\"j6\" transform=\"rotate(45 120 28)\">\n                      <rect x=\"118\" y=\"14\" width=\"4\" height=\"14\" fill=\"url(#metal1)\" stroke=\"#00bfff\" stroke-width=\"0.6\"/>\n                      <circle cx=\"120\" cy=\"14\" r=\"4\" fill=\"#ff7e00\" stroke=\"#fff\" stroke-width=\"1\"/>\n                      <circle cx=\"120\" cy=\"14\" r=\"1.5\" fill=\"#fff\"/>\n                      <text x=\"130\" y=\"17\" font-size=\"7\" fill=\"#ff7e00\" font-family=\"Consolas\">TCP</text>\n                    </g>\n                  </g>\n                </g>\n              </g>\n            </g>\n          </g>\n        </svg>\n      </div>\n      \n      <div class=\"panel axis-panel\">\n        <div class=\"axis-title\">关节角度</div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J1</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar1\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val1\">+0.0°</div>\n        </div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J2</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar2\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val2\">+0.0°</div>\n        </div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J3</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar3\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val3\">+0.0°</div>\n        </div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J4</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar4\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val4\">+0.0°</div>\n        </div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J5</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar5\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val5\">+0.0°</div>\n        </div>\n        <div class=\"axis-row\">\n          <div class=\"axis-label\">J6</div>\n          <div class=\"axis-bar-bg\">\n            <div class=\"axis-bar-fill\" id=\"bar6\" style=\"left:50%;right:50%\"></div>\n            <div class=\"axis-bar-center\"></div>\n          </div>\n          <div class=\"axis-value\" id=\"val6\">+0.0°</div>\n        </div>\n        \n        <div class=\"axis-extra\">\n          <div class=\"extra-row\">\n            <span class=\"extra-label\">程序号</span>\n            <span class=\"extra-value\">P-1032</span>\n          </div>\n          <div class=\"extra-row\">\n            <span class=\"extra-label\">节拍时间</span>\n            <span class=\"extra-value\" id=\"tempo\">12.5 s</span>\n          </div>\n          <div class=\"extra-row\">\n            <span class=\"extra-label\">运行时长</span>\n            <span class=\"extra-value\" id=\"runTime\">00:00:00</span>\n          </div>\n        </div>\n      </div>\n    </div>\n    \n    <!-- TCP 位置 & 姿态 -->\n    <div class=\"panel pos-panel\">\n      <div class=\"panel-title\">TCP 位置 & 姿态</div>\n      <div class=\"pos-grid\">\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">X</div>\n          <div class=\"pos-num\" id=\"posX\">0.0</div>\n          <div class=\"pos-unit\">mm</div>\n        </div>\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">Y</div>\n          <div class=\"pos-num\" id=\"posY\">0.0</div>\n          <div class=\"pos-unit\">mm</div>\n        </div>\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">Z</div>\n          <div class=\"pos-num\" id=\"posZ\">0.0</div>\n          <div class=\"pos-unit\">mm</div>\n        </div>\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">RX</div>\n          <div class=\"pos-num\" id=\"posRX\">0.0</div>\n          <div class=\"pos-unit\">°</div>\n        </div>\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">RY</div>\n          <div class=\"pos-num\" id=\"posRY\">0.0</div>\n          <div class=\"pos-unit\">°</div>\n        </div>\n        <div class=\"pos-cell\">\n          <div class=\"pos-axis\">RZ</div>\n          <div class=\"pos-num\" id=\"posRZ\">0.0</div>\n          <div class=\"pos-unit\">°</div>\n        </div>\n      </div>\n    </div>\n    \n    <!-- KPI -->\n    <div class=\"kpi-row\">\n      <div class=\"panel kpi-card\">\n        <div class=\"kpi-label\">运行速度</div>\n        <div class=\"kpi-value-row\">\n          <div class=\"kpi-value\" id=\"speed\">0</div>\n          <div class=\"kpi-unit\">%/s</div>\n        </div>\n      </div>\n      <div class=\"panel kpi-card\">\n        <div class=\"kpi-label\">负载</div>\n        <div class=\"kpi-value-row\">\n          <div class=\"kpi-value\" id=\"load\">0.0</div>\n          <div class=\"kpi-unit\">kg</div>\n        </div>\n      </div>\n      <div class=\"panel kpi-card\">\n        <div class=\"kpi-label\">总电流</div>\n        <div class=\"kpi-value-row\">\n          <div class=\"kpi-value\" id=\"current\">0.0</div>\n          <div class=\"kpi-unit\">A</div>\n        </div>\n      </div>\n      <div class=\"panel kpi-card\">\n        <div class=\"kpi-label\">循环次数</div>\n        <div class=\"kpi-value-row\">\n          <div class=\"kpi-value\" id=\"cycle\">0</div>\n          <div class=\"kpi-unit\">次</div>\n        </div>\n      </div>\n    </div>\n  </div>\n  \n  <script>\n    try {\n      // 各轴的关节范围（典型工业机器人参数）\n      const axisRanges = {\n        j1: { min: -180, max: 180 },\n        j2: { min: -90, max: 150 },\n        j3: { min: -180, max: 75 },\n        j4: { min: -360, max: 360 },\n        j5: { min: -120, max: 120 },\n        j6: { min: -360, max: 360 }\n      };\n      \n      const startTime = Date.now();\n      \n      // 角度条更新（双向：0点在中间）\n      function updateAxisBar(id, value, min, max) {\n        const range = max - min;\n        const percent = ((value - min) / range) * 100;\n        const centerPercent = ((0 - min) / range) * 100;\n        const bar = document.getElementById(id);\n        if (value >= 0) {\n          bar.style.left = centerPercent + '%';\n          bar.style.right = (100 - percent) + '%';\n        } else {\n          bar.style.left = percent + '%';\n          bar.style.right = (100 - centerPercent) + '%';\n        }\n      }\n      \n      function updateAxisValue(id, value) {\n        const sign = value >= 0 ? '+' : '';\n        document.getElementById(id).textContent = sign + value.toFixed(1) + '°';\n      }\n      \n      // 模拟机器人状态数据\n      function simulateData() {\n        const t = (Date.now() - startTime) / 1000;\n        \n        // 6个关节角度（正弦函数模拟连续轨迹运动）\n        const axes = {\n          j1: 45 * Math.sin(t * 0.3) + 20,\n          j2: 35 * Math.sin(t * 0.4) - 15,\n          j3: 50 * Math.sin(t * 0.5) + 25,\n          j4: 100 * Math.sin(t * 0.7),\n          j5: 55 * Math.sin(t * 0.6) - 25,\n          j6: 180 * Math.sin(t * 0.8) + 30\n        };\n        \n        // 更新6轴角度条\n        for (let i = 1; i <= 6; i++) {\n          const key = 'j' + i;\n          const range = axisRanges[key];\n          updateAxisBar('bar' + i, axes[key], range.min, range.max);\n          updateAxisValue('val' + i, axes[key]);\n        }\n        \n        // 更新机器人SVG各关节旋转\n        document.getElementById('j1').setAttribute('transform', `rotate(${axes.j1.toFixed(2)} 120 208)`);\n        document.getElementById('j2').setAttribute('transform', `rotate(${axes.j2.toFixed(2)} 120 170)`);\n        document.getElementById('j3').setAttribute('transform', `rotate(${axes.j3.toFixed(2)} 120 100)`);\n        document.getElementById('j4').setAttribute('transform', `rotate(${axes.j4.toFixed(2)} 120 55)`);\n        document.getElementById('j5').setAttribute('transform', `rotate(${axes.j5.toFixed(2)} 120 40)`);\n        document.getElementById('j6').setAttribute('transform', `rotate(${axes.j6.toFixed(2)} 120 28)`);\n        \n        // TCP位置（基于正运动学简化计算）\n        const j1Rad = axes.j1 * Math.PI / 180;\n        const totalArmAngle = (axes.j2 + axes.j3 * 0.5) * Math.PI / 180;\n        const armR = 180 + 100 * Math.cos(totalArmAngle);\n        const armZ = 600 + 100 * Math.sin(totalArmAngle);\n        \n        document.getElementById('posX').textContent = (armR * Math.cos(j1Rad)).toFixed(1);\n        document.getElementById('posY').textContent = (armR * Math.sin(j1Rad)).toFixed(1);\n        document.getElementById('posZ').textContent = armZ.toFixed(1);\n        document.getElementById('posRX').textContent = axes.j4.toFixed(1);\n        document.getElementById('posRY').textContent = axes.j5.toFixed(1);\n        document.getElementById('posRZ').textContent = axes.j6.toFixed(1);\n        \n        // KPI动态数据\n        document.getElementById('speed').textContent = (50 + 40 * Math.abs(Math.sin(t * 0.5))).toFixed(0);\n        document.getElementById('load').textContent = (8.5 + 2 * Math.sin(t * 0.3)).toFixed(1);\n        document.getElementById('current').textContent = (12.3 + 3 * Math.sin(t * 0.7)).toFixed(1);\n        document.getElementById('cycle').textContent = Math.floor(t * 0.4);\n        \n        // 节拍时间\n        const tempo = 12.0 + 1.5 * Math.sin(t * 0.2);\n        document.getElementById('tempo').textContent = tempo.toFixed(1) + ' s';\n        \n        // 运行时长\n        const totalSec = Math.floor(t);\n        const h = Math.floor(totalSec / 3600).toString().padStart(2, '0');\n        const m = Math.floor((totalSec % 3600) / 60).toString().padStart(2, '0');\n        const s = (totalSec % 60).toString().padStart(2, '0');\n        document.getElementById('runTime').textContent = `${h}:${m}:${s}`;\n      }\n      \n      // 启动\n      simulateData();\n      setInterval(simulateData, 100);\n      \n      // 响应式适配\n      window.addEventListener('resize', () => {\n        // flex布局自动适配，无需手动处理\n      });\n    } catch(e) {\n      console.error('Robot component error:', e);\n    }\n  </script>\n\n<script>\n(function(){var c=typeof myChart!=='undefined'?myChart:null;if(c){window.addEventListener('resize',function(){c.resize()})}})();\n</script>\n</body>\n</html>"
+              },
+              "label": "六轴机器人",
+              "icon": "zidingyi",
+              "style": {
+                "width": 413,
+                "height": 481,
+                "rotate": 0,
+                "opacity": 1,
+                "rotateX": 0,
+                "rotateY": 0,
+                "translateZ": 0,
+                "translateX": 0,
+                "translateY": 0,
+                "scaleZ": 1,
+                "scaleX": 1,
+                "scaleY": 1,
+                "perspective": 1000,
+                "top": 268,
+                "left": 461
+              }
+            },
+            "css2dComponentId": "custom_1789833278760_b7lwda",
+            "css2dComponentVisit": false,
+            "showClose": true,
+            "image": "",
+            "group": "",
+            "renderMode": "css2d",
+            "scale": 1,
+            "imageWidth": null,
+            "imageHeight": null,
+            "layout": "vertical",
+            "textOffsetX": 0,
+            "textOffsetY": 0,
+            "id": "MPUsebXXH-9layF00pRbd",
+            "scaleComponent": 1,
+            "visible": true
+          },
+          {
+            "css2DType": "Pulse",
+            "label": "龙门桁架机械手",
+            "color": "#4caf50",
+            "fontColor": "#ffffff",
+            "padding": 5,
+            "fontSize": 16,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": 4.12,
+              "y": 4.11,
+              "z": -6.01
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 20,
+            "nearNumOffset": {
+              "x": 5,
+              "y": 5,
+              "z": 5
+            },
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": 4.12,
+              "y": 3.11,
+              "z": -6.01
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": false,
+            "showClose": true,
+            "image": "",
+            "group": "",
+            "renderMode": "css2d",
+            "scale": 1,
+            "imageWidth": null,
+            "imageHeight": null,
+            "layout": "vertical",
+            "textOffsetX": 0,
+            "textOffsetY": 0,
+            "id": "k-AVqKqaD_IyUBjClo10Q",
+            "scaleComponent": 1,
+            "visible": true
+          },
+          {
+            "css2DType": "Warning",
+            "label": "数控加工单元",
+            "color": "#ff5722",
+            "fontColor": "#ffffff",
+            "padding": 5,
+            "fontSize": 16,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": -0.88,
+              "y": 2.95,
+              "z": -3.78
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 20,
+            "nearNumOffset": {
+              "x": -5,
+              "y": 5,
+              "z": 5
+            },
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": -0.88,
+              "y": 3.75,
+              "z": -3.28
+            },
+            "css2dComponent": true,
+            "css2dComponentValue": {
+              "id": "custom_1789829810794_t4yy0o",
+              "animations": [],
+              "isLock": false,
+              "collapseName": "",
+              "linkage": {
+                "duration": 0,
+                "data": [
+                  {
+                    "id": "",
+                    "label": "",
+                    "event": "",
+                    "style": [
+                      {
+                        "key": "",
+                        "value": 0
+                      }
+                    ]
+                  }
+                ]
+              },
+              "component": "CustomChart",
+              "hideSelf": false,
+              "propValue": {
+                "url": "",
+                "html": "",
+                "style": "",
+                "script": "<!DOCTYPE html>\n<html style=\"height:100%\">\n<head>\n  <meta charset=\"UTF-8\">\n  <script src=\"/iframeJs/echarts.min.js\"></script>\n  <script src=\"/iframeJs/jquery.min.js\"></script>\n  <style>\n    * { box-sizing: border-box; margin: 0; padding: 0; }\n    body {\n      height: 100%;\n      background: linear-gradient(135deg, #0a1929 0%, #0d2540 100%);\n      font-family: 'Microsoft YaHei', sans-serif;\n      color: #fff;\n      overflow: hidden;\n    }\n    .container {\n      width: 100%;\n      height: 100%;\n      padding: 12px;\n      display: flex;\n      flex-direction: column;\n      border: 1px solid rgba(0, 233, 219, 0.3);\n      border-radius: 6px;\n      background: rgba(10, 25, 50, 0.4);\n      box-shadow: 0 0 20px rgba(0, 233, 219, 0.15) inset;\n    }\n    .header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      padding-bottom: 8px;\n      border-bottom: 1px solid rgba(0, 233, 219, 0.2);\n    }\n    .title {\n      font-size: 18px;\n      color: #00e9db;\n      font-weight: bold;\n      letter-spacing: 1px;\n    }\n    .title::before {\n      content: '◆';\n      color: #00e9db;\n      margin-right: 8px;\n    }\n    .status-light {\n      display: flex;\n      align-items: center;\n      gap: 6px;\n      font-size: 12px;\n      color: #00ff88;\n    }\n    .light-dot {\n      width: 8px;\n      height: 8px;\n      border-radius: 50%;\n      background: #00ff88;\n      box-shadow: 0 0 8px #00ff88;\n      animation: pulse 1.5s infinite;\n    }\n    @keyframes pulse {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.4; }\n    }\n    .kpi-row {\n      display: grid;\n      grid-template-columns: repeat(4, 1fr);\n      gap: 8px;\n      margin: 10px 0;\n    }\n    .kpi-card {\n      background: rgba(0, 100, 120, 0.15);\n      border: 1px solid rgba(0, 233, 219, 0.25);\n      border-radius: 4px;\n      padding: 8px;\n      text-align: center;\n    }\n    .kpi-value {\n      font-size: 22px;\n      font-weight: bold;\n      color: #00e9db;\n      line-height: 1.2;\n    }\n    .kpi-value.orange { color: #ffaa00; }\n    .kpi-value.red { color: #ff4757; }\n    .kpi-value.green { color: #00ff88; }\n    .kpi-label {\n      font-size: 11px;\n      color: #88c0d0;\n      margin-top: 2px;\n    }\n    .charts-row {\n      display: grid;\n      grid-template-columns: 1fr 1fr;\n      gap: 8px;\n      flex: 1;\n      min-height: 0;\n    }\n    .chart-box {\n      background: rgba(0, 60, 80, 0.2);\n      border: 1px solid rgba(0, 233, 219, 0.15);\n      border-radius: 4px;\n      padding: 6px;\n      display: flex;\n      flex-direction: column;\n    }\n    .chart-title {\n      font-size: 12px;\n      color: #00e9db;\n      text-align: center;\n      padding-bottom: 4px;\n      border-bottom: 1px dashed rgba(0, 233, 219, 0.2);\n      margin-bottom: 4px;\n    }\n    .chart-area {\n      flex: 1;\n      min-height: 0;\n    }\n    .device-list {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      gap: 4px;\n      overflow: hidden;\n    }\n    .device-item {\n      background: rgba(0, 80, 100, 0.2);\n      border-left: 3px solid #00e9db;\n      padding: 4px 6px;\n      border-radius: 2px;\n      font-size: 11px;\n    }\n    .device-item.warning { border-left-color: #ffaa00; }\n    .device-item.error { border-left-color: #ff4757; }\n    .device-name {\n      display: flex;\n      justify-content: space-between;\n      color: #fff;\n      margin-bottom: 3px;\n    }\n    .device-status {\n      padding: 1px 6px;\n      border-radius: 8px;\n      font-size: 10px;\n    }\n    .status-running { background: rgba(0, 255, 136, 0.2); color: #00ff88; }\n    .status-idle { background: rgba(255, 170, 0, 0.2); color: #ffaa00; }\n    .status-error { background: rgba(255, 71, 87, 0.2); color: #ff4757; }\n    .progress-bar {\n      height: 4px;\n      background: rgba(255, 255, 255, 0.1);\n      border-radius: 2px;\n      overflow: hidden;\n      position: relative;\n    }\n    .progress-fill {\n      height: 100%;\n      background: linear-gradient(90deg, #00e9db, #00ff88);\n      border-radius: 2px;\n      transition: width 1s ease;\n    }\n    .device-info {\n      display: flex;\n      justify-content: space-between;\n      color: #88c0d0;\n      font-size: 10px;\n      margin-top: 2px;\n    }\n  </style>\n</head>\n<body style=\"height:100%;margin:0;overflow:hidden\">\n  <div class=\"container\" id=\"container\">\n    <div class=\"header\">\n      <div class=\"title\">数控加工单元生产状况</div>\n      <div class=\"status-light\">\n        <span class=\"light-dot\"></span>\n        <span>实时监控中</span>\n      </div>\n    </div>\n    \n    <div class=\"kpi-row\">\n      <div class=\"kpi-card\">\n        <div class=\"kpi-value\">12</div>\n        <div class=\"kpi-label\">设备总数</div>\n      </div>\n      <div class=\"kpi-card\">\n        <div class=\"kpi-value green\">9</div>\n        <div class=\"kpi-label\">运行中</div>\n      </div>\n      <div class=\"kpi-card\">\n        <div class=\"kpi-value orange\">2</div>\n        <div class=\"kpi-label\">待机中</div>\n      </div>\n      <div class=\"kpi-card\">\n        <div class=\"kpi-value red\">1</div>\n        <div class=\"kpi-label\">故障数</div>\n      </div>\n    </div>\n\n    <div class=\"charts-row\">\n      <div class=\"chart-box\">\n        <div class=\"chart-title\">设备状态分布</div>\n        <div class=\"chart-area\" id=\"pieChart\"></div>\n      </div>\n      <div class=\"chart-box\">\n        <div class=\"chart-title\">设备运行详情</div>\n        <div class=\"device-list\" id=\"deviceList\"></div>\n      </div>\n    </div>\n  </div>\n\n  <script>\n    try {\n      // 设备列表数据\n      const devices = [\n        { name: 'CNC-001 加工中心', status: 'running', progress: 78, task: '铣削-轴零件A3', info: '主轴 8000rpm' },\n        { name: 'CNC-002 加工中心', status: 'running', progress: 45, task: '钻孔-法兰盘B2', info: '主轴 6500rpm' },\n        { name: 'CNC-003 车削中心', status: 'running', progress: 92, task: '车削-轴套C1', info: '主轴 3200rpm' },\n        { name: 'CNC-004 加工中心', status: 'idle', progress: 0, task: '等待上料', info: '空闲待命' },\n        { name: 'CNC-005 磨床', status: 'error', progress: 0, task: '报警代码 E-203', info: '主轴过载' },\n        { name: 'CNC-006 加工中心', status: 'running', progress: 60, task: '铣削-壳体D5', info: '主轴 7200rpm' }\n      ];\n\n      // 渲染设备列表\n      const deviceListEl = document.getElementById('deviceList');\n      const statusMap = { running: '运行', idle: '待机', error: '故障' };\n      const statusClass = { running: 'status-running', idle: 'status-idle', error: 'status-error' };\n      const itemClass = { running: '', idle: 'warning', error: 'error' };\n\n      function renderDevices() {\n        deviceListEl.innerHTML = devices.map(d => `\n          <div class=\"device-item ${itemClass[d.status]}\">\n            <div class=\"device-name\">\n              <span>${d.name}</span>\n              <span class=\"device-status ${statusClass[d.status]}\">${statusMap[d.status]}</span>\n            </div>\n            <div class=\"progress-bar\">\n              <div class=\"progress-fill\" style=\"width:${d.progress}%\"></div>\n            </div>\n            <div class=\"device-info\">\n              <span>${d.task}</span>\n              <span>${d.progress}% | ${d.info}</span>\n            </div>\n          </div>\n        `).join('');\n      }\n      renderDevices();\n\n      // 饼图 - 设备状态分布\n      const pieChart = echarts.init(document.getElementById('pieChart'));\n      pieChart.setOption({\n        backgroundColor: 'transparent',\n        tooltip: {\n          trigger: 'item',\n          backgroundColor: 'rgba(0, 30, 50, 0.9)',\n          borderColor: '#00e9db',\n          textStyle: { color: '#fff', fontSize: 11 }\n        },\n        legend: {\n          bottom: 0,\n          textStyle: { color: '#88c0d0', fontSize: 10 },\n          itemWidth: 10,\n          itemHeight: 10\n        },\n        series: [{\n          name: '设备状态',\n          type: 'pie',\n          radius: ['38%', '60%'],\n          center: ['50%', '45%'],\n          avoidLabelOverlap: false,\n          itemStyle: {\n            borderRadius: 3,\n            borderColor: '#0a1929',\n            borderWidth: 2\n          },\n          label: {\n            color: '#fff',\n            fontSize: 11,\n            formatter: '{b}\\n{d}%'\n          },\n          labelLine: { lineStyle: { color: '#88c0d0' } },\n          data: [\n            { value: 9, name: '运行中', itemStyle: { color: '#00ff88' } },\n            { value: 2, name: '待机中', itemStyle: { color: '#ffaa00' } },\n            { value: 1, name: '故障', itemStyle: { color: '#ff4757' } }\n          ]\n        }]\n      });\n\n      // 定时模拟进度更新\n      setInterval(() => {\n        devices.forEach(d => {\n          if (d.status === 'running' && d.progress < 100) {\n            d.progress = Math.min(100, d.progress + Math.random() * 2);\n            if (d.progress >= 100) d.status = 'idle';\n          }\n        });\n        renderDevices();\n      }, 3000);\n\n      // 响应式\n      window.addEventListener('resize', () => {\n        pieChart.resize();\n      });\n    } catch(e) {\n      console.error(e);\n    }\n  </script>\n\n<script>\n(function(){var c=typeof myChart!=='undefined'?myChart:null;if(c){window.addEventListener('resize',function(){c.resize()})}})();\n</script>\n</body>\n</html>"
+              },
+              "label": "数控加工单元生产状况",
+              "icon": "zidingyi",
+              "style": {
+                "width": 671,
+                "height": 483,
+                "rotate": 0,
+                "opacity": 1,
+                "rotateX": 0,
+                "rotateY": 0,
+                "translateZ": 0,
+                "translateX": 0,
+                "translateY": 0,
+                "scaleZ": 1,
+                "scaleX": 1,
+                "scaleY": 1,
+                "perspective": 1000,
+                "top": 377,
+                "left": 550
+              }
+            },
+            "css2dComponentId": "custom_1789829810794_t4yy0o",
+            "css2dComponentVisit": false,
+            "showClose": true,
+            "image": "",
+            "group": "",
+            "renderMode": "css2d",
+            "scale": 1,
+            "imageWidth": null,
+            "imageHeight": null,
+            "layout": "vertical",
+            "textOffsetX": 0,
+            "textOffsetY": 0,
+            "id": "w8oGhoX75-E_CKGpZDbf7",
+            "scaleComponent": 1,
+            "visible": false
+          }
+        ],
+        "css3DObjectScale": {
+          "x": 0.03,
+          "y": 0.03,
+          "z": 1
+        },
+        "css3DObjectPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "css3D": [],
+        "screen": {
+          "backgroundColor": "linear-gradient(rgb(69, 149, 223) 20%,transparent ,#000)",
+          "width": 1920,
+          "height": 1080,
+          "fontSize": 14,
+          "maskEnable": true,
+          "maskColor": "#000",
+          "sceneWidth": 1920,
+          "sceneHeight": 1080,
+          "modelCache": true
+        },
+        "animationEffect": {
+          "animateType": "fadeleft",
+          "duration": 0.3,
+          "delay": 0
+        },
+        "layer": {
+          "show": false,
+          "skin": "",
+          "hueRotate": 0,
+          "grayscale": 0,
+          "brightness": 100,
+          "contrast": 100,
+          "saturate": 100,
+          "opacity": 100,
+          "sepia": 0,
+          "bloom": 8,
+          "vignette": 0
+        },
+        "controls": {
+          "enabled": true,
+          "enableDamping": false,
+          "dampingFactor": 0.1,
+          "enableZoom": true,
+          "autoRotate": false,
+          "autoRotateSpeed": 1,
+          "minDistance": 0,
+          "maxDistance": 1000,
+          "enablePan": true,
+          "maxPolarAngle": 180,
+          "enableKeys": true
+        },
+        "helper": {
+          "position": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "size": 200,
+          "divisions": 40,
+          "gridHelperVisible": false,
+          "colorCenterLine": "rgba(239, 207, 34, 1)",
+          "colorGrid": "rgba(87, 174, 176, 0.49)",
+          "axesHelperVisible": false,
+          "axesSize": 500,
+          "viewHelperVisible": true,
+          "canClick": true,
+          "clickSetColor": false,
+          "setColor": "#13ce66",
+          "coordGridShow": false,
+          "coordGridStep": 30,
+          "coordGridSize": 500,
+          "coordGridY": 10,
+          "coordGridGroundY": 0,
+          "coordGridFontSize": 18,
+          "coordGridShowPoints": true,
+          "coordGridShowLabels": true,
+          "coordGridShowLines": true,
+          "cameraApproach": {
+            "enabled": true,
+            "horizontalSpeed": 0.5,
+            "verticalSpeed": 0.1
+          }
+        },
+        "skybox": {
+          "showSkybox": true,
+          "url": "http://qiniu.wantonly-drag.com.cn/image/blog/16720728616693382.png",
+          "color": "",
+          "hdr": "",
+          "useHdr": false,
+          "hdrUrl": "",
+          "hdrImg": ""
+        },
+        "event": [
+          {
+            "eventList": [
+              {
+                "eventName": "触发CSS2D",
+                "css2d": [
+                  "MPUsebXXH-9layF00pRbd"
+                ],
+                "leaveKeep": false
+              }
+            ],
+            "groupName": "Object_321",
+            "meshArray": [
+              "Object_321"
+            ],
+            "triggerType": [
+              "robotNear"
+            ],
+            "nearDistance": 3.5,
+            "eventName": "六轴机器臂"
+          },
+          {
+            "eventList": [
+              {
+                "eventName": "触发CSS2D",
+                "css2d": [
+                  "w8oGhoX75-E_CKGpZDbf7"
+                ],
+                "leaveKeep": false
+              }
+            ],
+            "groupName": "Object_692",
+            "meshArray": [
+              "Object_692"
+            ],
+            "triggerType": [
+              "robotNear"
+            ],
+            "nearDistance": 3.5,
+            "eventName": "加工单元"
+          },
+          {
+            "eventList": [
+              {
+                "eventName": "触发CSS2D",
+                "css2d": [
+                  "k-AVqKqaD_IyUBjClo10Q"
+                ],
+                "leaveKeep": false
+              }
+            ],
+            "groupName": "Object_115",
+            "meshArray": [
+              "Object_115"
+            ],
+            "triggerType": [
+              "robotNear"
+            ],
+            "nearDistance": 3.5,
+            "eventName": "龙门架"
+          }
+        ],
+        "enterAnimation": {
+          "show": false,
+          "setTimeout": 5000,
+          "loop": false,
+          "setInterval": 180000,
+          "animations": [
+            {
+              "cameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": 80,
+                "y": 60,
+                "z": 48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": 0,
+                "y": 90,
+                "z": 8
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": -80,
+                "y": 40,
+                "z": -48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            }
+          ]
+        },
+        "modelMove": [],
+        "meshReplace": {
+          "groupArray": [],
+          "type": "replace"
+        },
+        "flowLines": [],
+        "shader": [
+          {
+            "id": "ph5s2pjmu94joeh",
+            "type": "wall",
+            "key": "围墙",
+            "show": true,
+            "config": {
+              "position": {
+                "x": 0,
+                "y": 20,
+                "z": 0
+              },
+              "globalScale": 1,
+              "options": {
+                "width": 21,
+                "length": 15,
+                "height": 2,
+                "baseColor": "#2ad4d4",
+                "amplitude": 1,
+                "frequency": 10,
+                "speed": 130,
+                "position": {
+                  "x": 4,
+                  "y": 1,
+                  "z": -5
+                }
+              }
+            }
+          }
+        ],
+        "fog": {
+          "enabled": false,
+          "type": "FogExp2",
+          "color": "#ffffff",
+          "density": 0.006,
+          "near": 15,
+          "far": 160,
+          "syncBackground": true
+        },
+        "scenePresets": [
+          {
+            "debug": false,
+            "name": "早晨",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr1.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr1.png"
+            },
+            "fog": {
+              "enabled": true,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [],
+            "layer": {
+              "show": false,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 100,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 8,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "中午",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr2.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr2.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "DirectionalLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 150,
+                  "z": 250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 10,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": true,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 105,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 3,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "傍晚",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr3.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr3.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "AmbientLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 50,
+                  "z": 50
+                },
+                "lightColor": "#ffffff",
+                "intensity": 4.1,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "DirectionalLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 250,
+                  "z": 450
+                },
+                "lightColor": "#e9a00e",
+                "intensity": 20,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": false,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 100,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 8,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "夜晚",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr1.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr1.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 30,
+                  "z": 40
+                },
+                "lightColor": "#ecd01c",
+                "intensity": 20380,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": -135,
+                  "y": 20,
+                  "z": -100
+                },
+                "lightColor": "#9fc07b",
+                "intensity": 21111,
+                "helper": true,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 150,
+                  "y": 40,
+                  "z": 250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 20000,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 50,
+                  "z": -250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 20000,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": true,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 98,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 0,
+              "vignette": 0
+            }
+          }
+        ],
+        "hideGroupList": []
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2048,
+        "height": 1080,
+        "top": 0,
+        "left": 0
+      },
+      "id": "Vk7pmIbs8FMpB2iVxzJOn"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/xintu14.png",
+      "component": "DecorationPicture",
+      "hideSelf": false,
+      "label": "标题装饰38",
+      "icon": "zhuangshi",
+      "propValue": {
+        "url": "/image/componentUsed/topHeaders/xintu14.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2048,
+        "height": 80,
+        "borderRadius": 0,
+        "top": 0,
+        "left": 0
+      },
+      "id": "PeY7kiEzfxFw7zJxvR0n7"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "数字孪生工业控制平台"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 500,
+        "height": 60,
+        "fontSize": 36,
+        "fontWeight": 800,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 15,
+        "left": 774
+      },
+      "id": "jpIYwn_mdUPb455LiDZqu"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 115,
+        "left": 20,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "8rRhOVkeNf25P-vxBdWFn"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "设备列表"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 123,
+        "left": 108.2
+      },
+      "id": "4G8lHa4hiiq41bYU9Ou8y"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 421,
+        "left": 20,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "TsYkrroC9saU97y0p2ivA"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "生产指标"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 429,
+        "left": 108.2
+      },
+      "id": "2GcDstWwl1rO2V5WG7g3j"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 727,
+        "left": 20,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "tJnGFKy-JRM9eBr0muk03"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "设备状态分布"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 735,
+        "left": 108.2
+      },
+      "id": "7KBOjszUONez_B66M1SrM"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 115,
+        "left": 1586,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "4BWnor8dZNS4DfVpVqh4v"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "设备综合效率"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 123,
+        "left": 1674.2
+      },
+      "id": "R2FmaXlYnGlVo_QNGpAjN"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 421,
+        "left": 1586,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "PypfQ4FO99x2i7RiupNFt"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "运行曲线"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 429,
+        "left": 1674.2
+      },
+      "id": "ODEqf4eAESB3BHd4FB5__"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border16.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框16",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border16.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 441,
+        "height": 291,
+        "borderRadius": 0,
+        "top": 727,
+        "left": 1586,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#1a8cff"
+      },
+      "id": "6dsBJeIwOnV-kkhN48UzU"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "告警信息"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 264.6,
+        "height": 30,
+        "fontSize": 16,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 0,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "backgroundImage": "none",
+        "top": 735,
+        "left": 1674.2
+      },
+      "id": "xFu8P0LPelXIVujvO5ElQ"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/StatusCapsule.png",
+      "component": "StatusCapsule",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "CNC-001 数控车床",
+            "value": "运行中",
+            "status": "normal",
+            "statusColor": "#00e9db",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#00e9db",
+            "rowBg": "rgba(0,233,219,0.08)"
+          },
+          {
+            "name": "CNC-002 加工中心",
+            "value": "待机",
+            "status": "standby",
+            "statusColor": "#00c0e9",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#00c0e9",
+            "rowBg": "rgba(0,192,233,0.08)"
+          },
+          {
+            "name": "ROBOT-03 机械臂",
+            "value": "故障",
+            "status": "error",
+            "statusColor": "#ff4d4f",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#ff4d4f",
+            "rowBg": "rgba(255,77,79,0.1)"
+          },
+          {
+            "name": "AGV-05 搬运车",
+            "value": "运行中",
+            "status": "normal",
+            "statusColor": "#00e9db",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#00e9db",
+            "rowBg": "rgba(0,233,219,0.08)"
+          },
+          {
+            "name": "PLC-07 主控制器",
+            "value": "维护中",
+            "status": "warning",
+            "statusColor": "#faad14",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#faad14",
+            "rowBg": "rgba(250,173,20,0.08)"
+          },
+          {
+            "name": "SENSOR-12 温感器",
+            "value": "离线",
+            "status": "offline",
+            "statusColor": "#666666",
+            "textColor": "#ffffff",
+            "nameColor": "#aeefff",
+            "valueColor": "#666666",
+            "rowBg": "rgba(102,102,102,0.1)"
+          }
+        ],
+        "activeNames": [
+          "1"
+        ],
+        "title": "实时设备监控",
+        "showTitle": false,
+        "showMore": false,
+        "autoScroll": true,
+        "scrollInterval": 2.5,
+        "emptyText": "暂无监控数据",
+        "containerBg": "rgba(18, 28, 48, 0.6)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.3)",
+        "radius": 4,
+        "titleColor": "#00e9db",
+        "titleSize": 16,
+        "titleWeight": 700,
+        "lineColor": "rgba(0, 233, 219, 0.3)",
+        "moreColor": "#00e9db",
+        "iconClass": "",
+        "itemBg": "rgba(255, 255, 255, 0.03)",
+        "itemGap": 6,
+        "itemPaddingY": 6,
+        "itemPaddingX": 10,
+        "itemRadius": 4,
+        "nameWidth": "40%",
+        "nameWidthNum": 40,
+        "nameAlign": "flex-start",
+        "nameColor": "#ffffff",
+        "showValue": true,
+        "valueWidth": "20%",
+        "valueWidthNum": 20,
+        "valueAlign": "center",
+        "valueColor": "#aabccf",
+        "valueWeight": 500,
+        "valueSize": 16,
+        "statusWidth": "40%",
+        "statusWidthNum": 40,
+        "statusAlign": "flex-end",
+        "statusFontSize": 12,
+        "statusPaddingY": 2,
+        "statusPaddingX": 8,
+        "statusRadius": 12,
+        "emptyColor": "#999999"
+      },
+      "label": "状态胶囊列表",
+      "icon": "liebiao-pro",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 160,
+        "left": 40
+      },
+      "id": "HB0R3R0QO3DhKO_EZlCsh"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/DataCardGroup.png",
+      "component": "DataCardGroup",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "设备总数",
+            "value": "128",
+            "unit": "台",
+            "sub": "含5类设备",
+            "valueColor": "#00e9db",
+            "cardBg": "rgba(0,233,219,0.06)",
+            "borderColor": "rgba(0,233,219,0.3)"
+          },
+          {
+            "name": "运行设备",
+            "value": "87",
+            "unit": "台",
+            "sub": "占比 67.97%",
+            "valueColor": "#00e9db",
+            "cardBg": "rgba(0,233,219,0.06)",
+            "borderColor": "rgba(0,233,219,0.3)"
+          },
+          {
+            "name": "故障设备",
+            "value": "4",
+            "unit": "台",
+            "sub": "较昨日+2",
+            "valueColor": "#ff4d4f",
+            "cardBg": "rgba(255,77,79,0.06)",
+            "borderColor": "rgba(255,77,79,0.3)"
+          },
+          {
+            "name": "维护设备",
+            "value": "12",
+            "unit": "台",
+            "sub": "占比 9.38%",
+            "valueColor": "#faad14",
+            "cardBg": "rgba(250,173,20,0.06)",
+            "borderColor": "rgba(250,173,20,0.3)"
+          }
+        ],
+        "activeNames": [
+          "1"
+        ],
+        "title": "核心指标概览",
+        "showTitle": false,
+        "showMore": false,
+        "emptyText": "暂无数据",
+        "containerBg": "rgba(18, 28, 48, 0.6)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.3)",
+        "radius": 4,
+        "containerShadow": 0,
+        "shadowColor": "rgba(0, 233, 219, 0.2)",
+        "paddingX": 10,
+        "paddingY": 10,
+        "titleColor": "#00e9db",
+        "titleSize": 16,
+        "titleWeight": 700,
+        "lineColor": "rgba(0, 233, 219, 0.3)",
+        "moreColor": "#00e9db",
+        "headerGap": 10,
+        "columns": 2,
+        "columnGap": 10,
+        "rowGap": 10,
+        "cardBg": "rgba(255, 255, 255, 0.03)",
+        "cardBorderWidth": 1,
+        "cardBorderColor": "rgba(0, 233, 219, 0.18)",
+        "cardRadius": 4,
+        "cardShadow": 0,
+        "cardShadowColor": "rgba(0, 233, 219, 0.15)",
+        "cardMinHeight": 88,
+        "cardPaddingY": 12,
+        "cardPaddingX": 12,
+        "nameColor": "#8fb7ff",
+        "nameSize": 14,
+        "nameWeight": 400,
+        "nameAlign": "left",
+        "valueColor": "#00eaff",
+        "valueSize": 28,
+        "valueWeight": 700,
+        "valueAlign": "left",
+        "valueGap": 6,
+        "valueGlow": true,
+        "valueGlowColor": "rgba(0, 234, 255, 0.6)",
+        "valueGlowSize": 12,
+        "showUnit": true,
+        "unitColor": "#ffffff",
+        "unitSize": 12,
+        "unitGap": 4,
+        "showSub": true,
+        "subColor": "rgba(255,255,255,0.68)",
+        "subSize": 12,
+        "subWeight": 400,
+        "subAlign": "left",
+        "subGap": 6,
+        "showDecor": true,
+        "decorColor": "#00eaff",
+        "decorWidth": 36,
+        "decorHeight": 2,
+        "showCorner": true,
+        "cornerSize": 16,
+        "cornerBorderWidth": 2,
+        "emptyColor": "#999999"
+      },
+      "label": "数据卡片组",
+      "icon": "kapianguanli",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 466,
+        "left": 40
+      },
+      "id": "ndMVYiZXUelyZoHtENqrP"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/pie1.png",
+      "component": "Pie1",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": "",
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "value": 87,
+            "name": "运行中",
+            "color": "#00e9db"
+          },
+          {
+            "value": 23,
+            "name": "待机",
+            "color": "#00c0e9"
+          },
+          {
+            "value": 12,
+            "name": "维护中",
+            "color": "#faad14"
+          },
+          {
+            "value": 4,
+            "name": "故障",
+            "color": "#ff4d4f"
+          },
+          {
+            "value": 2,
+            "name": "离线",
+            "color": "#666666"
+          }
+        ],
+        "option": {
+          "backgroundColor": "",
+          "title": {
+            "text": "",
+            "top": "48%",
+            "textAlign": "center",
+            "left": "49%",
+            "textStyle": {
+              "color": "#fff",
+              "fontSize": 22,
+              "fontWeight": "400"
+            }
+          },
+          "graphic": {
+            "elements": [
+              {
+                "type": "image",
+                "z": 3,
+                "style": {
+                  "image": "data:image/png;base64,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",
+                  "width": 178,
+                  "height": 178
+                },
+                "left": "center",
+                "top": "center"
+              }
+            ]
+          },
+          "tooltip": {
+            "show": true,
+            "formatter": "{b}: {c} ({d}%)"
+          },
+          "legend": {
+            "show": true,
+            "icon": "circle",
+            "orient": "horizontal",
+            "right": "auto",
+            "bottom": "0",
+            "left": "center",
+            "textStyle": {
+              "color": "#fff"
+            },
+            "itemGap": 20,
+            "data": []
+          },
+          "series": [
+            {
+              "name": "交通方式",
+              "type": "pie",
+              "clockWise": false,
+              "radius": [
+                "55%",
+                "60%"
+              ],
+              "hoverAnimation": false,
+              "label": {
+                "show": true,
+                "position": "outside",
+                "color": "#ddd",
+                "formatter": "{b}\n\n{d}%",
+                "fontSize": 12
+              },
+              "labelLine": {
+                "show": true,
+                "length": 20,
+                "length2": 40
+              }
+            }
+          ]
+        }
+      },
+      "label": "饼图-环形",
+      "icon": "bingtu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 772,
+        "left": 42
+      },
+      "id": "_gTk0SimhsUACoCH6NmDq"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/GaugeGlow.png",
+      "component": "GaugeGlow",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": {
+          "name": "系统运行效率",
+          "value": 87,
+          "max": 100
+        },
+        "option": {
+          "backgroundColor": "",
+          "series": [
+            {
+              "type": "gauge",
+              "radius": "85%",
+              "startAngle": 210,
+              "endAngle": -30,
+              "min": 0,
+              "max": 100,
+              "splitNumber": 10,
+              "progress": {
+                "show": true,
+                "width": 16,
+                "itemStyle": {
+                  "color": "#00e9db"
+                }
+              },
+              "axisLine": {
+                "lineStyle": {
+                  "width": 16,
+                  "color": [
+                    [
+                      1,
+                      "rgba(255,255,255,0.12)"
+                    ]
+                  ]
+                }
+              },
+              "axisTick": {
+                "show": false
+              },
+              "splitLine": {
+                "length": 14,
+                "lineStyle": {
+                  "color": "#00e9db",
+                  "width": 2
+                }
+              },
+              "axisLabel": {
+                "color": "#ffffff",
+                "distance": 20
+              },
+              "anchor": {
+                "show": true,
+                "size": 14,
+                "itemStyle": {
+                  "color": "#00e9db"
+                }
+              },
+              "title": {
+                "show": true,
+                "offsetCenter": [
+                  0,
+                  "65%"
+                ],
+                "color": "#00e9db",
+                "fontSize": 16
+              },
+              "detail": {
+                "valueAnimation": true,
+                "fontSize": 24,
+                "color": "#ffffff",
+                "offsetCenter": [
+                  0,
+                  "20%"
+                ],
+                "formatter": "{value}%"
+              },
+              "data": [
+                {
+                  "value": 76,
+                  "name": "完成率"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "label": "发光仪表盘",
+      "icon": "yibiaopan",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 160,
+        "left": 1606
+      },
+      "id": "q92FwQyb0h8zHdyGULG4j"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/slideLineChart.png",
+      "component": "SlideLineChart",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "1月",
+            "value": 320,
+            "unit": "万元"
+          },
+          {
+            "name": "2月",
+            "value": 280,
+            "unit": "万元"
+          },
+          {
+            "name": "3月",
+            "value": 450,
+            "unit": "万元"
+          },
+          {
+            "name": "4月",
+            "value": 380,
+            "unit": "万元"
+          },
+          {
+            "name": "5月",
+            "value": 520,
+            "unit": "万元"
+          },
+          {
+            "name": "6月",
+            "value": 610,
+            "unit": "万元"
+          },
+          {
+            "name": "7月",
+            "value": 580,
+            "unit": "万元"
+          },
+          {
+            "name": "8月",
+            "value": 720,
+            "unit": "万元"
+          }
+        ],
+        "config": {
+          "showTitle": false,
+          "title": "营收趋势图",
+          "titleColor": "#ffffff",
+          "titleFontSize": 20,
+          "titleFontWeight": "bold",
+          "showControls": true,
+          "showIndicator": true,
+          "bgColor": "rgba(18, 28, 48, 0.8)",
+          "showBorder": true,
+          "borderWidth": 0,
+          "borderColor": "#00e9db",
+          "borderRadius": 8,
+          "smoothLine": true,
+          "showArea": true,
+          "showLabel": true,
+          "lineColor": "#00e9db",
+          "lineWidth": 3,
+          "lineType": "solid",
+          "nodeSize": 14,
+          "nodeColor": "#00e9db",
+          "nodeBorderWidth": 3,
+          "nodeBorderColor": "#ffffff",
+          "valueColor": "#ffffff",
+          "valueFontSize": 14,
+          "areaColor": "rgba(0, 233, 219, 0.5)",
+          "axisColor": "#00e9db",
+          "labelColor": "#ffffff",
+          "labelFontSize": 13,
+          "defaultUnit": "万元",
+          "showGridLines": false,
+          "gridLineColor": "rgba(0, 233, 219, 0.15)",
+          "showTooltip": true,
+          "tooltipBgColor": "rgba(0, 0, 0, 0.9)",
+          "tooltipBorderColor": "#00e9db",
+          "tooltipFontSize": 14,
+          "tooltipTextColor": "#ffffff",
+          "enableEffects": true,
+          "glowIntensity": 30,
+          "glowColor": "rgba(54, 255, 246, 0.26)",
+          "showParticles": true,
+          "particleCount": 30,
+          "particleColor": "#36fff6",
+          "neonTitle": true,
+          "rainbowEffect": true,
+          "rainbowSpeed": 2,
+          "waveColor": "#36fff6",
+          "autoSlide": true,
+          "slideInterval": 3000,
+          "visibleCount": 6,
+          "indicatorSize": 10,
+          "indicatorColor": "rgba(255, 255, 255, 0.3)",
+          "indicatorActiveColor": "#36fff6"
+        }
+      },
+      "label": "滑动折线图",
+      "icon": "zhexiantu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 466,
+        "left": 1606
+      },
+      "id": "HK64NKExIbrLosHBOwwD0"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/FaultCodePanel.png",
+      "component": "FaultCodePanel",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": {
+          "faults": [
+            {
+              "code": "E001",
+              "desc": "主电机过载",
+              "level": "danger",
+              "time": "14:23:05",
+              "source": "产线1"
+            },
+            {
+              "code": "W012",
+              "desc": "温度偏高",
+              "level": "warning",
+              "time": "14:20:11",
+              "source": "机房A"
+            },
+            {
+              "code": "C003",
+              "desc": "通讯中断",
+              "level": "critical",
+              "time": "14:18:33",
+              "source": "网关3"
+            },
+            {
+              "code": "N005",
+              "desc": "传感器校准",
+              "level": "normal",
+              "time": "14:15:00",
+              "source": "传感组"
+            }
+          ]
+        },
+        "activeNames": "4",
+        "option": {
+          "normalColor": "#67C23A",
+          "warningColor": "#E6A23C",
+          "dangerColor": "#F56C6C",
+          "criticalColor": "#ff3b30",
+          "blinkSpeed": 1,
+          "scrollSpeed": 50,
+          "autoScroll": true,
+          "containerBg": "rgba(16, 24, 40, 0)",
+          "borderColor": "rgba(255,255,255,0.08)",
+          "borderWidth": 1,
+          "radius": 10,
+          "paddingX": 12,
+          "paddingY": 12,
+          "codeSize": 22,
+          "descSize": 22,
+          "descColor": "rgba(255, 255, 255, 0.72)",
+          "timeSize": 22,
+          "metaColor": "rgba(255, 255, 255, 0.4)",
+          "tagSize": 22,
+          "headerColor": "rgba(255, 255, 255, 0.85)",
+          "headerSize": 22,
+          "countColor": "#F56C6C",
+          "countSize": 22
+        }
+      },
+      "label": "故障码面板",
+      "icon": "gaojing",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 401,
+        "height": 231,
+        "top": 772,
+        "left": 1606
+      },
+      "id": "uWxzy8YzrQgnoM47LLQzO"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/SegmentStatRibbon.png",
+      "component": "SegmentStatRibbon",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "headers": [],
+        "autoAuth": false,
+        "authType": "none",
+        "transformEnabled": false,
+        "transform": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "label": "在线设备",
+            "value": "1284",
+            "unit": "台",
+            "trend": "+32",
+            "color": "",
+            "valueColor": "",
+            "trendColor": ""
+          },
+          {
+            "label": "实时告警",
+            "value": "86",
+            "unit": "条",
+            "trend": "-12",
+            "color": "#ffb347",
+            "valueColor": "",
+            "trendColor": ""
+          },
+          {
+            "label": "处理完成率",
+            "value": "96.8",
+            "unit": "%",
+            "trend": "+1.6%",
+            "color": "#42d392",
+            "valueColor": "",
+            "trendColor": ""
+          },
+          {
+            "label": "平均延迟",
+            "value": "128",
+            "unit": "ms",
+            "trend": "-18ms",
+            "color": "#9b7bff",
+            "valueColor": "",
+            "trendColor": ""
+          }
+        ],
+        "activeNames": "1",
+        "theme": "neon",
+        "title": "能耗统计",
+        "showTitle": true,
+        "showUnit": true,
+        "showTrend": true,
+        "emptyText": "暂无数据",
+        "containerBg": "",
+        "borderColor": "",
+        "borderWidth": 1,
+        "radius": 10,
+        "paddingX": 8,
+        "paddingY": 8,
+        "segmentBg": "",
+        "dividerColor": "",
+        "titleColor": "",
+        "titleSize": 15,
+        "titleWeight": 600,
+        "headerGap": 8,
+        "labelColor": "",
+        "labelSize": 13,
+        "valueColor": "",
+        "valueSize": 28,
+        "valueWeight": 700,
+        "unitColor": "",
+        "unitSize": 12,
+        "trendSize": 12,
+        "emptyColor": "rgba(255,255,255,0.6)",
+        "palette": [
+          "#00eaff",
+          "#ffb347",
+          "#42d392",
+          "#9b7bff",
+          "#f56c6c"
+        ]
+      },
+      "label": "分段指标带",
+      "icon": "zhibiao",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1047,
+        "height": 152,
+        "top": 853,
+        "left": 500.5
+      },
+      "id": "QCRAvjhlv7UfCsTr1pI1T"
+    }
+  ]
+}

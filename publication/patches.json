@@ -1,0 +1,282 @@
+[
+  {
+    "doc": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+    "pattern": "五个本地目录已保存原模板配置与素材，并有可运行页面、单项练习和基础练习。当前运行器仍有细节差异：GMP 部分材质与图表效果、工业与展厅的巡检人物和碰撞、设备运维初始展示以及部分装饰动画。各分篇末尾记录具体状态。完全一致的验收尚未完成，课程内容也不把未实现的内容写成已有功能。",
+    "file": "publication/patches/001.xml"
+  },
+  {
+    "doc": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+    "pattern": "当前交付与尚未完成的部分",
+    "file": "publication/patches/002.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整复现页面与单项练习分开讲，练习里新增的内容会明确说明。",
+    "file": "publication/patches/003.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "完整页面的 replica.mjs 中，boot 读取模板并按组件类型分发；renderThree 管模型与相机；renderData 管指标、表格和图表；asset 把原始网址映射为本地文件。先从你正在观察的那一个组件开始读，不必一次理解整个文件。",
+    "file": "publication/patches/004.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "公开模板 API 提供了组件配置、素材和样例数据，没有提供作者最初的 AI 对话或原始提示词。下面是依据这些真实输入重新整理的“复现提示词”，不能当成作者原始提示词。要复现几何与材质，AI 还需要本目录的原始模型和配置，单靠一段文字不能恢复同一份网格文件。",
+    "file": "publication/patches/005.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "学习完成后，你应能独立启动该目录，指出一个模型或图表的数据位置，完成本篇一次修改并解释变化原因。浏览器中可用 window.__replica.diagnostics 检查完整页的模型加载和组件分发；这个对象不能代替画面和交互验收。",
+    "file": "publication/patches/006.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "当前状态：墙体透明、相机和模型动画已实现；扫描材质的细节、若干图表的动画与装饰仍在逐项对照，尚不能称为逐像素一致。“页面无报错”“组件数量一致”都不足以证明一模一样；仍要逐项对照材质、布局、动画、视角和操作结果。教程会随验证结果更新。",
+    "file": "publication/patches/007.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "index.html、replica.mjs、replica.css",
+    "file": "publication/patches/008.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "完整页面入口、组件行为和样式",
+    "file": "publication/patches/009.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "Three.js、加载器、Draco 与 ECharts 本地依赖",
+    "file": "publication/patches/010.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "配置取自公开的 visual-template/get 接口，保留在 source/template.json；模型与图片使用该配置引用的素材，本地运行器与课程示例另行编写。Three.js 许可文本保留在 vendor/THREE-LICENSE.txt。",
+    "file": "publication/patches/011.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "拖动中央模型旋转，滚轮缩放；点击“自动旋转”，再点击一次停止。",
+    "file": "publication/patches/012.xml"
+  },
+  {
+    "doc": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "pattern": "点击区域标签将观察目标移到对应区域；双击模型可将旋转中心移到命中点。",
+    "file": "publication/patches/013.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整复现页面与单项练习分开讲，练习里新增的内容会明确说明。",
+    "file": "publication/patches/014.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "完整页面的 replica.mjs 中，boot 读取模板并按组件类型分发；renderThree 管模型与相机；renderData 管指标、表格和图表；asset 把原始网址映射为本地文件。先从你正在观察的那一个组件开始读，不必一次理解整个文件。",
+    "file": "publication/patches/015.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "公开模板 API 提供了组件配置、素材和样例数据，没有提供作者最初的 AI 对话或原始提示词。下面是依据这些真实输入重新整理的“复现提示词”，不能当成作者原始提示词。要复现几何与材质，AI 还需要本目录的原始模型和配置，单靠一段文字不能恢复同一份网格文件。",
+    "file": "publication/patches/016.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "学习完成后，你应能独立启动该目录，指出一个模型或图表的数据位置，完成本篇一次修改并解释变化原因。浏览器中可用 window.__replica.diagnostics 检查完整页的模型加载和组件分发；这个对象不能代替画面和交互验收。",
+    "file": "publication/patches/017.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "当前状态：两个模型、相机、围墙及动画按钮已实现；巡检人物、碰撞与部分组件装饰尚未达到原版一致。“页面无报错”“组件数量一致”都不足以证明一模一样；仍要逐项对照材质、布局、动画、视角和操作结果。教程会随验证结果更新。",
+    "file": "publication/patches/018.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "index.html、replica.mjs、replica.css",
+    "file": "publication/patches/019.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "完整页面入口、组件行为和样式",
+    "file": "publication/patches/020.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "Three.js、加载器、Draco 与 ECharts 本地依赖",
+    "file": "publication/patches/021.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "配置取自公开的 visual-template/get 接口，保留在 source/template.json；模型与图片使用该配置引用的素材，本地运行器与课程示例另行编写。Three.js 许可文本保留在 vendor/THREE-LICENSE.txt。",
+    "file": "publication/patches/022.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "点击“自动旋转”和“重置相机”，比较旋转与恢复视角的区别。",
+    "file": "publication/patches/023.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "“机器人巡检”目前切换到可用 WASD 移动的漫游视角；人物外观和原版巡检行为仍需对照，不把它当成已完成的原版巡检。",
+    "file": "publication/patches/024.xml"
+  },
+  {
+    "doc": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "pattern": "用浏览器控制台查看 window.__replica.viewers[0].actions，确认 Animation 和“自动产线1_Animation”指向同一动画。",
+    "file": "publication/patches/025.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整复现页面与单项练习分开讲，练习里新增的内容会明确说明。",
+    "file": "publication/patches/026.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "完整页面的 replica.mjs 中，boot 读取模板并按组件类型分发；renderThree 管模型与相机；renderData 管指标、表格和图表；asset 把原始网址映射为本地文件。先从你正在观察的那一个组件开始读，不必一次理解整个文件。",
+    "file": "publication/patches/027.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "公开模板 API 提供了组件配置、素材和样例数据，没有提供作者最初的 AI 对话或原始提示词。下面是依据这些真实输入重新整理的“复现提示词”，不能当成作者原始提示词。要复现几何与材质，AI 还需要本目录的原始模型和配置，单靠一段文字不能恢复同一份网格文件。",
+    "file": "publication/patches/028.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "学习完成后，你应能独立启动该目录，指出一个模型或图表的数据位置，完成本篇一次修改并解释变化原因。浏览器中可用 window.__replica.diagnostics 检查完整页的模型加载和组件分发；这个对象不能代替画面和交互验收。",
+    "file": "publication/patches/029.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "当前状态：原始大型模型和 HDR 已下载，场景加载可用；原版人物、重力、碰撞与游览视角仍未完整复现。“页面无报错”“组件数量一致”都不足以证明一模一样；仍要逐项对照材质、布局、动画、视角和操作结果。教程会随验证结果更新。",
+    "file": "publication/patches/030.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "index.html、replica.mjs、replica.css",
+    "file": "publication/patches/031.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "完整页面入口、组件行为和样式",
+    "file": "publication/patches/032.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "Three.js、加载器、Draco 与 ECharts 本地依赖",
+    "file": "publication/patches/033.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "配置取自公开的 visual-template/get 接口，保留在 source/template.json；模型与图片使用该配置引用的素材，本地运行器与课程示例另行编写。Three.js 许可文本保留在 vendor/THREE-LICENSE.txt。",
+    "file": "publication/patches/034.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "先用鼠标拖动和滚轮观察完整展厅，确认没有只看到天空或黑屏。",
+    "file": "publication/patches/035.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "点击“游览”进入漫游视角，使用 WASD 移动，拖动鼠标改变观察方向。",
+    "file": "publication/patches/036.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "当前漫游尚未实现原版人物、重力与完整碰撞；不要用能移动来代替碰撞验收。",
+    "file": "publication/patches/037.xml"
+  },
+  {
+    "doc": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "pattern": "在完整页面的 renderThree 中暂时关闭 scene.environment，比较金属和玻璃材质，再恢复。",
+    "file": "publication/patches/038.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整复现页面与单项练习分开讲，练习里新增的内容会明确说明。",
+    "file": "publication/patches/039.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "完整页面的 replica.mjs 中，boot 读取模板并按组件类型分发；renderThree 管模型与相机；renderData 管指标、表格和图表；asset 把原始网址映射为本地文件。先从你正在观察的那一个组件开始读，不必一次理解整个文件。",
+    "file": "publication/patches/040.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "公开模板 API 提供了组件配置、素材和样例数据，没有提供作者最初的 AI 对话或原始提示词。下面是依据这些真实输入重新整理的“复现提示词”，不能当成作者原始提示词。要复现几何与材质，AI 还需要本目录的原始模型和配置，单靠一段文字不能恢复同一份网格文件。",
+    "file": "publication/patches/041.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "学习完成后，你应能独立启动该目录，指出一个模型或图表的数据位置，完成本篇一次修改并解释变化原因。浏览器中可用 window.__replica.diagnostics 检查完整页的模型加载和组件分发；这个对象不能代替画面和交互验收。",
+    "file": "publication/patches/042.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "当前状态：原模型、主要图表和滚动数据已可运行；单模型初始朝向、光照和 RadarTagWall 的部分线条装饰仍待对照。“页面无报错”“组件数量一致”都不足以证明一模一样；仍要逐项对照材质、布局、动画、视角和操作结果。教程会随验证结果更新。",
+    "file": "publication/patches/043.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "index.html、replica.mjs、replica.css",
+    "file": "publication/patches/044.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "完整页面入口、组件行为和样式",
+    "file": "publication/patches/045.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "Three.js、加载器、Draco 与 ECharts 本地依赖",
+    "file": "publication/patches/046.xml"
+  },
+  {
+    "doc": "HZATdXne0orXzaxg0rScQgMHncd",
+    "pattern": "配置取自公开的 visual-template/get 接口，保留在 source/template.json；模型与图片使用该配置引用的素材，本地运行器与课程示例另行编写。Three.js 许可文本保留在 vendor/THREE-LICENSE.txt。",
+    "file": "publication/patches/047.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整复现页面与单项练习分开讲，练习里新增的内容会明确说明。",
+    "file": "publication/patches/048.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "完整页面的 replica.mjs 中，boot 读取模板并按组件类型分发；renderThree 管模型与相机；renderData 管指标、表格和图表；asset 把原始网址映射为本地文件。先从你正在观察的那一个组件开始读，不必一次理解整个文件。",
+    "file": "publication/patches/049.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "公开模板 API 提供了组件配置、素材和样例数据，没有提供作者最初的 AI 对话或原始提示词。下面是依据这些真实输入重新整理的“复现提示词”，不能当成作者原始提示词。要复现几何与材质，AI 还需要本目录的原始模型和配置，单靠一段文字不能恢复同一份网格文件。",
+    "file": "publication/patches/050.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "学习完成后，你应能独立启动该目录，指出一个模型或图表的数据位置，完成本篇一次修改并解释变化原因。浏览器中可用 window.__replica.diagnostics 检查完整页的模型加载和组件分发；这个对象不能代替画面和交互验收。",
+    "file": "publication/patches/051.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "当前状态：中央管线图、数字和主要图表已经恢复；边框和部分组件动画仍需继续和原版对照，天气仍依赖外部服务。“页面无报错”“组件数量一致”都不足以证明一模一样；仍要逐项对照材质、布局、动画、视角和操作结果。教程会随验证结果更新。",
+    "file": "publication/patches/052.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "index.html、replica.mjs、replica.css",
+    "file": "publication/patches/053.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "完整页面入口、组件行为和样式",
+    "file": "publication/patches/054.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "Three.js、加载器、Draco 与 ECharts 本地依赖",
+    "file": "publication/patches/055.xml"
+  },
+  {
+    "doc": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "pattern": "配置取自公开的 visual-template/get 接口，保留在 source/template.json；模型与图片使用该配置引用的素材，本地运行器与课程示例另行编写。Three.js 许可文本保留在 vendor/THREE-LICENSE.txt。",
+    "file": "publication/patches/056.xml"
+  }
+]

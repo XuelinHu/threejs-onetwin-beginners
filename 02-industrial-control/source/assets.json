@@ -1,0 +1,67 @@
+{
+  "capturedAt": "2026-11-14T07:38:20.971Z",
+  "entries": {
+    "https://qiniu.wantonly-drag.com.cn/image/blog/canvas_1789872250705_178987223047152.png": {
+      "file": "assets/95c7f01814e7674bec.png",
+      "bytes": 427264
+    },
+    "https://onetwin.cn/image/tabsBg1.png": {
+      "file": "assets/48fbbb336ac16a0511.png",
+      "bytes": 3044
+    },
+    "https://onetwin.cn/image/tabsBg1-c.png": {
+      "file": "assets/293b5609547596ed01.png",
+      "bytes": 3087
+    },
+    "https://qiniu.wantonly-drag.com.cn/model/%E8%87%AA%E5%8A%A8%E4%BA%A7%E7%BA%BF1_17799680367021619.glb": {
+      "file": "assets/70b999cd52ebd0063a.glb",
+      "bytes": 38609288
+    },
+    "https://qiniu.wantonly-drag.com.cn/model/%E5%9C%B0%E6%9D%BF_17731245240747550.glb": {
+      "file": "assets/a77d54046be312c55c.glb",
+      "bytes": 7655944
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr1.hdr": {
+      "file": "assets/270b1ef5d8c9bc9360.hdr",
+      "bytes": 955685
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr1.png": {
+      "file": "assets/386d8de799bec56474.png",
+      "bytes": 191442
+    },
+    "https://qiniu.wantonly-drag.com.cn/image/blog/16720728616693382.png": {
+      "file": "assets/c77cf5943554d04ca8.png",
+      "bytes": 82155
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr2.hdr": {
+      "file": "assets/f17fcb6b7c7a5082ee.hdr",
+      "bytes": 4434394
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr2.png": {
+      "file": "assets/3fdb497d9e05a82a2c.png",
+      "bytes": 103452
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr3.hdr": {
+      "file": "assets/b05810d98b51d01217.hdr",
+      "bytes": 778362
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr3.png": {
+      "file": "assets/122a8222fd33ac8772.png",
+      "bytes": 315913
+    },
+    "https://onetwin.cn/image/componentUsed/border16.png": {
+      "file": "assets/08f6c281c357fd0fb2.png",
+      "bytes": 12123
+    },
+    "https://onetwin.cn/image/componentUsed/topHeaders/xintu14.png": {
+      "file": "assets/ac01c677532d62a4b1.png",
+      "bytes": 23871
+    }
+  },
+  "failures": [
+    {
+      "url": "https://onetwin.cn/static/img/defualt.png",
+      "error": "返回了网页，不是素材"
+    }
+  ]
+}

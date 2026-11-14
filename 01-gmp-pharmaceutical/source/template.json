@@ -1,0 +1,3893 @@
+{
+  "source": "https://onetwin.cn/#/dashboard",
+  "templateId": "6a1cf43bb9f50e1478e15927",
+  "capturedAt": "2026-11-14T07:25:48.580Z",
+  "name": "GMP制药车间数字孪生平台",
+  "cover": "https://qiniu.wantonly-drag.com.cn/image/blog/ScreenShot_2026-07-06_151527_844_1783322147339953.png",
+  "canvasStyle": {
+    "width": 4240,
+    "height": 2160,
+    "scale": 100,
+    "color": "#000",
+    "opacity": 1,
+    "background": "rgba(0, 0, 0, 0)",
+    "fontSize": 14,
+    "backgroundColor": "linear-gradient(to bottom, #0a0e1a, #0d1b2a)",
+    "url": "",
+    "transform-style": "preserve-3d"
+  },
+  "canvasData": [
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/threeEidt.png",
+      "component": "Three",
+      "hideSelf": false,
+      "label": "数字孪生-three",
+      "icon": "ThreeJs",
+      "propValue": {
+        "socket": false,
+        "onTransformUpdated": null,
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "lights": [
+          {
+            "lightType": "DirectionalLight",
+            "lightPosition": {
+              "x": 19,
+              "y": 42,
+              "z": 6
+            },
+            "lightColor": "#ffffff",
+            "intensity": 2.6,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          },
+          {
+            "lightType": "SpotLight",
+            "lightPosition": {
+              "x": 36,
+              "y": 66,
+              "z": 0
+            },
+            "lightColor": "rgba(26, 201, 204, 1)",
+            "intensity": 5,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.6,
+            "spotPenumbra": 0.9,
+            "spotFocus": 66.9,
+            "spotDistance": 102
+          },
+          {
+            "lightType": "PointLight",
+            "lightPosition": {
+              "x": 40,
+              "y": 22,
+              "z": 5
+            },
+            "lightColor": "#CC0F0F",
+            "intensity": 0.8,
+            "helper": false,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          },
+          {
+            "lightType": "AmbientLight",
+            "lightPosition": {
+              "x": 40,
+              "y": 22,
+              "z": 5
+            },
+            "lightColor": "#ffffff",
+            "intensity": 0.8,
+            "helper": true,
+            "shadow": true,
+            "spotAngle": 0.5,
+            "spotPenumbra": 1,
+            "spotFocus": 1,
+            "spotDistance": 20
+          }
+        ],
+        "stats": false,
+        "modelCache": true,
+        "camera": {
+          "cameraPosition": {
+            "x": 0,
+            "y": 14,
+            "z": -19
+          },
+          "cameraRotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "cameraLookAt": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "fov": 50,
+          "near": 1,
+          "far": 2000,
+          "occlusionVisible": false,
+          "maxPixelRatio": 2
+        },
+        "bottons": [
+          {
+            "name": "自动旋转",
+            "type": "autoRotate",
+            "icon": "a-zujiantianchong_huaban1fuben18",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowClor": "rgba(46, 159, 107, 0.47)",
+            "position": {
+              "x": 1050,
+              "y": 150
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 130,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "checkedKeys": [],
+              "checkedData": [],
+              "ifRobot": false,
+              "a": 12,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": [],
+              "jumpForce": 6,
+              "role": "阿强"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": []
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 5000,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "url": "",
+              "loop": true,
+              "name": "默认音频"
+            },
+            "modelMove": {
+              "doing": false,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null,
+              "index": ""
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            }
+          },
+          {
+            "name": "重置相机",
+            "type": "restore",
+            "icon": "zhongzhixiangji",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowClor": "rgba(46, 159, 107, 0.47)",
+            "position": {
+              "x": 1050,
+              "y": 230
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 130,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "changeCameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            },
+            "robot": {
+              "ifRobot": false,
+              "a": 12,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "role": "阿强"
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "paly": [],
+              "stop": [],
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "url": "",
+              "loop": true,
+              "name": "默认音频"
+            },
+            "modelMove": {
+              "doing": false,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            }
+          },
+          {
+            "name": "自动化设备",
+            "type": "changeCamera",
+            "icon": "qiehuanxiangji",
+            "color": "#ffffff",
+            "fontSize": 30,
+            "borderColor": "rgba(28, 216, 119, 0.86)",
+            "backgroundColor": "rgba(20, 134, 183, 0.67)",
+            "shadowClor": "rgba(46, 159, 107, 0.47)",
+            "position": {
+              "x": 1050,
+              "y": 310
+            },
+            "showText": true,
+            "textFontSize": 20,
+            "textColor": "#ffffff",
+            "textFontWeight": 500,
+            "textFontFamily": "微软雅黑",
+            "labelWidth": 130,
+            "cameraPreview": false,
+            "camera": {
+              "changeCameraPosition": {
+                "x": -1.72,
+                "y": 3.72,
+                "z": -6.29
+              },
+              "changeCameraLookAt": {
+                "x": -1.69,
+                "y": 2.83,
+                "z": -2.84
+              },
+              "cameraPreview": false
+            },
+            "robot": {
+              "ifRobot": false,
+              "role": "阿强",
+              "a": 12,
+              "maxV": 5,
+              "damping": -0.2,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "upAndDowm": true,
+              "pitchLimit": "45",
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "jumpForce": 6,
+              "enableGravity": false,
+              "enableCollision": false,
+              "enableRayVisualization": false,
+              "enableBVHhelp": false,
+              "collidableObjects": []
+            },
+            "model": {
+              "show": [],
+              "hide": []
+            },
+            "animation": {
+              "loop": "LoopRepeat",
+              "timeScale": 1,
+              "weight": 1,
+              "paly": [],
+              "stop": []
+            },
+            "transform": {
+              "transformPreview": false,
+              "groupArray": [],
+              "mode": "default",
+              "explodeNum": 5
+            },
+            "enterAnimation": {
+              "show": false,
+              "loop": false,
+              "setTimeout": 100,
+              "setInterval": 180000,
+              "animations": []
+            },
+            "audio": {
+              "play": false,
+              "muted": true,
+              "loop": true,
+              "name": "默认音频",
+              "url": "https://onetwin.cn/beij.mp3"
+            },
+            "modelMove": {
+              "doing": false,
+              "index": null
+            },
+            "flowLines": {
+              "doing": false,
+              "id": null
+            },
+            "shader": {
+              "show": [],
+              "hide": []
+            },
+            "meshReplace": {
+              "type": "replace",
+              "groupArray": []
+            },
+            "apiConfig": {
+              "enable": false,
+              "url": "",
+              "method": "GET",
+              "params": [],
+              "headers": [],
+              "showResponseLog": true
+            },
+            "scenePreset": {
+              "show": false,
+              "name": ""
+            }
+          }
+        ],
+        "tabsBtn": {
+          "show": false,
+          "direction": "row",
+          "currentTab": "",
+          "bgImg": "data:image/png;base64,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",
+          "fontSize": 14,
+          "color": "#fff",
+          "activeStyle": {
+            "color": "#fff",
+            "bgImg": "data:image/png;base64,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",
+            "fontSize": 18
+          },
+          "paddingCol": 10,
+          "paddingRow": 10,
+          "x": 200,
+          "y": 200,
+          "width": 300,
+          "height": 70,
+          "tabData": [],
+          "global": false,
+          "globalKey": "",
+          "globalValue": "",
+          "globalName": ""
+        },
+        "modelList": [
+          {
+            "name": "药品制造",
+            "url": "http://qiniu.wantonly-drag.com.cn/model/药品制造_17802823150192967.glb",
+            "draco": true,
+            "onprogress": true,
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "position": {
+              "x": -2,
+              "y": 2,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "hide": false,
+            "animations": [
+              {
+                "name": "药品制造_Animation"
+              }
+            ],
+            "selectAnimations": [
+              "药品制造_Animation"
+            ],
+            "animationsPlay": true,
+            "loop": "LoopRepeat",
+            "timeScale": 1,
+            "weight": 1
+          }
+        ],
+        "css2D": [
+          {
+            "id": "DFRtEP6sWfvsanx7r4t_j",
+            "css2DType": "Marking",
+            "label": "检验或配液区",
+            "color": "rgb(19, 21, 19)",
+            "fontColor": "rgba(253, 255, 255, 1)",
+            "padding": 20,
+            "fontSize": 30,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": -0.81,
+              "y": 4.8,
+              "z": 4.17
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 3,
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": -0.81,
+              "y": 0.8,
+              "z": 4.17
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": true,
+            "showClose": true,
+            "image": "data:image/gif;base64,R0lGODlhLgAmAJEDAP7/Pf+TWv/KTwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZTA3YzE4Mi0yYTRlLTQyMWItYjRmNy0yZDYwZTU1OTY2MmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTk2Qzc0ODEzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTk2Qzc0ODAzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNTZmNjM2Yi1lNTg3LTRiZWMtOTRhMC0zYjEyNDY2ZDI3OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OGUwN2MxODItMmE0ZS00MjFiLWI0ZjctMmQ2MGU1NTk2NjJhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEBQMAAwAsAAAAAC4AJgBAAmqcj6nL7QuinPPZRrO8HIUPhmLQleaJpiY1UuqlAe9M1/aNxxGuUMInyPAGvlCwMiTqdsmBcfIDNQ+jz/SKzWq3DmF2yUyCN8Mi6EjOTVpINRTo5Y3DYp0WLRFcR8doKFlVxTVIWGh4aFgAACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAYAEgAhAA4AQAIunD+ggH3rUpw0qoorc6v7v1lhpm0jiZonyq0Q+1zICltSTco4xtD703jVhENYAQAh+QQFAwADACwFABMAIwANAEACJZxvgMvZqJ6UcdqLIVC7Zp9R4RiCl9mgI6qSkON+cPyw9NHeUwEAIfkEBQMAAwAsDgATABEADQBAAhHEjqmm7Q8PW7FaesfMvPsPFgAh+QQFAwADACwFABIAIwANAEACHJw/gMuoDaOctNZnD868+w+G4ght5AKYp7a2XQEAIfkEBQMAAwAsBgATACEADQBAAiCcYanLi9eibG/aKyvTFHvFfWIoJuRwYmnJtu7rvCvMFAAh+QQFAwADACwHABMAHwALAEACGpxvgHugDKOctNqLsx6P9vVtUCiW5smQKFAAACH5BAUDAAMALBAAHwANAAEAQAIDhI9XACH5BAUDAAMALAkAFQAbAAcAQAIPxI6pm8YPo3xuymqz3hwVADs=",
+            "group": "",
+            "scale": 1,
+            "scaleComponent": 1
+          },
+          {
+            "id": "Mt2_NR0ZGlVVJFScOXovf",
+            "css2DType": "Marking",
+            "label": "物料周转区",
+            "color": "rgb(19, 21, 19)",
+            "fontColor": "rgba(253, 255, 255, 1)",
+            "padding": 20,
+            "fontSize": 30,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": 4.56,
+              "y": 4.48,
+              "z": 1.18
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 3,
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": 4.56,
+              "y": 1.48,
+              "z": 1.18
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": true,
+            "showClose": true,
+            "image": "data:image/gif;base64,R0lGODlhLgAmAJEDAP7/Pf+TWv/KTwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZTA3YzE4Mi0yYTRlLTQyMWItYjRmNy0yZDYwZTU1OTY2MmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTk2Qzc0ODEzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTk2Qzc0ODAzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNTZmNjM2Yi1lNTg3LTRiZWMtOTRhMC0zYjEyNDY2ZDI3OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OGUwN2MxODItMmE0ZS00MjFiLWI0ZjctMmQ2MGU1NTk2NjJhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEBQMAAwAsAAAAAC4AJgBAAmqcj6nL7QuinPPZRrO8HIUPhmLQleaJpiY1UuqlAe9M1/aNxxGuUMInyPAGvlCwMiTqdsmBcfIDNQ+jz/SKzWq3DmF2yUyCN8Mi6EjOTVpINRTo5Y3DYp0WLRFcR8doKFlVxTVIWGh4aFgAACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAYAEgAhAA4AQAIunD+ggH3rUpw0qoorc6v7v1lhpm0jiZonyq0Q+1zICltSTco4xtD703jVhENYAQAh+QQFAwADACwFABMAIwANAEACJZxvgMvZqJ6UcdqLIVC7Zp9R4RiCl9mgI6qSkON+cPyw9NHeUwEAIfkEBQMAAwAsDgATABEADQBAAhHEjqmm7Q8PW7FaesfMvPsPFgAh+QQFAwADACwFABIAIwANAEACHJw/gMuoDaOctNZnD868+w+G4ght5AKYp7a2XQEAIfkEBQMAAwAsBgATACEADQBAAiCcYanLi9eibG/aKyvTFHvFfWIoJuRwYmnJtu7rvCvMFAAh+QQFAwADACwHABMAHwALAEACGpxvgHugDKOctNqLsx6P9vVtUCiW5smQKFAAACH5BAUDAAMALBAAHwANAAEAQAIDhI9XACH5BAUDAAMALAkAFQAbAAcAQAIPxI6pm8YPo3xuymqz3hwVADs=",
+            "group": "",
+            "scale": 1,
+            "scaleComponent": 1
+          },
+          {
+            "id": "6fuDgoeKBTFxlnrZbodKt",
+            "css2DType": "Marking",
+            "label": "设备控制区",
+            "color": "rgb(19, 21, 19)",
+            "fontColor": "rgba(253, 255, 255, 1)",
+            "padding": 20,
+            "fontSize": 30,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": -6.56,
+              "y": 4.76,
+              "z": -0.49
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 3,
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": -6.56,
+              "y": 0.76,
+              "z": -0.49
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": true,
+            "showClose": true,
+            "image": "data:image/gif;base64,R0lGODlhLgAmAJEDAP7/Pf+TWv/KTwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZTA3YzE4Mi0yYTRlLTQyMWItYjRmNy0yZDYwZTU1OTY2MmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTk2Qzc0ODEzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTk2Qzc0ODAzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNTZmNjM2Yi1lNTg3LTRiZWMtOTRhMC0zYjEyNDY2ZDI3OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OGUwN2MxODItMmE0ZS00MjFiLWI0ZjctMmQ2MGU1NTk2NjJhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEBQMAAwAsAAAAAC4AJgBAAmqcj6nL7QuinPPZRrO8HIUPhmLQleaJpiY1UuqlAe9M1/aNxxGuUMInyPAGvlCwMiTqdsmBcfIDNQ+jz/SKzWq3DmF2yUyCN8Mi6EjOTVpINRTo5Y3DYp0WLRFcR8doKFlVxTVIWGh4aFgAACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAYAEgAhAA4AQAIunD+ggH3rUpw0qoorc6v7v1lhpm0jiZonyq0Q+1zICltSTco4xtD703jVhENYAQAh+QQFAwADACwFABMAIwANAEACJZxvgMvZqJ6UcdqLIVC7Zp9R4RiCl9mgI6qSkON+cPyw9NHeUwEAIfkEBQMAAwAsDgATABEADQBAAhHEjqmm7Q8PW7FaesfMvPsPFgAh+QQFAwADACwFABIAIwANAEACHJw/gMuoDaOctNZnD868+w+G4ght5AKYp7a2XQEAIfkEBQMAAwAsBgATACEADQBAAiCcYanLi9eibG/aKyvTFHvFfWIoJuRwYmnJtu7rvCvMFAAh+QQFAwADACwHABMAHwALAEACGpxvgHugDKOctNqLsx6P9vVtUCiW5smQKFAAACH5BAUDAAMALBAAHwANAAEAQAIDhI9XACH5BAUDAAMALAkAFQAbAAcAQAIPxI6pm8YPo3xuymqz3hwVADs=",
+            "group": "",
+            "scale": 1,
+            "scaleComponent": 1
+          },
+          {
+            "id": "hhlYo5DiuNJ-j-J1FWAx0",
+            "css2DType": "Marking",
+            "label": "自动化制造区",
+            "color": "rgb(19, 21, 19)",
+            "fontColor": "rgba(253, 255, 255, 1)",
+            "padding": 20,
+            "fontSize": 30,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": -1.9,
+              "y": 4.77,
+              "z": -2.36
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 3,
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": -1.9,
+              "y": 1.77,
+              "z": -2.36
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": false,
+            "showClose": true,
+            "image": "data:image/gif;base64,R0lGODlhLgAmAJEDAP7/Pf+TWv/KTwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZTA3YzE4Mi0yYTRlLTQyMWItYjRmNy0yZDYwZTU1OTY2MmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTk2Qzc0ODEzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTk2Qzc0ODAzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNTZmNjM2Yi1lNTg3LTRiZWMtOTRhMC0zYjEyNDY2ZDI3OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OGUwN2MxODItMmE0ZS00MjFiLWI0ZjctMmQ2MGU1NTk2NjJhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEBQMAAwAsAAAAAC4AJgBAAmqcj6nL7QuinPPZRrO8HIUPhmLQleaJpiY1UuqlAe9M1/aNxxGuUMInyPAGvlCwMiTqdsmBcfIDNQ+jz/SKzWq3DmF2yUyCN8Mi6EjOTVpINRTo5Y3DYp0WLRFcR8doKFlVxTVIWGh4aFgAACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAYAEgAhAA4AQAIunD+ggH3rUpw0qoorc6v7v1lhpm0jiZonyq0Q+1zICltSTco4xtD703jVhENYAQAh+QQFAwADACwFABMAIwANAEACJZxvgMvZqJ6UcdqLIVC7Zp9R4RiCl9mgI6qSkON+cPyw9NHeUwEAIfkEBQMAAwAsDgATABEADQBAAhHEjqmm7Q8PW7FaesfMvPsPFgAh+QQFAwADACwFABIAIwANAEACHJw/gMuoDaOctNZnD868+w+G4ght5AKYp7a2XQEAIfkEBQMAAwAsBgATACEADQBAAiCcYanLi9eibG/aKyvTFHvFfWIoJuRwYmnJtu7rvCvMFAAh+QQFAwADACwHABMAHwALAEACGpxvgHugDKOctNqLsx6P9vVtUCiW5smQKFAAACH5BAUDAAMALBAAHwANAAEAQAIDhI9XACH5BAUDAAMALAkAFQAbAAcAQAIPxI6pm8YPo3xuymqz3hwVADs=",
+            "group": "",
+            "scale": 1,
+            "scaleComponent": 1,
+            "visible": false
+          },
+          {
+            "id": "eX0WExqAHSI5StYHvOnV3",
+            "css2DType": "Marking",
+            "label": "辅助设备区",
+            "color": "rgb(19, 21, 19)",
+            "fontColor": "rgba(253, 255, 255, 1)",
+            "padding": 20,
+            "fontSize": 30,
+            "fontFamily": "新宋体",
+            "position": {
+              "x": 2.32,
+              "y": 4.34,
+              "z": -3.79
+            },
+            "cameraViewerTransfrom": true,
+            "nearNum": 3,
+            "timeoutRestore": true,
+            "restoreTime": 6000,
+            "css2dComponentPosition": {
+              "x": 2.32,
+              "y": 1.34,
+              "z": -3.79
+            },
+            "css2dComponent": false,
+            "css2dComponentValue": null,
+            "css2dComponentId": "",
+            "css2dComponentVisit": true,
+            "showClose": true,
+            "image": "data:image/gif;base64,R0lGODlhLgAmAJEDAP7/Pf+TWv/KTwAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQ4IDc5LjE2NDAzNiwgMjAxOS8wOC8xMy0wMTowNjo1NyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo4ZTA3YzE4Mi0yYTRlLTQyMWItYjRmNy0yZDYwZTU1OTY2MmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTk2Qzc0ODEzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTk2Qzc0ODAzMEFFMTFFQ0FGMzNDQjVFRDREMzY1QzEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIxLjAgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpkNTZmNjM2Yi1lNTg3LTRiZWMtOTRhMC0zYjEyNDY2ZDI3OTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OGUwN2MxODItMmE0ZS00MjFiLWI0ZjctMmQ2MGU1NTk2NjJhIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEBQMAAwAsAAAAAC4AJgBAAmqcj6nL7QuinPPZRrO8HIUPhmLQleaJpiY1UuqlAe9M1/aNxxGuUMInyPAGvlCwMiTqdsmBcfIDNQ+jz/SKzWq3DmF2yUyCN8Mi6EjOTVpINRTo5Y3DYp0WLRFcR8doKFlVxTVIWGh4aFgAACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAAAAAABAAEAQAICXAEAIfkEBQMAAwAsAAAAAAEAAQBAAgJcAQAh+QQFAwADACwAAAAAAQABAEACAlwBACH5BAUDAAMALAYAEgAhAA4AQAIunD+ggH3rUpw0qoorc6v7v1lhpm0jiZonyq0Q+1zICltSTco4xtD703jVhENYAQAh+QQFAwADACwFABMAIwANAEACJZxvgMvZqJ6UcdqLIVC7Zp9R4RiCl9mgI6qSkON+cPyw9NHeUwEAIfkEBQMAAwAsDgATABEADQBAAhHEjqmm7Q8PW7FaesfMvPsPFgAh+QQFAwADACwFABIAIwANAEACHJw/gMuoDaOctNZnD868+w+G4ght5AKYp7a2XQEAIfkEBQMAAwAsBgATACEADQBAAiCcYanLi9eibG/aKyvTFHvFfWIoJuRwYmnJtu7rvCvMFAAh+QQFAwADACwHABMAHwALAEACGpxvgHugDKOctNqLsx6P9vVtUCiW5smQKFAAACH5BAUDAAMALBAAHwANAAEAQAIDhI9XACH5BAUDAAMALAkAFQAbAAcAQAIPxI6pm8YPo3xuymqz3hwVADs=",
+            "group": "",
+            "scale": 1,
+            "scaleComponent": 1
+          }
+        ],
+        "css3DObjectScale": {
+          "x": 0.03,
+          "y": 0.03,
+          "z": 1
+        },
+        "css3DObjectPosition": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "css3D": [],
+        "screen": {
+          "backgroundColor": "linear-gradient(rgb(69, 149, 223) 20%,transparent ,#000)",
+          "width": 1920,
+          "height": 1080,
+          "fontSize": 14,
+          "maskEnable": true,
+          "maskColor": "#000",
+          "sceneWidth": 1920,
+          "sceneHeight": 1080,
+          "modelCache": true
+        },
+        "animationEffect": {
+          "animateType": "fadeleft",
+          "duration": 0.3,
+          "delay": 0
+        },
+        "layer": {
+          "show": false,
+          "skin": "#ffffff",
+          "hueRotate": 0,
+          "grayscale": 100,
+          "brightness": 110,
+          "contrast": 130,
+          "saturate": 100,
+          "opacity": 100,
+          "sepia": 0,
+          "bloom": 8,
+          "vignette": 40
+        },
+        "controls": {
+          "enabled": true,
+          "enableDamping": false,
+          "dampingFactor": 0.1,
+          "enableZoom": true,
+          "autoRotate": false,
+          "autoRotateSpeed": 1,
+          "minDistance": 0,
+          "maxDistance": 1000,
+          "enablePan": true,
+          "maxPolarAngle": 180,
+          "enableKeys": true
+        },
+        "helper": {
+          "position": {
+            "x": 0,
+            "y": -1,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "size": 200,
+          "divisions": 40,
+          "gridHelperVisible": false,
+          "colorCenterLine": "rgba(239, 207, 34, 1)",
+          "colorGrid": "rgba(87, 174, 176, 0.49)",
+          "axesHelperVisible": false,
+          "axesSize": 500,
+          "viewHelperVisible": false,
+          "canClick": true,
+          "clickSetColor": false,
+          "setColor": "#13ce66",
+          "coordGridShow": false,
+          "coordGridStep": 30,
+          "coordGridSize": 500,
+          "coordGridY": 10,
+          "coordGridGroundY": 0,
+          "coordGridFontSize": 18,
+          "coordGridShowPoints": true,
+          "coordGridShowLabels": true,
+          "coordGridShowLines": true,
+          "cameraApproach": {
+            "enabled": true,
+            "horizontalSpeed": 1,
+            "verticalSpeed": 1
+          }
+        },
+        "skybox": {
+          "showSkybox": true,
+          "url": "",
+          "color": "",
+          "hdr": "",
+          "useHdr": false,
+          "hdrUrl": "",
+          "hdrImg": ""
+        },
+        "event": [],
+        "enterAnimation": {
+          "show": false,
+          "setTimeout": 5000,
+          "loop": false,
+          "setInterval": 180000,
+          "animations": [
+            {
+              "cameraPosition": {
+                "x": -80,
+                "y": 60,
+                "z": 48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": 80,
+                "y": 60,
+                "z": 48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": 0,
+                "y": 90,
+                "z": 8
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            },
+            {
+              "cameraPosition": {
+                "x": -80,
+                "y": 40,
+                "z": -48
+              },
+              "cameraLookAt": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "time": 2000,
+              "delayTime": 2000
+            }
+          ]
+        },
+        "modelMove": [],
+        "meshReplace": {
+          "groupArray": [],
+          "type": "replace"
+        },
+        "flowLines": [],
+        "shader": [
+          {
+            "id": "vao5vanmr8uxybv",
+            "type": "xray",
+            "key": "A",
+            "show": true,
+            "config": {
+              "options": {
+                "groupNames": [
+                  "WallBuilderIndoors__21_356",
+                  "WallBuilderIndoors__20_387",
+                  "WallBuilderIndoors__19_391",
+                  "WallBuilderIndoors__18_395",
+                  "WallBuilderIndoors__17_399",
+                  "WallBuilderIndoors__16_403",
+                  "WallBuilderIndoors__15_407",
+                  "WallBuilderIndoors__14_414",
+                  "WallBuilderIndoors__13_421",
+                  "WallBuilderIndoors__12_425",
+                  "WallBuilderIndoors__11_429",
+                  "WallBuilderIndoors__10_433",
+                  "WallBuilderIndoors__9_442",
+                  "WallBuilderIndoors__8_449",
+                  "WallBuilderIndoors__7_456",
+                  "WallBuilderIndoors__6_463",
+                  "WallBuilderIndoors__5_470",
+                  "WallBuilderIndoors__4_496"
+                ],
+                "color": "#46b0da",
+                "edgeColor": "#2ab98e",
+                "scanSpeed": 1,
+                "edgePower": 1.5,
+                "opacity": 0.5,
+                "scanDirection": "vertical",
+                "isOverlay": true,
+                "baseOpacity": 0.15
+              }
+            }
+          }
+        ],
+        "fog": {
+          "enabled": false,
+          "type": "FogExp2",
+          "color": "#ffffff",
+          "density": 0.006,
+          "near": 15,
+          "far": 160,
+          "syncBackground": true
+        },
+        "scenePresets": [
+          {
+            "debug": false,
+            "name": "早晨",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr1.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr1.png"
+            },
+            "fog": {
+              "enabled": true,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [],
+            "layer": {
+              "show": false,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 100,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 8,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "中午",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr2.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr2.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "DirectionalLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 150,
+                  "z": 250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 10,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": true,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 105,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 3,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "傍晚",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr3.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr3.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "AmbientLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 50,
+                  "z": 50
+                },
+                "lightColor": "#ffffff",
+                "intensity": 4.1,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "DirectionalLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 250,
+                  "z": 450
+                },
+                "lightColor": "#e9a00e",
+                "intensity": 20,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": false,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 100,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 8,
+              "vignette": 0
+            }
+          },
+          {
+            "debug": false,
+            "name": "夜晚",
+            "skybox": {
+              "showSkybox": false,
+              "url": "",
+              "color": "",
+              "hdr": "",
+              "useHdr": true,
+              "hdrUrl": "/image/componentUsed/skybox/hdr1.hdr",
+              "hdrImg": "/image/componentUsed/skybox/hdr1.png"
+            },
+            "fog": {
+              "enabled": false,
+              "type": "FogExp2",
+              "color": "rgba(224, 247, 250, 0.85)",
+              "density": 0.001,
+              "near": 15,
+              "far": 160,
+              "syncBackground": false
+            },
+            "shader": [],
+            "lights": [
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 30,
+                  "z": 40
+                },
+                "lightColor": "#ecd01c",
+                "intensity": 20380,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": -135,
+                  "y": 20,
+                  "z": -100
+                },
+                "lightColor": "#9fc07b",
+                "intensity": 21111,
+                "helper": true,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 150,
+                  "y": 40,
+                  "z": 250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 20000,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              },
+              {
+                "lightType": "PointLight",
+                "lightPosition": {
+                  "x": 50,
+                  "y": 50,
+                  "z": -250
+                },
+                "lightColor": "#ffffff",
+                "intensity": 20000,
+                "helper": false,
+                "shadow": false,
+                "spotAngle": 1.0471975511966,
+                "spotPenumbra": 0,
+                "spotFocus": 1,
+                "spotDistance": 0
+              }
+            ],
+            "layer": {
+              "show": true,
+              "skin": "",
+              "hueRotate": 0,
+              "grayscale": 0,
+              "brightness": 98,
+              "contrast": 100,
+              "saturate": 100,
+              "opacity": 100,
+              "sepia": 0,
+              "bloom": 0,
+              "vignette": 0
+            }
+          }
+        ],
+        "hideGroupList": [],
+        "occlusionVisible": false
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 4240,
+        "height": 2160,
+        "top": 0,
+        "left": 0
+      },
+      "id": "08hLrUIArAWoTnKhPkqKT"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/xintu48.png",
+      "component": "DecorationPicture",
+      "hideSelf": false,
+      "label": "标题装饰74",
+      "icon": "zhuangshi",
+      "propValue": {
+        "url": "/image/componentUsed/topHeaders/xintu48.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 4240,
+        "height": 143,
+        "borderRadius": 0,
+        "top": 0,
+        "left": 0
+      },
+      "id": "M4u-qf1k15gxQ4dq6Hxca"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "GMP制药车间数字孪生平台"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 1087,
+        "height": 82,
+        "fontSize": 59,
+        "fontWeight": 800,
+        "lineHeight": 0,
+        "letterSpacing": 13,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 0,
+        "left": 1576.5
+      },
+      "id": "xOM5czCEUxZFEk1E_0h1e"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 125,
+        "left": 30,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "S27zmsvgqibJ7bE3C-OVP"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "核心完成率"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 133,
+        "left": 289.5
+      },
+      "id": "6IMiLDYJsMrvGr91KPJOz"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 618,
+        "left": 30,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "5JiUVQ6_XChnrnYRNuVxp"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "温湿度告警"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 626,
+        "left": 289.5
+      },
+      "id": "MWIBHxmH6DvGO8dpr4ZWe"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 1111,
+        "left": 30,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "mKMEEGNMLf4_aLeJN0EAf"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "产线达标排名"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 1119,
+        "left": 289.5
+      },
+      "id": "5x-x52wFot551gbO0xJju"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 125,
+        "left": 3291,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "sgCJ-dX0ut6AttYq8Egce"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "生成流程与产出"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 133,
+        "left": 3550.5
+      },
+      "id": "-oYKDwnVtMgbyCPNl0uMv"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 618,
+        "left": 3291,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "D54jfRYwP2vmW9lU1WSRg"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "多环进度监控"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 626,
+        "left": 3550.5
+      },
+      "id": "MwOCn6hsQju2T0TnmwaTz"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 919,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 1111,
+        "left": 3291,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "g8dM-CzOiWq8S3yyWZGge"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "设备故障码"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 1119,
+        "left": 3550.5
+      },
+      "id": "veONBTG4SfDO6IgceVWts"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2080,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 1604,
+        "left": 30,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "-tvCEZ9lboGeDUDHEvCmX"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "实时生产数据滚动"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 1612,
+        "left": 870
+      },
+      "id": "xTgCkOepTLoLT6cU611gn"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/border25.png",
+      "component": "decorationPicture",
+      "hideSelf": false,
+      "label": "边框25",
+      "icon": "biankuang",
+      "propValue": {
+        "url": "/image/componentUsed/border25.png",
+        "flip": {
+          "horizontal": false,
+          "vertical": false
+        },
+        "newColor": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2080,
+        "height": 473,
+        "borderRadius": 0,
+        "top": 1604,
+        "left": 2130,
+        "otherColorLeft": "#00e9db",
+        "otherColorRigth": "#0a2f3c"
+      },
+      "id": "WXxp4qnvRSdR7tzh-3MuS"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/VText.png",
+      "component": "VTextNew",
+      "hideSelf": false,
+      "label": "单行文字",
+      "propValue": {
+        "data": {
+          "text": "各产线完成率对比"
+        }
+      },
+      "icon": "wenben",
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 400,
+        "height": 30,
+        "fontSize": 23,
+        "fontWeight": 600,
+        "lineHeight": 0,
+        "letterSpacing": 7,
+        "textAlign": "center",
+        "color": "#00e9db",
+        "fontFamily": "AlimamaDongFangDaKai",
+        "textShadow": "none",
+        "top": 1612,
+        "left": 2970
+      },
+      "id": "QOZ-HnU7-MhER4e2LptIE"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/StatComparisonCard.png",
+      "component": "StatComparisonCard",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "title": "今日实时完成进度",
+          "value": 128450,
+          "unit": "件",
+          "comparisonValue": 114200,
+          "comparisonText": "较昨日"
+        },
+        "activeNames": "3",
+        "title": "销售数据",
+        "defaultValue": 0,
+        "comparisonValue": 0,
+        "comparisonText": "较昨日",
+        "unit": "",
+        "showTitle": true,
+        "showUnit": true,
+        "showComparison": true,
+        "showComparisonValue": false,
+        "showDecorLine": true,
+        "containerBg": "rgba(18, 28, 48, 0.58)",
+        "borderColor": "rgba(255,255,255,0.08)",
+        "borderWidth": 1,
+        "radius": 10,
+        "paddingX": 16,
+        "paddingY": 16,
+        "upColor": "#67C23A",
+        "downColor": "#F56C6C",
+        "titleColor": "rgba(241, 245, 245, 0.98)",
+        "titleSize": 18,
+        "titleWeight": 700,
+        "titleGap": 12,
+        "valueColor": "#ffffff",
+        "valueSize": 46,
+        "valueWeight": 700,
+        "unitSize": 23,
+        "comparisonAlign": "right",
+        "trendSize": 20,
+        "comparisonTextColor": "rgba(232,252,255,0.6)",
+        "comparisonTextSize": 18,
+        "comparisonValueColor": "rgba(232,252,255,0.5)",
+        "comparisonValueSize": 21,
+        "percentDecimal": 1,
+        "decorLineHeight": 2,
+        "decorLineGap": 12
+      },
+      "label": "数据对比卡片",
+      "icon": "zhibiao",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 373,
+        "height": 266,
+        "top": 237,
+        "left": 61
+      },
+      "id": "JcSdGK1Wf9uiuBHpE0snb"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/ThermoAlertGroup.png",
+      "component": "ThermoAlertGroup",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "注塑A线",
+            "value": 28,
+            "unit": "°C",
+            "status": "normal",
+            "statusText": "",
+            "desc": "温度正常",
+            "flash": false
+          },
+          {
+            "name": "焊接B线",
+            "value": 35,
+            "unit": "°C",
+            "status": "notice",
+            "statusText": "",
+            "desc": "温度偏高",
+            "flash": false
+          },
+          {
+            "name": "喷涂固化炉",
+            "value": 42,
+            "unit": "°C",
+            "status": "warning",
+            "statusText": "",
+            "desc": "接近安全阈值",
+            "flash": true
+          },
+          {
+            "name": "配电柜M1",
+            "value": 49,
+            "unit": "°C",
+            "status": "danger",
+            "statusText": "",
+            "desc": "存在过热风险",
+            "flash": true
+          }
+        ],
+        "activeNames": "2",
+        "title": "温度告警组",
+        "showTitle": true,
+        "showStatus": true,
+        "showDesc": true,
+        "columns": 4,
+        "defaultUnit": "°C",
+        "minTemp": 0,
+        "maxTemp": 50,
+        "containerBg": "rgba(15, 24, 42, 0.02)",
+        "borderColor": "rgba(0, 233, 219, 0.15)",
+        "borderWidth": 1,
+        "radius": 10,
+        "paddingX": 12,
+        "paddingY": 12,
+        "headerGap": 10,
+        "itemBg": "rgba(255,255,255,0.02)",
+        "itemBorderColor": "rgba(0, 233, 219, 0.08)",
+        "itemRadius": 10,
+        "itemGap": 12,
+        "tubeBg": "rgba(255,255,255,0.08)",
+        "tubeBorderColor": "rgba(0, 233, 219, 0.12)",
+        "flashDuration": 1,
+        "titleColor": "#00e9db",
+        "titleSize": 15,
+        "titleWeight": 600,
+        "nameColor": "#ffffff",
+        "nameSize": 13,
+        "nameWeight": 600,
+        "valueSize": 24,
+        "valueWeight": 700,
+        "unitColor": "rgba(255,255,255,0.72)",
+        "unitSize": 12,
+        "statusSize": 12,
+        "descColor": "rgba(255,255,255,0.6)",
+        "descSize": 12,
+        "normalColor": "#67C23A",
+        "noticeColor": "#409EFF",
+        "warningColor": "#E6A23C",
+        "dangerColor": "#F56C6C",
+        "offlineColor": "#909399",
+        "normalGlow": 8,
+        "noticeGlow": 10,
+        "warningGlow": 14,
+        "dangerGlow": 18
+      },
+      "label": "温度告警组",
+      "icon": "gaojing",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 782,
+        "height": 279,
+        "top": 725,
+        "left": 88
+      },
+      "id": "-sBY7UB0w2r5wG64GXYiX"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/3d_multi_pillar.png",
+      "component": "Charts3DMultiPillar",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "发酵线",
+            "value": 892,
+            "color1": "#ff7875",
+            "color2": "#ffb37c"
+          },
+          {
+            "name": "原料线",
+            "value": 915,
+            "color1": "#ffd666",
+            "color2": "#ffe28a"
+          },
+          {
+            "name": "压片线",
+            "value": 935,
+            "color1": "#b9b7ff",
+            "color2": "#e9a5ff"
+          },
+          {
+            "name": "制剂线",
+            "value": 950,
+            "color1": "#95de64",
+            "color2": "#5cdbd3"
+          },
+          {
+            "name": "灌装线",
+            "value": 970,
+            "color1": "#69c0ff",
+            "color2": "#43bafe"
+          },
+          {
+            "name": "包装线",
+            "value": 988,
+            "color1": "#00fff5",
+            "color2": "#5cdbd3"
+          }
+        ],
+        "config": {
+          "barWidth": 80,
+          "titleFontSize": 20,
+          "subTitleFontSize": 16,
+          "labelFontSize": 27,
+          "labelColor": "#beceff",
+          "valueFontSize": 30,
+          "gridTop": 120,
+          "gridBottom": 100,
+          "showDecoration": true,
+          "title": "",
+          "subTitle": ""
+        }
+      },
+      "label": "3D多维立体柱图",
+      "icon": "zhuzhuangtu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 879,
+        "height": 389,
+        "top": 1156,
+        "left": 50
+      },
+      "id": "KntblHlV9h7NPcysRfun6"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/DataConveyor.png",
+      "component": "DataConveyor",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "pipelines": [
+            {
+              "source": "原料药仓库",
+              "target": "配料车间",
+              "label": "称重配料",
+              "throughput": 850,
+              "unit": "kg/h",
+              "status": "normal"
+            },
+            {
+              "source": "配料车间",
+              "target": "湿法混合制粒",
+              "label": "GMP制粒",
+              "throughput": 720,
+              "unit": "批/h",
+              "status": "normal"
+            },
+            {
+              "source": "湿法混合制粒",
+              "target": "流化床干燥",
+              "label": "沸腾干燥",
+              "throughput": 1560,
+              "unit": "kg/h",
+              "status": "warning"
+            },
+            {
+              "source": "流化床干燥",
+              "target": "高速压片机",
+              "label": "总混压制",
+              "throughput": 2400,
+              "unit": "片/min",
+              "status": "normal"
+            },
+            {
+              "source": "高速压片机",
+              "target": "自动包装线",
+              "label": "铝塑包装",
+              "throughput": 980,
+              "unit": "板/min",
+              "status": "normal"
+            }
+          ]
+        },
+        "option": {
+          "normalColor": "#00eaff",
+          "warningColor": "#FFD166",
+          "alarmColor": "#ff4d4f",
+          "nodeColor": "rgb(78, 205, 196)",
+          "valueColor": "#ffffff",
+          "unitColor": "rgba(255, 255, 255, 0.6)",
+          "pipeColor": "rgba(0, 234, 255, 0.15)",
+          "containerBg": "",
+          "speed": 1,
+          "nodeIconSize": 25,
+          "nodeFontSize": 23,
+          "fontSize": 23,
+          "valueSize": 23,
+          "unitSize": 25,
+          "pipeHeight": 62
+        },
+        "activeNames": "1"
+      },
+      "label": "数据管道",
+      "icon": "chuansongdai",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 879,
+        "height": 343,
+        "top": 209,
+        "left": 3311
+      },
+      "id": "4j8XJPEnLF1lGgftBeNEB"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/RingProgressGroup.png",
+      "component": "RingProgressGroup",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "items": [
+            {
+              "name": "设备综合效率",
+              "value": 78,
+              "max": 100,
+              "color": "#FFD166",
+              "status": "warning"
+            },
+            {
+              "name": "订单准时交付率",
+              "value": 92,
+              "max": 100,
+              "color": "#00e9db",
+              "status": "normal"
+            },
+            {
+              "name": "产品一次良品率",
+              "value": 98.6,
+              "max": 100,
+              "color": "#00e9db",
+              "status": "normal"
+            },
+            {
+              "name": "产能达成率",
+              "value": 85,
+              "max": 100,
+              "color": "#00e9db",
+              "status": "normal"
+            },
+            {
+              "name": "设备稼动率",
+              "value": 91,
+              "max": 100,
+              "color": "#00e9db",
+              "status": "normal"
+            }
+          ]
+        },
+        "option": {
+          "ringSize": 147,
+          "strokeWidth": 12,
+          "gap": 16,
+          "normalColor": "#00eaff",
+          "warningColor": "#FFD166",
+          "alarmColor": "#ff4d4f",
+          "bgColor": "rgba(0, 234, 255, 0.1)",
+          "fontSize": 18,
+          "valueSize": 44,
+          "labelSize": 20
+        },
+        "activeNames": "3"
+      },
+      "label": "环形进度组",
+      "icon": "jindutiao1",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 822,
+        "height": 317,
+        "top": 706,
+        "left": 3339
+      },
+      "id": "hKQWgyraWvRZ3vszzyWCE"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/FaultCodePanel.png",
+      "component": "FaultCodePanel",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "faults": [
+            {
+              "code": "E201",
+              "desc": "主轴过热",
+              "level": "critical",
+              "time": "14:23:05",
+              "source": "CNC加工中心"
+            },
+            {
+              "code": "E045",
+              "desc": "传送带卡滞",
+              "level": "danger",
+              "time": "14:20:11",
+              "source": "装配线A"
+            },
+            {
+              "code": "E078",
+              "desc": "视觉检测离线",
+              "level": "danger",
+              "time": "14:18:33",
+              "source": "质检工位"
+            },
+            {
+              "code": "W112",
+              "desc": "液压压力偏低",
+              "level": "warning",
+              "time": "14:15:00",
+              "source": "冲压机B"
+            },
+            {
+              "code": "W203",
+              "desc": "焊点温度异常",
+              "level": "warning",
+              "time": "14:12:47",
+              "source": "焊接机器人1号"
+            },
+            {
+              "code": "N015",
+              "desc": "定期保养提醒",
+              "level": "normal",
+              "time": "14:08:22",
+              "source": "AGV小车03"
+            }
+          ]
+        },
+        "activeNames": "4",
+        "option": {
+          "normalColor": "#67C23A",
+          "warningColor": "#E6A23C",
+          "dangerColor": "#F56C6C",
+          "criticalColor": "#ff3b30",
+          "blinkSpeed": 1,
+          "scrollSpeed": 3,
+          "containerBg": "rgba(16, 24, 40, 0)",
+          "borderColor": "rgba(255,255,255,0.08)",
+          "borderWidth": 1,
+          "radius": 10,
+          "paddingX": 12,
+          "paddingY": 12,
+          "codeSize": 20,
+          "descSize": 20,
+          "descColor": "rgba(255, 255, 255, 0.72)",
+          "timeSize": 22,
+          "metaColor": "rgba(255, 255, 255, 0.4)",
+          "tagSize": 20,
+          "headerColor": "rgba(255, 255, 255, 0.85)",
+          "headerSize": 20,
+          "countColor": "#F56C6C",
+          "countSize": 20
+        }
+      },
+      "label": "故障码面板",
+      "icon": "gaojing",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 312,
+        "height": 359,
+        "top": 1182,
+        "left": 3311
+      },
+      "id": "UpBLDKmcy4eGf_OAyL5hb"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/slideLineChart.png",
+      "component": "SlideLineChart",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "反应釜温度",
+            "value": 85,
+            "unit": "℃"
+          },
+          {
+            "name": "反应釜压力",
+            "value": 320,
+            "unit": "kPa"
+          },
+          {
+            "name": "pH值",
+            "value": 7,
+            "unit": ""
+          },
+          {
+            "name": "搅拌转速",
+            "value": 250,
+            "unit": "rpm"
+          },
+          {
+            "name": "进料流量",
+            "value": 120,
+            "unit": "L/min"
+          },
+          {
+            "name": "干燥湿度",
+            "value": 35,
+            "unit": "%"
+          },
+          {
+            "name": "溶解氧",
+            "value": 6,
+            "unit": "mg/L"
+          },
+          {
+            "name": "产品收率",
+            "value": 92,
+            "unit": "%"
+          },
+          {
+            "name": "含量纯度",
+            "value": 99,
+            "unit": "%"
+          },
+          {
+            "name": "实时产能",
+            "value": 450,
+            "unit": "kg/h"
+          }
+        ],
+        "config": {
+          "showTitle": false,
+          "title": "数据趋势图",
+          "titleColor": "#ffffff",
+          "titleFontSize": 20,
+          "titleFontWeight": "bold",
+          "showControls": true,
+          "showIndicator": true,
+          "bgColor": "rgba(18, 28, 48, 0.8)",
+          "showBorder": true,
+          "borderWidth": 0,
+          "borderColor": "#36fff6",
+          "borderRadius": 8,
+          "smoothLine": true,
+          "showArea": true,
+          "showLabel": true,
+          "lineColor": "#36fff6",
+          "lineWidth": 3,
+          "lineType": "solid",
+          "nodeSize": 16,
+          "nodeColor": "#36fff6",
+          "nodeBorderWidth": 3,
+          "nodeBorderColor": "#ffffff",
+          "valueColor": "#ffffff",
+          "valueFontSize": 29,
+          "areaColor": "rgba(54, 255, 246, 0.5)",
+          "axisColor": "#36fff6",
+          "labelColor": "#ffffff",
+          "labelFontSize": 28,
+          "defaultUnit": "mm",
+          "showGridLines": false,
+          "gridLineColor": "rgba(54, 255, 246, 0.15)",
+          "showTooltip": true,
+          "tooltipBgColor": "rgba(0, 0, 0, 0.9)",
+          "tooltipBorderColor": "#36fff6",
+          "tooltipFontSize": 28,
+          "tooltipTextColor": "#ffffff",
+          "enableEffects": true,
+          "glowIntensity": 30,
+          "glowColor": "rgba(54, 255, 246, 0.26)",
+          "showParticles": true,
+          "particleCount": 30,
+          "particleColor": "#36fff6",
+          "neonTitle": true,
+          "rainbowEffect": true,
+          "rainbowSpeed": 2,
+          "waveColor": "#36fff6",
+          "autoSlide": true,
+          "slideInterval": 3000,
+          "visibleCount": 6,
+          "indicatorSize": 20,
+          "indicatorColor": "rgba(255, 255, 255, 0.3)",
+          "indicatorActiveColor": "#36fff6"
+        }
+      },
+      "label": "滑动折线图",
+      "icon": "zhexiantu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2040,
+        "height": 413,
+        "top": 1649,
+        "left": 50
+      },
+      "id": "ayzBoizZFghREKuFUzOw9"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/bar1.png",
+      "component": "Bar1",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false,
+        "structure": "data[0]",
+        "resJson": "",
+        "filterKey": "",
+        "filterConditions": "",
+        "ifObjToArr": false,
+        "ObjToArrKey": ""
+      },
+      "propValue": {
+        "data": {
+          "data": [
+            {
+              "value": 96,
+              "name": "产品良品率",
+              "color": "#00e9db"
+            },
+            {
+              "value": 88,
+              "name": "产能达成率",
+              "color": "#00c0e9"
+            },
+            {
+              "value": 82,
+              "name": "设备利用率",
+              "color": "#0096f3"
+            },
+            {
+              "value": 91,
+              "name": "订单准时交付率",
+              "color": "#33CCFF"
+            }
+          ],
+          "max": 100
+        },
+        "option": {
+          "backgroundColor": "",
+          "grid": {
+            "left": "11%",
+            "top": "12%",
+            "right": "5%",
+            "bottom": "8%",
+            "containLabel": true
+          },
+          "xAxis": [
+            {
+              "show": false,
+              "max": 100
+            }
+          ],
+          "legend": {
+            "show": true,
+            "itemStyle": {
+              "color": "inherit"
+            },
+            "orient": "horizontal",
+            "left": "center",
+            "top": "bottom",
+            "data": [],
+            "textStyle": {
+              "color": "inherit",
+              "fontSize": 10,
+              "fontWeight": "500"
+            }
+          },
+          "yAxis": [
+            {
+              "axisTick": "none",
+              "axisLine": "none",
+              "offset": "27",
+              "axisLabel": {
+                "textStyle": {
+                  "color": "#ffffff",
+                  "fontSize": 16
+                }
+              },
+              "data": []
+            },
+            {
+              "axisTick": "none",
+              "axisLine": "none",
+              "axisLabel": {
+                "textStyle": {
+                  "color": "#ffffff",
+                  "fontSize": "16"
+                }
+              },
+              "data": []
+            },
+            {
+              "name": "",
+              "nameGap": "50",
+              "nameTextStyle": {
+                "color": "#ffffff",
+                "fontSize": "16"
+              },
+              "axisLine": {
+                "lineStyle": {
+                  "color": "rgba(0,0,0,0)"
+                }
+              },
+              "data": []
+            }
+          ],
+          "series": [
+            {
+              "name": "条",
+              "type": "bar",
+              "yAxisIndex": 0,
+              "data": [],
+              "label": {
+                "show": true,
+                "position": "right",
+                "textStyle": {
+                  "color": "#ffffff",
+                  "fontSize": 16
+                },
+                "formatter": "{c}%"
+              },
+              "barWidth": 12,
+              "itemStyle": {
+                "barBorderRadius": 5
+              },
+              "z": 2
+            },
+            {
+              "name": "白框",
+              "type": "bar",
+              "yAxisIndex": 1,
+              "barGap": "-100%",
+              "data": [],
+              "barWidth": 20,
+              "itemStyle": {
+                "color": "#0e2147",
+                "barBorderRadius": 5
+              },
+              "z": 1
+            },
+            {
+              "name": "外框",
+              "type": "bar",
+              "yAxisIndex": 2,
+              "barGap": "-100%",
+              "data": [],
+              "barWidth": 24,
+              "itemStyle": {
+                "barBorderRadius": 5
+              },
+              "z": 0
+            },
+            {
+              "name": "外圆",
+              "type": "scatter",
+              "hoverAnimation": false,
+              "data": [],
+              "yAxisIndex": 2,
+              "symbolSize": 35,
+              "itemStyle": {
+                "opacity": 1
+              },
+              "z": 2
+            }
+          ]
+        }
+      },
+      "label": "柱形图-横向",
+      "icon": "zhuzhuangtu",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 2040,
+        "height": 413,
+        "top": 1649,
+        "left": 2150
+      },
+      "id": "3bUjZiUmAgfI5jJLiHokC"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/BatteryMetric.png",
+      "component": "BatteryMetric",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "title": "A类药品",
+          "value": "86",
+          "unit": "%",
+          "status": "normal"
+        },
+        "activeNames": [
+          "1"
+        ],
+        "title": "A类药品",
+        "defaultValue": "0",
+        "unit": "%",
+        "showTitle": true,
+        "showUnit": true,
+        "enableBlink": true,
+        "enableChargeAnim": true,
+        "containerBg": "rgba(18, 28, 48, 0)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.28)",
+        "radius": 8,
+        "paddingX": 12,
+        "paddingY": 12,
+        "shellColor": "rgba(0, 234, 255, 0.5)",
+        "shellBorderWidth": 2,
+        "shellRadius": 6,
+        "shellHeight": 80,
+        "capWidth": 6,
+        "capHeight": 24,
+        "capRadius": 3,
+        "fillGlow": 10,
+        "highColor": "#67C23A",
+        "midColor": "#E6A23C",
+        "lowColor": "#F56C6C",
+        "lowThreshold": 20,
+        "midThreshold": 50,
+        "titleColor": "#ffffff",
+        "titleSize": 18,
+        "titleWeight": 600,
+        "valueColor": "#ffffff",
+        "valueSize": 25,
+        "unitColor": "rgba(255,255,255,0.7)",
+        "unitSize": 20
+      },
+      "label": "电池电量指标",
+      "icon": "zhibiao",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 356,
+        "height": 160,
+        "top": 205,
+        "left": 519
+      },
+      "id": "8Wnw1jMyEdHBJ5iqpxyFy"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/BatteryMetric.png",
+      "component": "BatteryMetric",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": {
+          "title": "B类药品",
+          "value": "76",
+          "unit": "%",
+          "status": "warning"
+        },
+        "activeNames": [
+          "1"
+        ],
+        "title": "B类药品",
+        "defaultValue": "0",
+        "unit": "%",
+        "showTitle": true,
+        "showUnit": true,
+        "enableBlink": true,
+        "enableChargeAnim": true,
+        "containerBg": "rgba(18, 28, 48, 0)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.28)",
+        "radius": 8,
+        "paddingX": 12,
+        "paddingY": 12,
+        "shellColor": "rgba(0, 234, 255, 0.5)",
+        "shellBorderWidth": 2,
+        "shellRadius": 6,
+        "shellHeight": 80,
+        "capWidth": 6,
+        "capHeight": 24,
+        "capRadius": 3,
+        "fillGlow": 10,
+        "highColor": "#67C23A",
+        "midColor": "#E6A23C",
+        "lowColor": "#F56C6C",
+        "lowThreshold": 20,
+        "midThreshold": 50,
+        "titleColor": "#ffffff",
+        "titleSize": 18,
+        "titleWeight": 600,
+        "valueColor": "#ffffff",
+        "valueSize": 25,
+        "unitColor": "rgba(255,255,255,0.7)",
+        "unitSize": 20
+      },
+      "label": "电池电量指标",
+      "icon": "zhibiao",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 356,
+        "height": 160,
+        "top": 343,
+        "left": 519
+      },
+      "id": "tvY6Vsi05bqIYWzgJB76P"
+    },
+    {
+      "animations": [],
+      "isLock": false,
+      "collapseName": "",
+      "linkage": {
+        "duration": 0,
+        "data": [
+          {
+            "id": "",
+            "label": "",
+            "event": "",
+            "style": [
+              {
+                "key": "",
+                "value": 0
+              }
+            ]
+          }
+        ]
+      },
+      "img": "//qiniu.wantonly-drag.com.cn/componentListImg/StatusCapsule.png",
+      "component": "StatusCapsule",
+      "hideSelf": false,
+      "request": {
+        "method": "GET",
+        "data": [],
+        "global": [],
+        "url": "",
+        "series": false,
+        "time": 10000,
+        "paramType": "object",
+        "requestCount": 0,
+        "ifCheck": false
+      },
+      "propValue": {
+        "data": [
+          {
+            "name": "反应釜-R101",
+            "value": "78.5℃",
+            "status": "正常",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "离心机-C205",
+            "value": "3200rpm",
+            "status": "警告",
+            "statusColor": "#E6A23C",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "冻干机-L301",
+            "value": "0Pa",
+            "status": "离线",
+            "statusColor": "#F56C6C",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "压片机-T402",
+            "value": "85%",
+            "status": "运行中",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "纯化水系统-W501",
+            "value": "16.8MΩ·cm",
+            "status": "正常",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "灌装机-F601",
+            "value": "120瓶/min",
+            "status": "正常",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "包衣机-C702",
+            "value": "45%",
+            "status": "运行中",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "灭菌器-S803",
+            "value": "121.0℃",
+            "status": "正常",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "配料罐-M101",
+            "value": "6.8pH",
+            "status": "正常",
+            "statusColor": "#67C23A",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          },
+          {
+            "name": "混合机-V901",
+            "value": "0%",
+            "status": "维护中",
+            "statusColor": "#909399",
+            "textColor": "#fff",
+            "nameColor": "",
+            "valueColor": "",
+            "rowBg": ""
+          }
+        ],
+        "activeNames": [
+          "1"
+        ],
+        "title": "实时设备监控",
+        "showTitle": true,
+        "showMore": false,
+        "autoScroll": true,
+        "scrollInterval": 2.5,
+        "emptyText": "暂无监控数据",
+        "containerBg": "rgba(18, 28, 48, 0.6)",
+        "borderWidth": 1,
+        "borderColor": "rgba(0, 233, 219, 0.3)",
+        "radius": 4,
+        "titleColor": "#00e9db",
+        "titleSize": 16,
+        "titleWeight": 700,
+        "lineColor": "rgba(0, 233, 219, 0.3)",
+        "moreColor": "#00e9db",
+        "iconClass": "",
+        "itemBg": "rgba(255, 255, 255, 0.03)",
+        "itemGap": 6,
+        "itemPaddingY": 6,
+        "itemPaddingX": 10,
+        "itemRadius": 4,
+        "nameWidth": "40%",
+        "nameWidthNum": 40,
+        "nameAlign": "flex-start",
+        "nameColor": "#ffffff",
+        "showValue": true,
+        "valueWidth": "20%",
+        "valueWidthNum": 20,
+        "valueAlign": "center",
+        "valueColor": "#aabccf",
+        "valueWeight": 500,
+        "valueSize": 16,
+        "statusWidth": "40%",
+        "statusWidthNum": 40,
+        "statusAlign": "flex-end",
+        "statusFontSize": 12,
+        "statusPaddingY": 2,
+        "statusPaddingX": 8,
+        "statusRadius": 12,
+        "emptyColor": "#999999"
+      },
+      "label": "状态胶囊列表",
+      "icon": "liebiao-pro",
+      "style": {
+        "rotate": 0,
+        "opacity": 1,
+        "rotateX": 0,
+        "rotateY": 0,
+        "translateZ": 0,
+        "translateX": 0,
+        "translateY": 0,
+        "scaleZ": 1,
+        "scaleX": 1,
+        "scaleY": 1,
+        "perspective": 1000,
+        "width": 522,
+        "height": 342,
+        "top": 1196,
+        "left": 3631
+      },
+      "id": "OAh0bsvYp9MS4qC3GgiBp"
+    }
+  ]
+}

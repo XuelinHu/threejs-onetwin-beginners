@@ -1,0 +1,46 @@
+{
+  "capturedAt": "2026-11-14T07:38:20.618Z",
+  "entries": {
+    "https://qiniu.wantonly-drag.com.cn/image/blog/ScreenShot_2026-07-06_151527_844_1783322147339953.png": {
+      "file": "assets/b862c6bfa2be10dbba.png",
+      "bytes": 329522
+    },
+    "https://qiniu.wantonly-drag.com.cn/model/%E8%8D%AF%E5%93%81%E5%88%B6%E9%80%A0_17802823150192967.glb": {
+      "file": "assets/5a38bcdd94932648ae.glb",
+      "bytes": 23650392
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr1.hdr": {
+      "file": "assets/270b1ef5d8c9bc9360.hdr",
+      "bytes": 955685
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr1.png": {
+      "file": "assets/386d8de799bec56474.png",
+      "bytes": 191442
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr2.hdr": {
+      "file": "assets/f17fcb6b7c7a5082ee.hdr",
+      "bytes": 4434394
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr2.png": {
+      "file": "assets/3fdb497d9e05a82a2c.png",
+      "bytes": 103452
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr3.hdr": {
+      "file": "assets/b05810d98b51d01217.hdr",
+      "bytes": 778362
+    },
+    "https://onetwin.cn/image/componentUsed/skybox/hdr3.png": {
+      "file": "assets/122a8222fd33ac8772.png",
+      "bytes": 315913
+    },
+    "https://onetwin.cn/image/componentUsed/topHeaders/xintu48.png": {
+      "file": "assets/4d74df2bb6d7dd8484.png",
+      "bytes": 3291
+    },
+    "https://onetwin.cn/image/componentUsed/border25.png": {
+      "file": "assets/fedb2c67ebf337a107.png",
+      "bytes": 24608
+    }
+  },
+  "failures": []
+}

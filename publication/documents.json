@@ -1,0 +1,37 @@
+[
+  {
+    "file": "blog/00-学习路线总览.md",
+    "documentId": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+    "title": "Three.js 数字孪生新手学习路线"
+  },
+  {
+    "file": "blog/01-gmp-pharmaceutical.md",
+    "documentId": "IVaOdufgtoH1zmxgxzGcOLr5nVd",
+    "title": "01 GMP 制药车间数字孪生平台：从模板到 Three.js",
+    "templateId": "6a1cf43bb9f50e1478e15927"
+  },
+  {
+    "file": "blog/02-industrial-control.md",
+    "documentId": "RpqxdDtW8o5It8xM46Tc2hJAnng",
+    "title": "02 工业控制：从模板到 Three.js",
+    "templateId": "6aaf48496e35aa3450bb7847"
+  },
+  {
+    "file": "blog/03-green-exhibition-hall.md",
+    "documentId": "Xn5mdabUUoCKXoxEW5Bcwb81nxb",
+    "title": "03 绿色主题展厅：从模板到 Three.js",
+    "templateId": "6a89cd164d6c702da8c2e993"
+  },
+  {
+    "file": "blog/04-equipment-operations.md",
+    "documentId": "HZATdXne0orXzaxg0rScQgMHncd",
+    "title": "04 设备运维系统：从模板到 Three.js",
+    "templateId": "6a0dc72fd1cab66fb4f6dc41"
+  },
+  {
+    "file": "blog/05-smart-energy.md",
+    "documentId": "QQOtdR8SZo9caVxYLDTcTNW1nOh",
+    "title": "05 智慧能源：从模板到 Three.js",
+    "templateId": "6a0dcb7cd1cab66fb4f6dd75"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# Three.js 数字孪生新手学习路线\n\n这套课程把 OneTwin 的五个公开案例分别保存到当前笔记本，每个目录可独立运行。学习目标是能打开案例、找到真实模型和数据、理解关键代码，并完成一个可以观察到结果的小改动。完整复现页面、单项练习和基础几何体练习分别保留，不把练习中新增的功能说成原模板功能。\n\n## 1. 先确认五个案例分别做什么\n\n| 案例 | 本地目录 | 端口 | 分篇教程 |\n|-|-|-|-|\n| 1 GMP 制药车间数字孪生平台 | `01-gmp-pharmaceutical` | 8741 | [教程](https://my.feishu.cn/docx/IVaOdufgtoH1zmxgxzGcOLr5nVd) |\n| 2 工业控制 | `02-industrial-control` | 8742 | [教程](https://my.feishu.cn/docx/RpqxdDtW8o5It8xM46Tc2hJAnng) |\n| 3 绿色主题展厅 | `03-green-exhibition-hall` | 8743 | [教程](https://my.feishu.cn/docx/Xn5mdabUUoCKXoxEW5Bcwb81nxb) |\n| 4 设备运维系统 | `04-equipment-operations` | 8744 | [教程](https://my.feishu.cn/docx/HZATdXne0orXzaxg0rScQgMHncd) |\n| 5 智慧能源 | `05-smart-energy` | 8745 | [教程](https://my.feishu.cn/docx/QQOtdR8SZo9caVxYLDTcTNW1nOh) |\n\nGMP 和工业控制是三维场景叠加指标面板；绿色主题展厅主要是一个大型 GLB 场景；设备运维是二维大屏加单模型窗口；智慧能源的管线是 ECharts 二维图形，原模板没有 Three 场景。这个区别决定了你应从哪里读代码。\n\n## 2. 启动课程入口\n\n```powershell\ncd 'D:\\workspace\\front\\threejs-onetwin-beginners\\'\nnode server.mjs\n```\n\n打开[本机课程入口](http://127.0.0.1:8760/)，选择一个案例。入口服务可以直接提供五个子目录的静态文件；单独运行案例的 server.mjs 则使用上表的独立端口。如果页面已经能打开，复用现有服务即可。\n\n课程不需要安装 Python 包或运行 npm install。本地已保存 Three.js、加载器、Draco 解码器、ECharts、模型、图像和字体。智慧能源右上天气仍来自外部服务；不能把整个项目称为完全离线。\n\n同一局域网的其他电脑可把地址中的 127.0.0.1 换成这台笔记本的实际 IP。服务器发送文件，访问端浏览器负责运行 JavaScript 和绘制三维画面；把代码放到 192.168.1.9 不会自动让网页使用服务器的 5090。\n\n## 3. 推荐的动手顺序\n\n1. 先看设备运维的 practice.html，认识单模型、相机、灯光和鼠标控制。它的模型约 2.20MB，比较适合第一次练习。\n2. 学 GMP，观察 GLB 内的多个节点、区域标签、相机按钮、动画，以及 DOM 面板如何叠在三维场景上。\n3. 学工业控制，比较两个模型的坐标，实际操作启动、停止与急停，理解 AnimationMixer 和 AnimationAction。\n4. 学绿色展厅，观察 HDR 环境和大型模型的加载成本，再理解漫游、重力、碰撞分别需要什么。\n5. 学智慧能源，区分数据大屏与三维场景，练习 NumberFlop、ECharts 数据绑定、iframe 尺寸和管线动画。\n\n每篇都有完整运行命令、原模板事实、完整可运行的 practice 示例、该案例的关键原理、练习、AI 提示词和排错方法。读完一节就改一个值并刷新验证，不必先读懂所有源码。\n\n## 4. 读代码前认识这些词\n\n| 名称 | 负责什么 | 新手常见误解 |\n|-|-|-|\n| HTML / CSS / JavaScript | 页面结构 / 外观 / 行为 | 只有一个 HTML 不等于没有依赖 |\n| Scene | 保存三维对象与灯光 | 加入场景不保证相机能看到 |\n| Object3D / Group / Mesh | 对象层级 / 分组 / 几何加材质 | 一个 GLB 可能包含很多 Mesh |\n| Camera | 决定从哪里看、看向哪里 | 相机位置和观察目标不能混为一谈 |\n| Renderer | 把场景绘制到 canvas | 它不会自动推进动画或碰撞 |\n| Material / Texture / Light | 表面规则 / 图像信息 / 光照 | 灯光、色彩空间和环境会一起影响材质 |\n| GLTFLoader / DRACOLoader | 读取 glTF / 解码压缩网格 | GLB 体积不等于显存用量 |\n| AnimationMixer / AnimationAction | 推进动画时间 / 控制一个动画 | 点“启动”必须真的启动动作 |\n| OrbitControls | 拖动、缩放、平移视角 | 它不会自动提供人物重力和碰撞 |\n| DOM / ECharts | 二维文字、表格与图表 | 外观像管道不代表它是三维模型 |\n\n## 5. 关于 AI 提示词的来源\n\n公开模板包含组件配置和素材，没有作者原始 AI 对话。因此每篇与 AI_PROMPT.md 提供的都是依据真实模板重新整理的复现提示词，不能称为提取出的原始提示词。\n\n让 AI 复现时，应一起提供 source/template.json、source/assets.json 和对应模型。文字提示能说明任务，原模型与配置才能约束几何、材质、组件位置和数据。要求 AI 在交付前说明验证了什么、还有什么未完成，不把截图相似或加载成功直接当成一模一样。\n\n## 6. 当前交付与尚未完成的部分\n\n旧的飞书课程文件夹已在本任务前序操作中删除。这六篇文档已放在用户指定知识库的 Three JS 节点下，不再使用旧文件夹地址。\n\n五个本地目录已保存原模板配置与素材，并有可运行页面、单项练习和基础练习。当前运行器仍有细节差异：GMP 部分材质与图表效果、工业与展厅的巡检人物和碰撞、设备运维初始展示以及部分装饰动画。各分篇末尾记录具体状态。完全一致的验收尚未完成，课程内容也不把未实现的内容写成已有功能。\n\n## 7. 排错时按这个顺序\n\n先确认地址和服务，再看页面加载提示与浏览器控制台，然后检查模型/纹理请求，再检查相机、灯光和组件数据。只有网络传输慢时才优先查网络；文件已传完但画面卡住时，应查访问端的关卡解码、图形编译、显卡和绘制负载。\n\n绿色展厅模型约 244MB，第一次加载与解码都更重。先只打开一个场景，避免同时运行多个大型标签。不要在没有看到加载进度和错误信息的情况下反复刷新。",
+      "document_id": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+      "revision_id": 5
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.78",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.78, run: lark-cli update"
+    }
+  }
+}

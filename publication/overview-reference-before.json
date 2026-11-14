@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"五个本地目录\"><p id=\"doxcngFG0MZVOCol1HDTq1W59Wc\">五个本地目录的完整入口已采用原站公开组件和原始模型、素材与配置，保留原版布局、视角、扫描效果、图表与游览。实测五页组件数为 30、22、1、18、69；工业动画启停与急停正常，展厅人物移动、重力与碰撞正常。原站组件来源与本地适配保存在 reference-runtime/SOURCE.md，压缩组件代码不是教程作者原创。practice.html、lesson.html 与 replica.html 保留为另写的学习实现，外观和交互经过简化。天气、时钟、滚动位置和动画阶段随时间变化；本地对照结果不等于“只靠 AI 提示词生成相同项目”的证明。</p></fragment>",
+      "document_id": "Sqvzda7k4o5DWdxZLIUcDoefnDh",
+      "revision_id": 6
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.78",
+      "latest": "1.0.100",
+      "message": "lark-cli 1.0.100 available, current 1.0.78, run: lark-cli update"
+    }
+  }
+}

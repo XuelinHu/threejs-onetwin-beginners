@@ -1,0 +1,30 @@
+{
+  "capturedAt": "2026-11-14T07:38:20.982Z",
+  "entries": {
+    "https://qiniu.wantonly-drag.com.cn/image/blog/16805952127428163.png": {
+      "file": "assets/f293f55d3bec0f6ca8.png",
+      "bytes": 1464472
+    },
+    "https://qiniu.wantonly-drag.com.cn/image/blog/1779288201000_17792882013334972.png": {
+      "file": "assets/1dd8bee5e4fb6a8575.png",
+      "bytes": 237575
+    },
+    "https://qiniu.wantonly-drag.com.cn/image/blog/16820470910574297.png": {
+      "file": "assets/e0a989e08dd59a8dd8.png",
+      "bytes": 2051
+    },
+    "https://qiniu.wantonly-drag.com.cn/image/blog/16820471044787936.png": {
+      "file": "assets/d35f8d59a86a2654b3.png",
+      "bytes": 1844
+    },
+    "https://qiniu.wantonly-drag.com.cn/image/blog/16820471207202736.png": {
+      "file": "assets/406017ea1279426f4a.png",
+      "bytes": 2309
+    },
+    "https://qiniu.wantonly-drag.com.cn/model/16719757054819227.gltf": {
+      "file": "assets/461fa7e098292971c5.gltf",
+      "bytes": 2200859
+    }
+  },
+  "failures": []
+}

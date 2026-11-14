@@ -1,0 +1,1 @@
+在完整入口的控制台查看 window.__referenceGlobals[0].actions，找到“自动产线1_Animation”；在 practice.html 中查看 window.practice.mixers。

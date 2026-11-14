@@ -1,0 +1,308 @@
+[
+  {
+    "path": "static/js/preview-DSx3_9zW.js",
+    "source": "https://onetwin.cn/static/js/preview-DSx3_9zW.js",
+    "bytes": 2971,
+    "sha256": "53030c911ca4194ecc00fc3858a139f988d8df8cfa0073002eb47aef975eaaae"
+  },
+  {
+    "path": "static/css/engine-CDl3NJKW.css",
+    "source": "https://onetwin.cn/static/css/engine-CDl3NJKW.css",
+    "bytes": 23542,
+    "sha256": "2224c28d4acb5ce4bae72b016ef8ac16095896d8bc6dda16789b09f285193fcd"
+  },
+  {
+    "path": "static/css/vendor-BA60lNdj.css",
+    "source": "https://onetwin.cn/static/css/vendor-BA60lNdj.css",
+    "bytes": 159983,
+    "sha256": "934e05c59c5bf73384851332f2b1343dec4cadadb9386ee9ad5465fc015dc9b1"
+  },
+  {
+    "path": "static/css/element-BiUU-i9G.css",
+    "source": "https://onetwin.cn/static/css/element-BiUU-i9G.css",
+    "bytes": 352079,
+    "sha256": "0295a97a20ec021dda77da56d3fa20bd6d0de9801e896951cb7835ed9c8b1f7b"
+  },
+  {
+    "path": "static/css/index-CvUZcz0N.css",
+    "source": "https://onetwin.cn/static/css/index-CvUZcz0N.css",
+    "bytes": 471042,
+    "sha256": "12aab5de3929be2e357c07d37260b5d17de9e495ec613f6251f095dcd6039486"
+  },
+  {
+    "path": "static/js/index-BPebULkk.js",
+    "source": "https://onetwin.cn/static/js/index-BPebULkk.js",
+    "bytes": 5054674,
+    "sha256": "cfaac7df97a8673f38f82367d69510264b410ecea29e69b9178403bbb3cc0576"
+  },
+  {
+    "path": "static/png/default_light-BrWlWg-H.png",
+    "source": "https://onetwin.cn/static/png/default_light-BrWlWg-H.png",
+    "bytes": 4670,
+    "sha256": "aa132c892095c81a7ed5e9dcee1543c414b9796841e04578bbd692db9e4144a7"
+  },
+  {
+    "path": "static/png/china_tintable_hc-CqOt0l0o.png",
+    "source": "https://onetwin.cn/static/png/china_tintable_hc-CqOt0l0o.png",
+    "bytes": 3574000,
+    "sha256": "bbc4fdd5e4cc170edc5436e2ee8552d1f42d5d54dfaac198d7088cec5a57e94c"
+  },
+  {
+    "path": "draco/gltf/draco_wasm_wrapper.js",
+    "source": "https://onetwin.cn/draco/gltf/draco_wasm_wrapper.js",
+    "bytes": 58572,
+    "sha256": "f3ab54e2feabfe8bd37928b5f400bc10230dcc278c7e70bca5e025f63519d960"
+  },
+  {
+    "path": "static/css/usePreviewScale-BlqaeDgW.css",
+    "source": "https://onetwin.cn/static/css/usePreviewScale-BlqaeDgW.css",
+    "bytes": 266,
+    "sha256": "76e6d5ed68266da0df5e4a50a6c574c6cb221af0788ff9225f1a1f6a3169f9d1"
+  },
+  {
+    "path": "static/css/preview-DhJv3FbM.css",
+    "source": "https://onetwin.cn/static/css/preview-DhJv3FbM.css",
+    "bytes": 471,
+    "sha256": "4249e5a1b27db2d67d0efa4dd745509ec8e15dfa89faeb61316f9c9dc15a8880"
+  },
+  {
+    "path": "draco/gltf/draco_decoder.js",
+    "source": "https://onetwin.cn/draco/gltf/draco_decoder.js",
+    "bytes": 512498,
+    "sha256": "a47cd7c84911c5175bb0511c01ba41ddafb71873fd391f055def514398f5e7c4"
+  },
+  {
+    "path": "draco/gltf/draco_decoder.wasm",
+    "source": "https://onetwin.cn/draco/gltf/draco_decoder.wasm",
+    "bytes": 192420,
+    "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+  },
+  {
+    "path": "man.glb",
+    "source": "https://onetwin.cn/man.glb",
+    "bytes": 1362196,
+    "sha256": "2b174db152a36bd238d252b93fe17cb6cb056b8a26cabb0cfbc78e84d22d118b"
+  },
+  {
+    "path": "man2.glb",
+    "source": "https://onetwin.cn/man2.glb",
+    "bytes": 5253352,
+    "sha256": "c720abea10b8802e4747186c6ef0b88bd4482c9cacb0269d1b7147d7b0e49191"
+  },
+  {
+    "path": "iframeJs/jquery.min.js",
+    "source": "https://onetwin.cn/iframeJs/jquery.min.js",
+    "bytes": 94843,
+    "sha256": "d72fcb8924d1e14dbd4b04aff994c1183ee86c620f0aaac034f75fc508548220"
+  },
+  {
+    "path": "iframeJs/echarts-gl.min.js",
+    "source": "https://onetwin.cn/iframeJs/echarts-gl.min.js",
+    "bytes": 612686,
+    "sha256": "cb9e189c0607937979b8ea42a06f5d6209bbdea9a693f9e8df0185783fac3b66"
+  },
+  {
+    "path": "iframeJs/echarts.min.js",
+    "source": "https://onetwin.cn/iframeJs/echarts.min.js",
+    "bytes": 1017029,
+    "sha256": "ae7bf3512b24145c9a53bd48de9236306a65e2a3fa1c5d69433b8d01bf776dfc"
+  },
+  {
+    "path": "static/js/VoiceControlOverlay-D1peJPay.js",
+    "source": "https://onetwin.cn/static/js/VoiceControlOverlay-D1peJPay.js",
+    "bytes": 7976,
+    "sha256": "f636c8741216baf975419045428a9b568911c36d460ab5a531be4e25fa671705"
+  },
+  {
+    "path": "static/js/utils-BwDIOElv.js",
+    "source": "https://onetwin.cn/static/js/utils-BwDIOElv.js",
+    "bytes": 92774,
+    "sha256": "9f382827fe478de83973b053243af082e7dcd80f9160da628b51718d63019914"
+  },
+  {
+    "path": "static/js/element-ChbSOb0T.js",
+    "source": "https://onetwin.cn/static/js/element-ChbSOb0T.js",
+    "bytes": 960966,
+    "sha256": "64998b7f74f3ff148af4cffe7d875b80189ce74dfa425e56e2b0a7785592b392"
+  },
+  {
+    "path": "static/js/echarts-CuN8fwmc.js",
+    "source": "https://onetwin.cn/static/js/echarts-CuN8fwmc.js",
+    "bytes": 1197886,
+    "sha256": "688a0f91bc5d068c276ed7a8c1fddb76240af9f45acc73a5d84e0877f0d7b543"
+  },
+  {
+    "path": "static/js/vendor-VF-Go5QS.js",
+    "source": "https://onetwin.cn/static/js/vendor-VF-Go5QS.js",
+    "bytes": 12354579,
+    "sha256": "d4960854fdc4b25a5ebb654522292b7ec09d09bbfb86eefd9869d2bfa8adfe68"
+  },
+  {
+    "path": "static/js/engine-Czo5jFvL.js",
+    "source": "https://onetwin.cn/static/js/engine-Czo5jFvL.js",
+    "bytes": 3497633,
+    "sha256": "944c3adc5004df079e791b1d1f2267c6349f66b5ba4630ec4626e7702718a846"
+  },
+  {
+    "path": "static/woff/iconfont-B2vIY-O9.woff",
+    "source": "https://onetwin.cn/static/woff/iconfont-B2vIY-O9.woff",
+    "bytes": 44004,
+    "sha256": "d35edd9c7b93506e8e948284f6b9a2bec25c0c48476a3dec6020cf937d2fdd7e"
+  },
+  {
+    "path": "static/ttf/iconfont-YBp2XHPh.ttf",
+    "source": "https://onetwin.cn/static/ttf/iconfont-YBp2XHPh.ttf",
+    "bytes": 74320,
+    "sha256": "3f15b8f60b585238d49690e366c976253a066d14593fecae35099cf971803eb8"
+  },
+  {
+    "path": "static/woff2/iconfont-BMFuqa7J.woff2",
+    "source": "https://onetwin.cn/static/woff2/iconfont-BMFuqa7J.woff2",
+    "bytes": 37480,
+    "sha256": "cf37b9889c7636ea9e6b8fa1dadc83024ea3c8f3eaf6b2446e0194c15f748fe0"
+  },
+  {
+    "path": "static/js/usePreviewData-bwshFBjT.js",
+    "source": "https://onetwin.cn/static/js/usePreviewData-bwshFBjT.js",
+    "bytes": 4043,
+    "sha256": "caecab2285c0ee9b2a553e83d8b890d49c48365ed4a517249b12c3c68e296845"
+  },
+  {
+    "path": "static/js/usePreviewScale-Djv4fxrG.js",
+    "source": "https://onetwin.cn/static/js/usePreviewScale-Djv4fxrG.js",
+    "bytes": 5821,
+    "sha256": "673b1368be58d4dde12764f20019c7fd3148342712e6aadc288e62d25cefe658"
+  },
+  {
+    "path": "static/js/PreviewReportOverlay-BqPhXaAY.js",
+    "source": "https://onetwin.cn/static/js/PreviewReportOverlay-BqPhXaAY.js",
+    "bytes": 2057,
+    "sha256": "4b6ceaafaf091696b4793684a56c65ab26351863c523f2ecdee5e61285f25f50"
+  },
+  {
+    "path": "static/woff2/Nabla_Regular-Daov2DUr.woff2",
+    "source": "https://onetwin.cn/static/woff2/Nabla_Regular-Daov2DUr.woff2",
+    "bytes": 183648,
+    "sha256": "51f454546feeea11180d92d1e94edaa954e9d6c4f4054e1ef7777cab52fd9c01"
+  },
+  {
+    "path": "image/componentUsed/chart2/icon_db02.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/icon_db02.png",
+    "bytes": 11552,
+    "sha256": "dd77f3e1ac1337b06c3598f18a0c34e3da0c7c8d51ae1b0649da48105e5c189c"
+  },
+  {
+    "path": "static/woff2/AlimamaFangYuanTiVF-Thin-DdtKdonJ.woff2",
+    "source": "https://onetwin.cn/static/woff2/AlimamaFangYuanTiVF-Thin-DdtKdonJ.woff2",
+    "bytes": 2409552,
+    "sha256": "e7a6c4a5f4c0f475709d244a61d090fe98b5010422d99559fc6db61c8e104208"
+  },
+  {
+    "path": "static/woff2/AlimamaDaoLiTi-CVyDAlov.woff2",
+    "source": "https://onetwin.cn/static/woff2/AlimamaDaoLiTi-CVyDAlov.woff2",
+    "bytes": 2624584,
+    "sha256": "85a8afa1a7503418575793effe55bd13d99b3d0f5a82fdb7e83ec1c4910a2efb"
+  },
+  {
+    "path": "static/ttf/SmileySans-Oblique-Bx74xnsN.ttf",
+    "source": "https://onetwin.cn/static/ttf/SmileySans-Oblique-Bx74xnsN.ttf",
+    "bytes": 2629764,
+    "sha256": "b447d7e781f08bc95c4c9f23ba71ed2b8ebb639aa7184485c71c4ca5afcd25c4"
+  },
+  {
+    "path": "static/woff2/AlimamaDongFangDaKai-Regular-B1eDqiZb.woff2",
+    "source": "https://onetwin.cn/static/woff2/AlimamaDongFangDaKai-Regular-B1eDqiZb.woff2",
+    "bytes": 2800524,
+    "sha256": "0a4c201ca1f371e617c006bf514c9dbe49383be28f34dbf3098fbe23ab6afb12"
+  },
+  {
+    "path": "image/componentUsed/chart2/whcircle.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/whcircle.png",
+    "bytes": 3676,
+    "sha256": "0bfc4303df983de385295dcfa2a1a7f4d045353b36b65394b558ef18b4345f9b"
+  },
+  {
+    "path": "image/componentUsed/chart2/icon_db03.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/icon_db03.png",
+    "bytes": 5093,
+    "sha256": "09489b50e9cf37e6acbdae16fcca117f0ee6cd73e00b89d0478212b49f9cdad5"
+  },
+  {
+    "path": "image/componentUsed/chart2/icon_db04.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/icon_db04.png",
+    "bytes": 2680,
+    "sha256": "20109e2761b6884368fba27c7c0b020499a7a10042d2166632eff6123355d2c7"
+  },
+  {
+    "path": "image/componentUsed/chart2/circle3.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/circle3.png",
+    "bytes": 4444,
+    "sha256": "2c3d826d63c098ab4e54f61c775fddaafcf3e27fec727b88e8e0eab10d0810f9"
+  },
+  {
+    "path": "image/componentUsed/chart2/inner.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/inner.png",
+    "bytes": 3652,
+    "sha256": "29d5f3a41e6910228d8a578d4653a0182314fc2b6f61c3a8cd38618862769ff5"
+  },
+  {
+    "path": "image/componentUsed/chart2/icon_db01.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/icon_db01.png",
+    "bytes": 2289,
+    "sha256": "b533cf4ecd1911d7ac8b4b72da0a8f1e71acbbbb2e9b2b862df7c5111e88c1f6"
+  },
+  {
+    "path": "image/componentUsed/chart2/online.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/online.png",
+    "bytes": 4378,
+    "sha256": "03256944b96a5188b52d6db01ce01bc6003b60494623d028f85be1a9dbf92aed"
+  },
+  {
+    "path": "static/gif/yujing-B9603S8n.gif",
+    "source": "https://onetwin.cn/static/gif/yujing-B9603S8n.gif",
+    "bytes": 49575,
+    "sha256": "dce0b5b025a41fad81bed5f9ff50ea94f69ac4b96fff94f8223dffcd206de8a1"
+  },
+  {
+    "path": "static/png/yujing-CA9pbal3.png",
+    "source": "https://onetwin.cn/static/png/yujing-CA9pbal3.png",
+    "bytes": 4116,
+    "sha256": "7bb37aaa9cff882f024f142e6c46f5f4dc9e67063adca1085830dd25bc34358d"
+  },
+  {
+    "path": "image/componentUsed/chart2/cir-1.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/cir-1.png",
+    "bytes": 701,
+    "sha256": "6b262088f5569dca4070e88e6af0e69b0f76d27a44d2fd731b7ad157ad9a7a94"
+  },
+  {
+    "path": "image/componentUsed/chart2/person-1.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/person-1.png",
+    "bytes": 1017,
+    "sha256": "2d02298925a6dd04884a34983efd67986239733f5ad8abfd0b5959424fd080fd"
+  },
+  {
+    "path": "image/componentUsed/chart2/cir-2.png",
+    "source": "https://onetwin.cn/image/componentUsed/chart2/cir-2.png",
+    "bytes": 682,
+    "sha256": "9e4589cb22f0998b96a873da6c670d3dc2190e090d15ba3f6c88e721e4f5372b"
+  },
+  {
+    "path": "static/js/socketPush-C4QpqkVm.js",
+    "source": "https://onetwin.cn/static/js/socketPush-C4QpqkVm.js",
+    "bytes": 129,
+    "sha256": "b5a19e2f70b41bb5096221be78f80cda3680c0bb69c3fa47c7b64851b9ec81a2"
+  },
+  {
+    "path": "static/js/visualList-C2d-APKQ.js",
+    "source": "https://onetwin.cn/static/js/visualList-C2d-APKQ.js",
+    "bytes": 2627,
+    "sha256": "567140e7960209a9b7fd693c7d636e6563f97f3efe3c0a93f8b15753e64d9470"
+  },
+  {
+    "path": "static/js/VoiceControlOverlay.vue_vue_type_style_index_0_scoped_a3c86cfa_lang-v_amTXi-.js",
+    "source": "https://onetwin.cn/static/js/VoiceControlOverlay.vue_vue_type_style_index_0_scoped_a3c86cfa_lang-v_amTXi-.js",
+    "bytes": 46268,
+    "sha256": "e86cd81e7f24665380f8f10b119784b70410d0f8fca94400869566da7c02e66e"
+  }
+]

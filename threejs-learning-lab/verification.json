@@ -1,0 +1,868 @@
+{
+  "verifiedAt": "2026-11-14T10:35:15.154Z",
+  "sourceChecks": 91,
+  "lessonRenders": 43,
+  "answerRenders": 43,
+  "results": {
+    "lessons": {
+      "tested": 43,
+      "reports": [
+        {
+          "id": "first-scene",
+          "status": "success",
+          "calls": 1,
+          "triangles": 12,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": "你好，Three.js！"
+        },
+        {
+          "id": "variables-properties",
+          "status": "success",
+          "calls": 2,
+          "triangles": 12,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": "设备 A，边长：1.3"
+        },
+        {
+          "id": "draw-circle",
+          "status": "success",
+          "calls": 1,
+          "triangles": 64,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "draw-box",
+          "status": "success",
+          "calls": 1,
+          "triangles": 12,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "functions-parameters",
+          "status": "success",
+          "calls": 3,
+          "triangles": 24,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "circle-and-sphere",
+          "status": "success",
+          "calls": 2,
+          "triangles": 1888,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": "左：平面圆　　右：立体球"
+        },
+        {
+          "id": "coordinates",
+          "status": "success",
+          "calls": 3,
+          "triangles": 12,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "rotation",
+          "status": "success",
+          "calls": 3,
+          "triangles": 12,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "scale",
+          "status": "success",
+          "calls": 3,
+          "triangles": 24,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "perspective-camera",
+          "status": "success",
+          "calls": 2,
+          "triangles": 12,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "arrays-loops",
+          "status": "success",
+          "calls": 4,
+          "triangles": 36,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": "设备数量：3"
+        },
+        {
+          "id": "orthographic-camera",
+          "status": "success",
+          "calls": 4,
+          "triangles": 36,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "orbit-controls",
+          "status": "success",
+          "calls": 2,
+          "triangles": 12,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "groups",
+          "status": "success",
+          "calls": 6,
+          "triangles": 60,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "materials",
+          "status": "success",
+          "calls": 2,
+          "triangles": 3680,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": "左：基础材质　　右：标准材质"
+        },
+        {
+          "id": "lights",
+          "status": "success",
+          "calls": 2,
+          "triangles": 1852,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "shadows",
+          "status": "success",
+          "calls": 2,
+          "triangles": 14,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "image-textures",
+          "status": "success",
+          "calls": 1,
+          "triangles": 12,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "uv-repeat",
+          "status": "success",
+          "calls": 1,
+          "triangles": 2,
+          "objects": 3,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "canvas-textures",
+          "status": "success",
+          "calls": 1,
+          "triangles": 2,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "animation",
+          "status": "success",
+          "calls": 1,
+          "triangles": 12,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "curve-motion",
+          "status": "success",
+          "calls": 2,
+          "triangles": 2120,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": ""
+        },
+        {
+          "id": "events-conditions",
+          "status": "success",
+          "calls": 1,
+          "triangles": 12,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": "启动旋转"
+        },
+        {
+          "id": "raycasting",
+          "status": "success",
+          "calls": 4,
+          "triangles": 36,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": "点击任意设备，观察状态颜色"
+        },
+        {
+          "id": "gltf-model",
+          "status": "success",
+          "calls": 4,
+          "triangles": 120,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": "模型已加载；可拖动鼠标观察"
+        },
+        {
+          "id": "loading-feedback",
+          "status": "success",
+          "calls": 4,
+          "triangles": 120,
+          "objects": 4,
+          "width": 1125,
+          "height": 323,
+          "overlay": "加载完成：可以开始观察模拟加载失败"
+        },
+        {
+          "id": "responsive",
+          "status": "success",
+          "calls": 1,
+          "triangles": 2880,
+          "objects": 1,
+          "width": 1125,
+          "height": 323,
+          "overlay": "调整预览区域大小，圆环应保持正确比例"
+        },
+        {
+          "id": "instancing",
+          "status": "success",
+          "calls": 2,
+          "triangles": 1200,
+          "objects": 2,
+          "width": 1125,
+          "height": 323,
+          "overlay": "实例：100　绘制调用：2　三角形：1200"
+        },
+        {
+          "id": "factory-layout",
+          "status": "success",
+          "calls": 12,
+          "triangles": 596,
+          "objects": 10,
+          "width": 1125,
+          "height": 323,
+          "overlay": "车间搭建 · 第 1 阶段拖动鼠标观察设备与空间布局"
+        },
+        {
+          "id": "factory-materials",
+          "status": "success",
+          "calls": 14,
+          "triangles": 692,
+          "objects": 12,
+          "width": 1125,
+          "height": 323,
+          "overlay": "车间搭建 · 第 2 阶段拖动鼠标观察设备与空间布局"
+        },
+        {
+          "id": "factory-status",
+          "status": "success",
+          "calls": 18,
+          "triangles": 700,
+          "objects": 16,
+          "width": 1125,
+          "height": 323,
+          "overlay": "教学车间 · 状态示例绿色标签：运行橙色标签：待维护状态为本地教学数据"
+        },
+        {
+          "id": "production-layout",
+          "status": "success",
+          "calls": 36,
+          "triangles": 1188,
+          "objects": 38,
+          "width": 1125,
+          "height": 323,
+          "overlay": "输送产线 · 第 1 阶段先完成空间布局，再加入动画"
+        },
+        {
+          "id": "production-motion",
+          "status": "success",
+          "calls": 36,
+          "triangles": 1188,
+          "objects": 38,
+          "width": 1125,
+          "height": 323,
+          "overlay": "输送产线 · 第 2 阶段货箱沿 x 轴移动；末端循环回到起点"
+        },
+        {
+          "id": "production-controls",
+          "status": "success",
+          "calls": 36,
+          "triangles": 1188,
+          "objects": 38,
+          "width": 1125,
+          "height": 323,
+          "overlay": "产线控制 · 教学模拟运行中启动 停止 复位"
+        },
+        {
+          "id": "exhibition-space",
+          "status": "success",
+          "calls": 11,
+          "triangles": 3242,
+          "objects": 13,
+          "width": 1125,
+          "height": 323,
+          "overlay": "绿色展厅 · 第 1 阶段鼠标拖动观察，滚轮调整距离"
+        },
+        {
+          "id": "exhibition-posters",
+          "status": "success",
+          "calls": 12,
+          "triangles": 3244,
+          "objects": 14,
+          "width": 1125,
+          "height": 323,
+          "overlay": "绿色展厅 · 第 2 阶段鼠标拖动观察，滚轮调整距离"
+        },
+        {
+          "id": "exhibition-walk",
+          "status": "success",
+          "calls": 12,
+          "triangles": 3244,
+          "objects": 14,
+          "width": 1125,
+          "height": 323,
+          "overlay": "展厅漫游先点击画面，再使用 W/A/S/D 移动← / → 转向基础版：只限制房间外边界，展台没有碰撞"
+        },
+        {
+          "id": "equipment-build",
+          "status": "success",
+          "calls": 28,
+          "triangles": 306,
+          "objects": 30,
+          "width": 1125,
+          "height": 323,
+          "overlay": "设备运维 · 第 1 阶段把设备外壳、底座、散热槽组合起来冷却设备 1：36℃冷却设备 2：43℃冷却设备 3：50℃温度为教学模拟数据"
+        },
+        {
+          "id": "equipment-pick",
+          "status": "success",
+          "calls": 28,
+          "triangles": 306,
+          "objects": 30,
+          "width": 1125,
+          "height": 323,
+          "overlay": "设备巡检点击设备主体查看信息"
+        },
+        {
+          "id": "equipment-status",
+          "status": "success",
+          "calls": 28,
+          "triangles": 306,
+          "objects": 30,
+          "width": 1125,
+          "height": 323,
+          "overlay": "设备巡检点击设备主体查看信息切换运行状态绿：正常 · 橙：高温 · 灰：停机温度与状态均为教学模拟数据"
+        },
+        {
+          "id": "energy-layout",
+          "status": "success",
+          "calls": 8,
+          "triangles": 66,
+          "objects": 10,
+          "width": 1125,
+          "height": 323,
+          "overlay": "智慧能源 · 第 1 阶段场景：供能站、光伏板、用能楼"
+        },
+        {
+          "id": "energy-flow",
+          "status": "success",
+          "calls": 17,
+          "triangles": 2178,
+          "objects": 19,
+          "width": 1125,
+          "height": 323,
+          "overlay": "智慧能源 · 第 2 阶段流动点沿曲线移动，表示能量传递方向"
+        },
+        {
+          "id": "energy-dashboard",
+          "status": "success",
+          "calls": 17,
+          "triangles": 2178,
+          "objects": 19,
+          "width": 1125,
+          "height": 323,
+          "overlay": "能源看板 · 教学模拟数据总功率 120.6 kW光伏 40.2 kW · 占比 33%绿色条表示光伏占比；数据按时间生成"
+        }
+      ],
+      "runtimeErrors": [],
+      "networkErrors": []
+    },
+    "answers": {
+      "tested": 43,
+      "reports": [
+        {
+          "id": "first-scene",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "variables-properties",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "draw-circle",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "draw-box",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "functions-parameters",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "circle-and-sphere",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "coordinates",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "rotation",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "scale",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "perspective-camera",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "arrays-loops",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "orthographic-camera",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "orbit-controls",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "groups",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "materials",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "lights",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "shadows",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "image-textures",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "uv-repeat",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "canvas-textures",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "animation",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "curve-motion",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "events-conditions",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "raycasting",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "gltf-model",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "loading-feedback",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "responsive",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "instancing",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "factory-layout",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "factory-materials",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "factory-status",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "production-layout",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "production-motion",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "production-controls",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "exhibition-space",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "exhibition-posters",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "exhibition-walk",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "equipment-build",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "equipment-pick",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "equipment-status",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "energy-layout",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "energy-flow",
+          "changed": true,
+          "state": "success",
+          "error": null
+        },
+        {
+          "id": "energy-dashboard",
+          "changed": true,
+          "state": "success",
+          "error": null
+        }
+      ],
+      "errors": []
+    },
+    "interactions": {
+      "checks": {
+        "lanAccess": true,
+        "search": {
+          "total": 43,
+          "filtered": 5
+        },
+        "editRun": {
+          "radius": 1.6,
+          "color": "f59e0b"
+        },
+        "persistence": true,
+        "help": true,
+        "syntaxError": "出现无法识别的符号 ';'。修改后点击“运行”，或用“重置”回到本课示例。",
+        "errorRecovery": true,
+        "productionStopped": true,
+        "productionStarted": true,
+        "productionReset": true,
+        "equipment": {
+          "selected": "冷却设备 2 · 43℃ · 运行",
+          "toggled": "冷却设备 2 · 43℃ · 停机"
+        },
+        "roaming": {
+          "before": [
+            0,
+            1.7,
+            4.8
+          ],
+          "after": [
+            0,
+            1.7,
+            3.8002499999999952
+          ]
+        },
+        "energyUpdates": true,
+        "loadingFeedback": true,
+        "download": "threejs-gltf-model.zip",
+        "mobileMenu": true,
+        "mobileSelection": true,
+        "noExternalRuntimeRequests": true
+      },
+      "errors": [],
+      "warnings": []
+    },
+    "export-mobile": {
+      "exportedModelRuns": true,
+      "mobileMenu": true,
+      "mobileSelection": true,
+      "mobileNoOverflow": true,
+      "responsiveCanvas": {
+        "canvas": [
+          375,
+          262
+        ],
+        "viewport": [
+          375,
+          262
+        ],
+        "aspect": 1.4312977099236641
+      }
+    },
+    "challenges": {
+      "reports": [
+        {
+          "id": "factory-status",
+          "scaffold": {
+            "meshes": 0,
+            "grid": true
+          },
+          "restored": true,
+          "referenceMeshes": 5
+        },
+        {
+          "id": "production-controls",
+          "scaffold": {
+            "meshes": 0,
+            "grid": true
+          },
+          "restored": true,
+          "referenceMeshes": 36
+        },
+        {
+          "id": "exhibition-walk",
+          "scaffold": {
+            "meshes": 0,
+            "grid": true
+          },
+          "restored": true,
+          "referenceMeshes": 11
+        },
+        {
+          "id": "equipment-status",
+          "scaffold": {
+            "meshes": 0,
+            "grid": true
+          },
+          "restored": true,
+          "referenceMeshes": 25
+        },
+        {
+          "id": "energy-dashboard",
+          "scaffold": {
+            "meshes": 0,
+            "grid": true
+          },
+          "restored": true,
+          "referenceMeshes": 14
+        }
+      ],
+      "errors": []
+    }
+  },
+  "server": {
+    "url": "http://192.168.1.9:8770/#first-scene",
+    "reports": [
+      {
+        "id": "first-scene",
+        "status": "success",
+        "triangles": 12
+      },
+      {
+        "id": "image-textures",
+        "status": "success",
+        "triangles": 12
+      },
+      {
+        "id": "gltf-model",
+        "status": "success",
+        "triangles": 120
+      },
+      {
+        "id": "factory-status",
+        "status": "success",
+        "triangles": 700
+      },
+      {
+        "id": "production-controls",
+        "status": "success",
+        "triangles": 1188
+      },
+      {
+        "id": "exhibition-walk",
+        "status": "success",
+        "triangles": 3244
+      },
+      {
+        "id": "equipment-status",
+        "status": "success",
+        "triangles": 306
+      },
+      {
+        "id": "energy-dashboard",
+        "status": "success",
+        "triangles": 2178
+      }
+    ],
+    "errors": [],
+    "external": []
+  },
+  "serverPath": "/home/xuelin/front/threejs-learning-lab"
+}
