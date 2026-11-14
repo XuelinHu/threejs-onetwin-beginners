@@ -2,18 +2,18 @@
 
 面向零基础学习者的独立互动教材。左侧为课程目录，右侧以运行预览为主；点击“查看代码”打开可编辑弹窗，讲解与练习按需展开。43 节课从画圆、方块、相机逐步进入五类综合练习。
 
-当前局域网入口：[http://192.168.1.9:8770/](http://192.168.1.9:8770/)。已部署到服务器 `/home/xuelin/front/threejs-learning-lab`，本地开发副本位于 `D:\workspace\front\threejs-onetwin-beginners\threejs-learning-lab`。部署说明见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+统一入口：[http://192.168.1.9:8760/](http://192.168.1.9:8760/)，从入口页可以在新窗口打开本学习工坊和五个综合案例。学习工坊直达地址仍为 [http://192.168.1.9:8760/threejs-learning-lab/](http://192.168.1.9:8760/threejs-learning-lab/)。服务器目录为 `/home/xuelin/front/threejs-onetwin-beginners/threejs-learning-lab`，本地开发副本位于 `D:\workspace\front\threejs-onetwin-beginners\threejs-learning-lab`。部署说明见 [DEPLOYMENT.md](DEPLOYMENT.md)。
 
 ## 启动
 
 需要已安装 Node.js 18 或更新版本，不需要安装 npm 或 Python 包。
 
 ```powershell
-cd 'D:\workspace\front\threejs-onetwin-beginners\threejs-learning-lab'
-npm start
+cd 'D:\workspace\front\threejs-onetwin-beginners'
+node server.mjs
 ```
 
-本机默认地址：http://127.0.0.1:8770/ 。服务监听 `0.0.0.0`；同一局域网设备使用这台电脑的实际 IP 和 8770 端口访问。更换端口可设置 `PORT` 环境变量。
+本机默认地址：http://127.0.0.1:8760/ 。服务监听 `0.0.0.0`；同一局域网设备使用这台电脑的实际 IP 和 8760 端口访问。更换端口可设置 `PORT` 环境变量。学习工坊也可以单独进入本目录运行 `npm start`，但统一入口只需要启动仓库根目录的一个 Node 服务。
 
 项目也可整体复制到任意静态 HTTP 服务，不需要旧案例目录、数据库、账号或外部 CDN。不能直接双击 HTML 使用，因为 JavaScript 模块和模型需要通过 HTTP 加载。
 

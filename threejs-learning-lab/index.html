@@ -56,7 +56,7 @@
       <section class="preview-panel panel" aria-labelledby="lesson-title">
         <header class="preview-header">
           <div class="lesson-heading"><div class="lesson-kicker"><span id="lesson-number">开始学习</span><span class="kicker-dot" aria-hidden="true"></span><span id="lesson-level" class="level-tag">入门</span><span id="lesson-duration" class="lesson-duration">约 5 分钟</span></div><h2 id="lesson-title">准备你的第一个场景</h2><p id="lesson-summary">选一节课，看看代码怎样变成眼前的画面。</p></div>
-          <div class="preview-actions"><div class="preview-live"><span class="live-dot" aria-hidden="true"></span><span id="preview-status">实时预览</span></div><button id="open-code" class="button code-open-button" type="button" aria-haspopup="dialog" aria-controls="code-dialog" aria-expanded="false"><span aria-hidden="true">&lt;/&gt;</span> 查看代码</button></div>
+          <div class="preview-actions"><div class="preview-live"><span class="live-dot" aria-hidden="true"></span><span id="preview-status">实时预览</span></div><button id="toggle-api" class="button api-open-button" type="button" aria-controls="api-panel" aria-expanded="false"><span aria-hidden="true">◎</span> 关键 API</button><button id="open-code" class="button code-open-button" type="button" aria-haspopup="dialog" aria-controls="code-dialog" aria-expanded="false"><span aria-hidden="true">&lt;/&gt;</span> 查看代码</button></div>
         </header>
         <div class="preview-stage">
           <iframe id="preview-frame" title="实时效果预览" allow="fullscreen" referrerpolicy="no-referrer"></iframe>
@@ -87,6 +87,10 @@
         <footer class="lesson-footer"><button id="prev-lesson" class="nav-button previous-button" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m12 4-6 6 6 6"/></svg><span>上一课</span></button><span class="footer-tip">点击“查看代码”动手修改，运行后查看效果。</span><div class="lesson-footer-actions"><button id="complete-lesson" class="button complete-button" type="button"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m4 10 4 4 8-8"/></svg><span>我学会了</span></button><button id="next-lesson" class="nav-button next-button" type="button"><span>下一课</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m8 4 6 6-6 6"/></svg></button></div></footer>
       </section>
     </main>
+    <aside id="api-panel" class="api-panel panel" aria-label="本课关键 API">
+      <header class="api-header"><div><p class="api-kicker">本课 API 速查</p><h2>关键调用与原理</h2></div><button id="close-api" class="icon-button api-close" type="button" aria-label="关闭关键 API"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+      <div class="api-scroll"><p id="api-summary" class="api-summary">选择一节课，这里会提取最值得先理解的调用。</p><section class="api-section"><h3>关键 API</h3><div id="api-list" class="api-list"></div></section><section class="api-section"><h3>参数怎么读</h3><div id="parameter-list" class="api-list"></div></section><section class="api-section"><h3>常见原理</h3><ul id="principle-list" class="api-bullets"></ul></section><section class="api-section"><h3>常用配置</h3><div id="config-list" class="api-list"></div></section></div>
+    </aside>
   </div>
 
   <dialog id="code-dialog" class="code-dialog" aria-labelledby="code-dialog-title">

@@ -1,6 +1,7 @@
 import foundations from './courses/foundations.js';
 import projects from './courses/projects.js';
 import {downloadLesson} from './download.js';
+import {getApiGuide} from './api-guide.js';
 
 const lessons=[...foundations,...projects];
 const $=id=>document.getElementById(id);
@@ -92,6 +93,12 @@ function setTab(name){
   $('lesson-panel').hidden=name!=='lesson';$('exercise-panel').hidden=!exercise;
   for(const [id,selected]of [['lesson-tab',name==='lesson'],['exercise-tab',exercise]]){$(id).setAttribute('aria-selected',String(selected));$(id).setAttribute('aria-expanded',String(selected));$(id).classList.toggle('active',selected);}
 }
+function renderGuideList(id,items){
+  $(id).replaceChildren(...items.map(([name,value,description])=>{const item=document.createElement('article');item.className='api-item';const title=document.createElement('div');title.className='api-item-title';const nameElement=document.createElement('code');nameElement.textContent=name;const valueElement=document.createElement('span');valueElement.textContent=value;title.append(nameElement,valueElement);const detail=document.createElement('p');detail.textContent=description;item.append(title,detail);return item;}));
+}
+function renderApiGuide(){
+  const guide=getApiGuide(current);$('api-summary').textContent=guide.summary;renderGuideList('api-list',guide.apis);renderGuideList('parameter-list',guide.parameters);renderGuideList('config-list',guide.config);$('principle-list').replaceChildren(...guide.principles.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+}
 function paragraphs(element,texts){element.replaceChildren(...texts.map(text=>{const p=document.createElement('p');p.textContent=text;return p;}));}
 function getPrompt(){return`我正在从零学习 Three.js，目前学习“${current.title}”。\n学习目标：${current.goals.join('；')}。\n当前练习：${challengeActive?current.challenge.brief:current.exercise.task}\n请先用初学者能理解的中文解释这个知识点，再分步提示我修改下面的代码。先给提示，等我尝试后再提供完整答案。不要使用其他项目、电脑绝对路径或额外框架。\n\n我的代码：\n${editor.value}`;}
 async function copyPrompt(){
@@ -112,7 +119,7 @@ function selectLesson(id,{scroll=false}={}){
   $('lesson-level').textContent=lesson.level;$('lesson-duration').textContent=`约 ${lesson.minutes} 分钟`;
   $('lesson-goals').replaceChildren(...lesson.goals.map(goal=>{const li=document.createElement('li');li.textContent=goal;return li;}));
   paragraphs($('lesson-explanation'),lesson.explanation);
-  renderExercise();renderChallenge();
+  renderExercise();renderChallenge();renderApiGuide();
   editor.value=typeof saved.drafts[id]==='string'?saved.drafts[id]:lesson.code;
   editor.scrollTop=0;editor.scrollLeft=0;paintCode();setTab(null);
   $('prev-lesson').disabled=index===0;$('next-lesson').disabled=index===lessons.length-1;
@@ -166,6 +173,7 @@ window.addEventListener('message',event=>{
   }
 });
 function closeSidebar(){document.body.classList.remove('sidebar-open');$('sidebar').classList.remove('open');$('menu-toggle').setAttribute('aria-expanded','false');}
+function closeApi(){document.body.classList.remove('api-open');$('api-panel').classList.remove('open');$('toggle-api').setAttribute('aria-expanded','false');}
 editor.addEventListener('input',()=>{paintCode();clearTimeout(saveTimer);saveTimer=setTimeout(persist,300);});
 editor.addEventListener('scroll',syncScroll);
 editor.addEventListener('keydown',event=>{
@@ -175,6 +183,8 @@ document.addEventListener('keydown',event=>{if((event.ctrlKey||event.metaKey)&&e
 $('course-search').addEventListener('input',renderNavigation);
 $('run-code').addEventListener('click',()=>runPreview({closeEditor:true}));
 $('open-code').addEventListener('click',openCode);
+$('toggle-api').addEventListener('click',()=>{const open=!document.body.classList.contains('api-open');document.body.classList.toggle('api-open',open);$('api-panel').classList.toggle('open',open);$('toggle-api').setAttribute('aria-expanded',String(open));});
+$('close-api').addEventListener('click',closeApi);
 $('close-code').addEventListener('click',closeCode);
 $('finish-code').addEventListener('click',closeCode);
 codeDialog.addEventListener('close',()=>{persist();$('open-code').setAttribute('aria-expanded','false');$('open-code').focus({preventScroll:true});});

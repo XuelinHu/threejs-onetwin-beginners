@@ -1,11 +1,12 @@
 # 当前部署
 
-- 局域网入口：http://192.168.1.9:8770/
-- 服务器目录：`/home/xuelin/front/threejs-learning-lab`
+- 统一局域网入口：http://192.168.1.9:8760/
+- 学习工坊直达：http://192.168.1.9:8760/threejs-learning-lab/
+- 服务器目录：`/home/xuelin/front/threejs-onetwin-beginners/threejs-learning-lab`
 - 本地开发目录：`D:\workspace\front\threejs-onetwin-beginners\threejs-learning-lab`
-- 服务器进程：PM2 `threejs-learning-lab`，监听 `0.0.0.0:8770`，已保存 PM2 进程配置。
+- 服务器进程：PM2 `threejs-onetwin-beginners`，监听 `0.0.0.0:8760`，统一提供入口页、五个案例和学习工坊。
 - 使用服务器现有 Node.js v24.14.1，没有安装新软件包。
-- 当前笔记本也运行了一份开发服务：http://127.0.0.1:8770/ 。从服务器访问笔记本 `192.168.1.5:8770` 的测试超时，因此局域网主入口使用上面的 1.9 地址。
+- 当前笔记本开发入口：http://127.0.0.1:8760/ 。从服务器访问笔记本的测试不作为局域网入口，因此使用上面的 1.9 地址。
 
 整个文件夹可以单独复制、通过静态 HTTP 服务运行；以上机器地址只出现在部署说明中，课程运行代码不绑定这些地址。
 
@@ -32,10 +33,10 @@
 
 ```bash
 export PATH=/home/xuelin/.nvm/versions/node/v24.14.1/bin:$PATH
-pm2 status threejs-learning-lab
-pm2 logs threejs-learning-lab --lines 30 --nostream
+pm2 status threejs-onetwin-beginners
+pm2 logs threejs-onetwin-beginners --lines 30 --nostream
 ```
 
-修改静态网页、课程和素材后刷新浏览器即可，通常不需要重启。修改 `server.mjs` 后再运行 `pm2 restart threejs-learning-lab`。
+修改静态网页、课程和素材后刷新浏览器即可，通常不需要重启。修改根目录 `server.mjs` 后再运行 `pm2 restart threejs-onetwin-beginners`。
 
 综合项目为原创教学简化场景，使用模拟数据；学习进度只存在访问者自己的浏览器里。
