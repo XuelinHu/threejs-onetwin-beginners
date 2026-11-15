@@ -99,6 +99,8 @@ http://192.168.1.9:8760/
 - `runtime/assets/audio/short-beep.ogg`：设备启动/停止提示，CC0 1.0。
 - `runtime/assets/audio/footsteps.ogg`：脚步，CC BY-SA 4.0。
 
+设备持续运行声、电机声和能源流动声由浏览器使用 Web Audio API 在本地合成，不连接在线音频服务。按钮提示与脚步使用上面的本地音频文件。
+
 来源和许可见 [`runtime/assets/audio/ATTRIBUTION.md`](../runtime/assets/audio/ATTRIBUTION.md)。五个案例目录也各自保留了一份音效文件和归属说明，便于单独运行。音频文件加载失败时，`runtime/audio.mjs` 会退回 Web Audio API 生成短音效，页面仍然可以学习和操作。
 
 修改共享音效模块或替换音频文件后，在仓库根目录同步到五个案例：
@@ -119,10 +121,21 @@ node tools/sync-audio.mjs
 
 以绿色展厅为例：
 
-1. 打开 `03-green-exhibition-hall/replica.html`，点击“游览”。
+1. 打开[绿色展厅完整案例](../03-green-exhibition-hall/)，等待模型和人物加载，进入“游览”。
 2. 点击画布让它获得焦点，再按 `W/A/S/D` 漫游。
 3. 阅读 `runtime/audio.mjs` 中人物位置与移动状态的判断，观察人物停止或碰到边界时声音如何停止。
 4. 将脚步文件替换为自己的合法音效，并同步更新 `ATTRIBUTION.md`。
+
+想在自己的交互中触发声音，可以参考共享接口。先在页面点击“启用音效”，再在自己的 JavaScript 事件里调用：
+
+```javascript
+// 播放设备启动提示。
+window.__onetwinAudio.play('machine-start');
+// 将音量设为 25%。
+window.__onetwinAudio.setVolume(0.25);
+// 静音；传入 false 可以恢复。
+window.__onetwinAudio.setMuted(true);
+```
 
 ## 7. 继续做五个独立项目
 

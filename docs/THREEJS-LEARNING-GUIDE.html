@@ -61,6 +61,7 @@ git lfs pull</code></pre></figure>
 <p>浏览器必须先收到一次用户点击或键盘操作，才能允许网页发声。音量和静音状态会保存到浏览器本地存储。统一入口的所有页面共用 <code>8760</code> 这个来源；如果单独在某个案例目录启动服务，该案例会保存自己的音量设置。</p>
 <p>音效已经下载到项目本地，不依赖运行时外网：</p>
 <ul><li><code>runtime/assets/audio/clicker-sound.ogg</code>：按钮点击，CC0 1.0。</li><li><code>runtime/assets/audio/short-beep.ogg</code>：设备启动/停止提示，CC0 1.0。</li><li><code>runtime/assets/audio/footsteps.ogg</code>：脚步，CC BY-SA 4.0。</li></ul>
+<p>设备持续运行声、电机声和能源流动声由浏览器使用 Web Audio API 在本地合成，不连接在线音频服务。按钮提示与脚步使用上面的本地音频文件。</p>
 <p>来源和许可见 <a href="../runtime/assets/audio/ATTRIBUTION.md"><code>runtime/assets/audio/ATTRIBUTION.md</code></a>。五个案例目录也各自保留了一份音效文件和归属说明，便于单独运行。音频文件加载失败时，<code>runtime/audio.mjs</code> 会退回 Web Audio API 生成短音效，页面仍然可以学习和操作。</p>
 <p>修改共享音效模块或替换音频文件后，在仓库根目录同步到五个案例：</p>
 <figure class="code-block"><figcaption>powershell · 1 行</figcaption><pre><code class="language-powershell">node tools/sync-audio.mjs</code></pre></figure>
@@ -68,7 +69,14 @@ git lfs pull</code></pre></figure>
 <p>以工业控制为例：</p>
 <ol><li>打开 <code>02-industrial-control/replica.html</code>。</li><li>在页面中点击“启动”和“停止”，观察模型动画和音效变化。</li><li>打开 <code>02-industrial-control/replica.mjs</code>，找到 <code>applyAction</code> 和按钮生成部分。</li><li>找到 <code>runtime/audio.mjs</code> 中的 <code>classify</code> 和 <code>FILES</code>，给一个新按钮增加自己的音效分类。</li><li>重新刷新页面，检查按钮文字、动画状态和音效是否一致。</li></ol>
 <p>以绿色展厅为例：</p>
-<ol><li>打开 <code>03-green-exhibition-hall/replica.html</code>，点击“游览”。</li><li>点击画布让它获得焦点，再按 <code>W/A/S/D</code> 漫游。</li><li>阅读 <code>runtime/audio.mjs</code> 中人物位置与移动状态的判断，观察人物停止或碰到边界时声音如何停止。</li><li>将脚步文件替换为自己的合法音效，并同步更新 <code>ATTRIBUTION.md</code>。</li></ol>
+<ol><li>打开<a href="../03-green-exhibition-hall/">绿色展厅完整案例</a>，等待模型和人物加载，进入“游览”。</li><li>点击画布让它获得焦点，再按 <code>W/A/S/D</code> 漫游。</li><li>阅读 <code>runtime/audio.mjs</code> 中人物位置与移动状态的判断，观察人物停止或碰到边界时声音如何停止。</li><li>将脚步文件替换为自己的合法音效，并同步更新 <code>ATTRIBUTION.md</code>。</li></ol>
+<p>想在自己的交互中触发声音，可以参考共享接口。先在页面点击“启用音效”，再在自己的 JavaScript 事件里调用：</p>
+<figure class="code-block"><figcaption>javascript · 6 行</figcaption><pre><code class="language-javascript">// 播放设备启动提示。
+window.__onetwinAudio.play(&#39;machine-start&#39;);
+// 将音量设为 25%。
+window.__onetwinAudio.setVolume(0.25);
+// 静音；传入 false 可以恢复。
+window.__onetwinAudio.setMuted(true);</code></pre></figure>
 <h2 id="section-7">7. 继续做五个独立项目</h2>
 <p>每个案例目录都可以作为独立学习单元，先打开教程，再进入练习：</p>
 <div class="table-scroll" tabindex="0" role="region" aria-label="教程、完整案例、单项练习"><table><thead><tr><th scope="col">教程</th><th scope="col">完整案例</th><th scope="col">单项练习</th></tr></thead><tbody><tr><td><a href="../blog/01-gmp-pharmaceutical.html">GMP 制药车间教程</a></td><td><a href="../01-gmp-pharmaceutical/">打开制药车间</a></td><td><a href="../01-gmp-pharmaceutical/practice.html">模型、相机与动画</a></td></tr><tr><td><a href="../blog/02-industrial-control.html">工业控制教程</a></td><td><a href="../02-industrial-control/">打开工业控制</a></td><td><a href="../02-industrial-control/practice.html">产线模型</a></td></tr><tr><td><a href="../blog/03-green-exhibition-hall.html">绿色展厅教程</a></td><td><a href="../03-green-exhibition-hall/">打开绿色展厅</a></td><td><a href="../03-green-exhibition-hall/practice.html">模型与环境</a></td></tr><tr><td><a href="../blog/04-equipment-operations.html">设备运维教程</a></td><td><a href="../04-equipment-operations/">打开设备运维</a></td><td><a href="../04-equipment-operations/practice.html">单模型取景</a></td></tr><tr><td><a href="../blog/05-smart-energy.html">智慧能源教程</a></td><td><a href="../05-smart-energy/">打开智慧能源</a></td><td><a href="../05-smart-energy/practice.html">趋势图数据绑定</a></td></tr></tbody></table></div>

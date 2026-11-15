@@ -29,3 +29,4 @@ for(const folder of folders) {
   if(process.argv.includes('--activate')) await copyFile(join(target,'reference.html'),join(target,'index.html'));
   console.log(`${folder}: 原版组件对照页面已生成${process.argv.includes('--activate')?'并设为入口':''}`);
 }
+await import('./sync-audio.mjs');

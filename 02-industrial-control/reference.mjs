@@ -31,6 +31,8 @@ try {
     if (Array.isArray(value)) return value.map(rewrite);
     if (value && typeof value === 'object') {
       const result = Object.fromEntries(Object.entries(value).map(([key, item]) => [key, rewrite(item)]));
+      // 旧配置的音频只映射到随项目分发的本地文件，避免请求原站。
+      if (result.audio?.url) result.audio.url = new URL('assets/audio/short-beep.ogg', base).href;
       // 旧模板把 play 写作 paly，新版运行库读取 play；兼容已有动画按钮。
       if (Array.isArray(result.paly) && !Array.isArray(result.play)) result.play = result.paly;
       return result;
