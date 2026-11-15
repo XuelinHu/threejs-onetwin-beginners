@@ -32,3 +32,5 @@ node server.mjs
 完整入口使用原站公开组件、原始配置与素材；可读教学实现另存于 practice.mjs、lesson.html 和 replica.mjs。来源、校验与适配见 reference-runtime/SOURCE.md。公开模板没有原始 AI 对话，AI_PROMPT.md 是依据模板重新整理的提示词。
 
 维护公共运行器时编辑 `runtime/`，再运行 `node tools/build-replicas.mjs`；该命令会覆盖各目录生成的运行文件。更新教程运行 `node tools/write-guides.mjs`。
+
+学生从克隆到本地运行、局域网访问、学习顺序和音效替换，请阅读 [`docs/THREEJS-LEARNING-GUIDE.md`](docs/THREEJS-LEARNING-GUIDE.md)。音效文件和许可说明位于 `runtime/assets/audio/`。
