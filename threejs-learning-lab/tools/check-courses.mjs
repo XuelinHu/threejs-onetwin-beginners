@@ -4,7 +4,7 @@ import {spawnSync} from 'node:child_process';
 import {readFile,stat} from 'node:fs/promises';
 
 const lessons=[...foundations,...projects],ids=new Set();
-let sources=0;
+let sources=0,annotatedLines=0;
 for(const lesson of lessons){
   if(ids.has(lesson.id))throw new Error(`课程 ID 重复：${lesson.id}`);ids.add(lesson.id);
   for(const field of ['title','chapter','summary','code'])if(typeof lesson[field]!=='string'||!lesson[field].trim())throw new Error(`${lesson.id} 缺少 ${field}`);
@@ -20,16 +20,23 @@ for(const lesson of lessons){
     if(/192\.168\.|[A-Z]:\\|onetwin|reference-runtime|https?:\/\//i.test(code))throw new Error(`${lesson.id} 引用项目以外的运行资源`);
     const check=spawnSync(process.execPath,['--input-type=module','--check'],{input:code,encoding:'utf8'});
     if(check.status!==0)throw new Error(`${lesson.id} ${kind}语法错误：${check.stderr}`);
+    for(const [index,line]of code.split('\n').entries()){
+      if(!line.trim()||line.trim().startsWith('//'))continue;
+      // 字符串里的中文与 // 不是注释；只统计真实的行末中文说明。
+      const statement=line.replace(/'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|`(?:\\.|[^`\\])*`/g,'""');
+      if(!/\/\/.*[\u4e00-\u9fff]/.test(statement))throw new Error(`${lesson.id} ${kind}第 ${index+1} 行缺少中文注释：${line}`);
+      annotatedLines++;
+    }
     for(const match of code.matchAll(/['"](assets\/[^'"]+)['"]/g))await stat(new URL('../'+match[1],import.meta.url));
     sources++;
   }
   if(lesson.solutionCode===lesson.code)throw new Error(`${lesson.id} 参考答案没有体现练习变化`);
 }
-for(const path of ['index.html','app.js','preview.js','download.js','server.mjs']){
+for(const path of ['index.html','app.js','preview.js','download.js','draft-upgrade.js','server.mjs']){
   const code=await readFile(new URL('../'+path,import.meta.url),'utf8');
   if(path.endsWith('.js')||path.endsWith('.mjs')){
     const check=spawnSync(process.execPath,['--input-type=module','--check'],{input:code,encoding:'utf8'});
     if(check.status!==0)throw new Error(`${path}: ${check.stderr}`);
   }
 }
-console.log(`通过：${foundations.length} 节基础课、${projects.length} 节综合课，${sources} 份示例、答案与挑战源码；依赖和素材均为项目内相对路径。`);
+console.log(`通过：${foundations.length} 节基础课、${projects.length} 节综合课，${sources} 份示例、答案与挑战源码、${annotatedLines} 行中文注释；语法、依赖和本地素材检查通过。`);

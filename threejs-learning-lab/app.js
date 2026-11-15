@@ -2,6 +2,7 @@ import foundations from './courses/foundations.js';
 import projects from './courses/projects.js';
 import {downloadLesson} from './download.js';
 import {getApiGuide} from './api-guide.js';
+import {upgradeAnnotatedDrafts} from './draft-upgrade.js';
 
 const lessons=[...foundations,...projects];
 const $=id=>document.getElementById(id);
@@ -10,6 +11,7 @@ const codeDialog=$('code-dialog');
 const storageKey='threejs-learning-lab:v1';
 let saved={drafts:{},modes:{},completed:[],lessonId:lessons[0].id};
 try{const value=JSON.parse(localStorage.getItem(storageKey)||'null');if(value&&typeof value==='object')saved={...saved,...value,drafts:value.drafts&&typeof value.drafts==='object'?value.drafts:{},modes:value.modes&&typeof value.modes==='object'?value.modes:{},completed:Array.isArray(value.completed)?value.completed:[]};}catch{/* 禁用存储时课程仍然可以运行。 */}
+upgradeAnnotatedDrafts(lessons,saved.drafts);
 let current,runToken='',runCode='',saveTimer,toastTimer,runTimeout,challengeActive=false;
 let storageWarned=false;
 let activeTab=null,returnToPreview=false;

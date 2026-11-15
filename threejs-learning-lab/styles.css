@@ -155,6 +155,7 @@ a{color:inherit}
 .token.string,.tok-string{color:#b9c99b}
 .token.number,.tok-number{color:#deb888}
 .token.comment,.tok-comment{color:#6f8b86;font-style:normal}
+.code-dialog .token.comment{color:#bdd5c9}
 .token.function,.tok-function{color:#dccd9e}
 .token.operator,.tok-operator{color:#a8b9bb}
 .token.punctuation,.tok-punctuation{color:#849aa0}

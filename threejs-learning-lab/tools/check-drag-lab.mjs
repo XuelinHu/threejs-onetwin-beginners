@@ -55,7 +55,7 @@ function executeExport(objects) {
     devicePixelRatio:1,innerWidth:960,innerHeight:640,
     ResizeObserver:class {observe() {}},requestAnimationFrame() {},nameExecuted:false,
   };
-  const code = sceneToCode(objects).replace(/^import .+;$/gm,'');
+  const code = sceneToCode(objects).replace(/^import [^\r\n]+$/gm,'');
   runInNewContext(code,sandbox,{timeout:1000});
   assert.ok(renderedScene?.isScene,'导出源码应可建立并渲染 Three.js 场景');
   assert.equal(sandbox.nameExecuted,false,'组件名称必须作为文本保留，不能执行其中的语句');
@@ -96,9 +96,18 @@ const namedScene = executeExport(specialObjects);
 for(const name of specialNames)assert.ok(namedScene.getObjectByName(name),'特殊名称在导出后应保持原样');
 
 const variants = [...Object.entries(PRESETS).map(([name,preset])=>[name,preset.objects]),['全部组件',allTypes],['特殊名称',specialObjects],['空场景',[]]];
+let annotatedLines = 0;
 for(const [name,objects] of variants){
-  const check = spawnSync(process.execPath,['--input-type=module','--check'],{input:sceneToCode(objects),encoding:'utf8'});
+  const code = sceneToCode(objects);
+  const check = spawnSync(process.execPath,['--input-type=module','--check'],{input:code,encoding:'utf8'});
   assert.equal(check.status,0,`${name} 的导出源码语法错误：${check.stderr||check.error||''}`);
+  for(const [index,line] of code.split('\n').entries()){
+    if(!line.trim()||line.trim().startsWith('//'))continue;
+    // 名称与颜色等字符串中的中文不算代码注释，先移除字符串再检查真实的行末说明。
+    const statement = line.replace(/'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"/g,'""');
+    assert.match(statement,/\/\/.*[\u4e00-\u9fff]/,`${name} 第 ${index+1} 行缺少中文注释`);
+    annotatedLines++;
+  }
   assert.deepEqual(normalizeScene(JSON.parse(JSON.stringify(scene(objects)))),scene(objects),`${name} 场景往返参数不一致`);
 }
-console.log(`通过：${Object.keys(PRESETS).length} 个拖拽练习模板、${CATALOG.length} 种组件，${variants.length} 份导出源码；场景校验、参数往返和名称文本安全检查通过。`);
+console.log(`通过：${Object.keys(PRESETS).length} 个拖拽练习模板、${CATALOG.length} 种组件，${variants.length} 份导出源码、${annotatedLines} 行中文注释；场景校验、参数往返和名称文本安全检查通过。`);

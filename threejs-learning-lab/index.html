@@ -95,7 +95,7 @@
   </div>
 
   <dialog id="code-dialog" class="code-dialog" aria-labelledby="code-dialog-title">
-    <header class="code-dialog-header"><div><p class="code-dialog-kicker">本课代码 · 可编辑</p><h2 id="code-dialog-title">课程代码</h2></div><button id="close-code" class="icon-button" type="button" aria-label="关闭代码弹窗" title="关闭（Esc）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
+    <header class="code-dialog-header"><div><p class="code-dialog-kicker">逐行中文注释 · 参数顺序、单位与作用 · 可编辑</p><h2 id="code-dialog-title">课程代码</h2></div><button id="close-code" class="icon-button" type="button" aria-label="关闭代码弹窗" title="关闭（Esc）"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></header>
         <div class="code-toolbar">
           <div class="file-tab"><span class="js-icon" aria-hidden="true">JS</span><span>main.js</span><span class="file-edit-label">可编辑</span></div>
           <div class="code-actions"><span id="editor-status" class="editor-status" role="status">修改代码后，点击运行</span><button id="reset-code" class="icon-button reset-button" type="button" aria-label="重置本课代码" title="重置本课代码"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10a8.5 8.5 0 1 1 2 8M3 4v7h7"/></svg></button><button id="run-code" class="button run-button" type="button" title="运行代码（Ctrl + Enter）"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 3 10 7-10 7Z"/></svg><span>运行并查看效果</span><kbd>Ctrl ↵</kbd></button></div>
@@ -105,7 +105,7 @@
           <div class="code-area"><pre id="code-highlight" class="code-highlight" aria-hidden="true" tabindex="-1"></pre><textarea id="editor" class="code-editor" spellcheck="false" aria-label="JavaScript代码编辑器" autocapitalize="off" autocomplete="off" autocorrect="off" wrap="off"></textarea></div>
         </div>
         <div id="error-panel" class="error-panel" role="alert" hidden></div>
-    <footer class="code-dialog-footer"><p>修改会自动保存；点击“运行并查看效果”返回预览。也可按 Ctrl + Enter 运行。</p><button id="finish-code" class="button" type="button">关闭弹窗</button></footer>
+    <footer class="code-dialog-footer"><p>修改会自动保存；Ctrl + Enter 运行。旧练习保留你的修改，可点击上方重置按钮载入最新注释示例。</p><button id="finish-code" class="button" type="button">关闭弹窗</button></footer>
   </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
   <script type="module" src="./app.js"></script>
