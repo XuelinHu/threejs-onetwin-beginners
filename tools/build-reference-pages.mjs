@@ -25,7 +25,7 @@ for(const folder of folders) {
   const target=join(root,folder);
   await mkdir(join(target,'reference-runtime'),{recursive:true});
   await mirror(join(root,'reference-runtime'),join(target,'reference-runtime'));
-  for(const name of ['reference.html','reference.mjs']) await copyFile(join(root,'runtime',name),join(target,name));
+  for(const name of ['reference.html','reference.mjs','view-navigation.mjs']) await copyFile(join(root,'runtime',name),join(target,name));
   if(process.argv.includes('--activate')) await copyFile(join(target,'reference.html'),join(target,'index.html'));
   console.log(`${folder}: 原版组件对照页面已生成${process.argv.includes('--activate')?'并设为入口':''}`);
 }

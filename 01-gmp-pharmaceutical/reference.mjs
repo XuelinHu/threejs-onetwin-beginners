@@ -1,6 +1,7 @@
 // 使用原站公开组件进行对照；可读的 Three.js 教学实现见 practice.mjs。
 import { configureLocalApp, createLocalApp, localVNode as h, localRef as ref, A as editorStore, O as threeStore } from './reference-runtime/static/js/index-local.js';
 import { P as PreviewCanvas } from './reference-runtime/static/js/usePreviewScale-Djv4fxrG.js';
+import { watchReferenceViews } from './view-navigation.mjs';
 
 const status = document.querySelector('#reference-status');
 const diagnostics = { errors: [], warnings: [], components: 0 };
@@ -68,6 +69,11 @@ try {
       });
     },
   }));
+  const modelViewers = new Set();
+  app.mixin({
+    mounted() { if (/^model-/.test(this.$options.name || '')) modelViewers.add(this); },
+    unmounted() { modelViewers.delete(this); },
+  });
   app.config.errorHandler = error => {
     diagnostics.errors.push(error.message);
     console.error(error);
@@ -75,6 +81,7 @@ try {
     status.textContent = `组件错误：${error.message}`;
   };
   app.mount('#app');
+  watchReferenceViews(modelViewers);
   diagnostics.components = data.canvasData.length;
   status.hidden = true;
   document.documentElement.dataset.ready = 'true';
