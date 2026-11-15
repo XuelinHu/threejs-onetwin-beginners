@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="从第一节课到五个案例，每一步都有入口、任务与完成标准。">
+  <title>Three.js 新手学习路线 · Three.js 学习手册</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../blog/tutorial.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到教程正文</a>
+  <header class="site-header"><a class="brand" href="../">Three.js 学习手册</a><nav aria-label="快捷入口"><a href="../threejs-learning-lab/#first-scene">互动课堂</a><a href="../threejs-learning-lab/drag-lab/">拖拽搭建</a><a href="../">课程首页</a></nav></header>
+  <div class="reader-layout">
+    <aside class="course-sidebar"><p class="eyebrow">从零开始 · 逐步实践</p><h2>教程目录</h2><nav aria-label="教程目录"><a href="../blog/00-学习路线总览.html" aria-current="page">学习路线</a>
+<a href="../docs/THREEJS-LEARNING-GUIDE.html">克隆与本地启动</a>
+<a href="../blog/01-gmp-pharmaceutical.html">GMP 制药车间数字孪生平台</a>
+<a href="../blog/02-industrial-control.html">工业控制</a>
+<a href="../blog/03-green-exhibition-hall.html">绿色主题展厅</a>
+<a href="../blog/04-equipment-operations.html">设备运维系统</a>
+<a href="../blog/05-smart-energy.html">智慧能源</a></nav><div class="sidebar-tip"><strong>每次只改一项</strong><p>读懂一个参数，做一次修改，再到预览中验证结果。</p></div></aside>
+    <main id="main" class="article" tabindex="-1">
+      <div class="article-top"><span>教程 / 学习路线</span><a href="./00-学习路线总览.md?raw=1" download>下载 MD 源文</a></div>
+      <div class="lesson-actions" aria-label="动手入口"><a href="../threejs-learning-lab/#first-scene" target="_blank" rel="noopener">开始第 1 课 ↗</a><a href="../threejs-learning-lab/drag-lab/" target="_blank" rel="noopener">拖拽搭建练习 ↗</a></div>
+      <details class="mobile-toc"><summary>本篇章节目录</summary><nav><a href="#section-1">1. 准备项目：克隆与启动</a><a href="#section-2">2. 第一节课：修改欢迎语</a><a href="#section-3">3. 基础教程：圆、方块、相机与贴图</a><a href="#section-4">4. 拖拽练习：搭建一个自己的场景</a><a href="#section-5">5. 五个案例：先读教程，再打开练习</a><a href="#section-6">6. 每个案例都按这四步学习</a><a href="#section-7">7. 音效与下一步练习</a><a href="#section-8">8. 遇到问题时先检查什么</a></nav></details>
+      <article><h1 id="page-title">Three.js 新手学习路线</h1>
+<p>从一个圆、一个方块开始，先学会修改参数，再搭建自己的三维场景，最后拆解五个综合案例。按下面的顺序点击教程，每一步都有可操作的任务和完成标准。</p>
+<p>第一次来这里，先打开<a href="../threejs-learning-lab/#first-scene">第 1 课：第一张画面与第一行代码</a>。如果还没有下载项目，先读<a href="../docs/THREEJS-LEARNING-GUIDE.html">克隆与本地启动教程</a>。</p>
+<h2 id="section-1">1. 准备项目：克隆与启动</h2>
+<p>已经通过局域网打开课程的同学，可以直接进入下一步。想在自己的电脑上修改代码，先安装 Git 和 Node.js 18 或更新版本，然后在终端执行：</p>
+<figure class="code-block"><figcaption>powershell · 5 行</figcaption><pre><code class="language-powershell">git clone https://github.com/XuelinHu/threejs-onetwin-beginners.git
+cd threejs-onetwin-beginners
+git lfs install
+git lfs pull
+node server.mjs</code></pre></figure>
+<p>GitHub 版本的模型使用 Git LFS。国内网络也可以从 <a href="https://gitee.com/XuelinHu/threejs-onetwin-beginners" target="_blank" rel="noopener noreferrer">Gitee 仓库</a>克隆；完整说明见<a href="../docs/THREEJS-LEARNING-GUIDE.html">克隆与启动教程</a>。</p>
+<p>启动后，在自己的浏览器输入 <code>http://127.0.0.1:8760/</code>。只需启动仓库根目录的一个服务，五个案例和学习工坊共用它。</p>
+<p>完成标准：能打开<a href="../">课程首页</a>，并从首页进入学习工坊。</p>
+<h2 id="section-2">2. 第一节课：修改欢迎语</h2>
+<p>打开<a href="../threejs-learning-lab/#first-scene">第一张画面与第一行代码</a>，先观察中间的三维预览，然后点击“查看代码”。</p>
+<ol><li>找到 <code>const message = &#39;你好，Three.js！&#39;;</code>。</li><li>把引号里的文字改为“我的第一个三维作品”。</li><li>点击“运行并查看效果”，返回预览。</li><li>对照右侧的关键 API，认识 <code>Scene</code>、<code>Camera</code>、<code>Renderer</code> 分别负责什么。</li></ol>
+<p>完成标准：画面中的文字已变成自己输入的内容，方块仍正常显示。</p>
+<h2 id="section-3">3. 基础教程：圆、方块、相机与贴图</h2>
+<p>按顺序学习，每节课只改一两项参数并观察结果。课程链接会直接打开对应章节。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="顺序、点击进入教程、这节课要做什么、完成标准"><table><thead><tr><th scope="col">顺序</th><th scope="col">点击进入教程</th><th scope="col">这节课要做什么</th><th scope="col">完成标准</th></tr></thead><tbody><tr><td>1</td><td><a href="../threejs-learning-lab/#draw-circle">画一个圆</a></td><td>修改半径和颜色</td><td>能说出几何体、材质和 Mesh 的关系</td></tr><tr><td>2</td><td><a href="../threejs-learning-lab/#draw-box">画一个方块</a></td><td>修改长、宽、高</td><td>能区分平面与三维物体</td></tr><tr><td>3</td><td><a href="../threejs-learning-lab/#coordinates">坐标与位置</a></td><td>分别修改 X、Y、Z</td><td>能把物体移动到指定位置</td></tr><tr><td>4</td><td><a href="../threejs-learning-lab/#perspective-camera">透视相机</a></td><td>改变观察位置和视场角</td><td>能解释物体为什么变大或变小</td></tr><tr><td>5</td><td><a href="../threejs-learning-lab/#orbit-controls">鼠标观察</a></td><td>拖动、平移、缩放</td><td>能围绕物体观察并恢复视角</td></tr><tr><td>6</td><td><a href="../threejs-learning-lab/#groups">组合物体</a></td><td>用多个几何体拼一张桌子</td><td>能整体移动一组物体</td></tr><tr><td>7</td><td><a href="../threejs-learning-lab/#materials">材质</a>与<a href="../threejs-learning-lab/#lights">光照</a></td><td>修改金属度、粗糙度和光强</td><td>能解释表面明暗的变化</td></tr><tr><td>8</td><td><a href="../threejs-learning-lab/#image-textures">图片贴图</a>与<a href="../threejs-learning-lab/#uv-repeat">UV 重复</a></td><td>给方块贴图、铺地砖</td><td>能设置贴图重复次数</td></tr><tr><td>9</td><td><a href="../threejs-learning-lab/#animation">动画</a></td><td>调整每帧旋转速度</td><td>能让物体持续运动</td></tr></tbody></table></div>
+<p>完整工坊包含 28 节基础课和 15 节综合课。左侧是目录，中间是运行预览，右侧是关键 API 与参数解释；完整代码通过弹框查看。</p>
+<h2 id="section-4">4. 拖拽练习：搭建一个自己的场景</h2>
+<p>打开<a href="../threejs-learning-lab/drag-lab/?preset=basics">拖拽组件搭建练习</a>。</p>
+<ol><li>从左侧拖入一个方块，再拖入一个圆柱和一盏灯。</li><li>选择方块，在右侧修改位置、旋转、缩放和材质参数。</li><li>使用撤销、重做，比较修改前后的效果。</li><li>打开生成代码，对照 <code>position</code>、<code>rotation</code>、<code>scale</code> 和材质参数。</li><li>保存场景 JSON，或者下载独立项目，在本地运行自己的作品。</li></ol>
+<p>完成标准：场景里有三个不同的对象，能保存、重新导入，并说明其中两项参数的用途。</p>
+<h2 id="section-5">5. 五个案例：先读教程，再打开练习</h2>
+<p>推荐先从模型较小的设备运维开始，再进入车间、产线和大型展厅；智慧能源用来学习二维图表与业务数据。每篇教程都包含运行方法、关键代码、动手任务与排错说明。</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="推荐顺序、详细教程、先做单项练习、再看完整案例、独立综合课"><table><thead><tr><th scope="col">推荐顺序</th><th scope="col">详细教程</th><th scope="col">先做单项练习</th><th scope="col">再看完整案例</th><th scope="col">独立综合课</th></tr></thead><tbody><tr><td>1</td><td><a href="./04-equipment-operations.html">设备运维：模型与图表</a></td><td><a href="../04-equipment-operations/practice.html">单模型取景</a></td><td><a href="../04-equipment-operations/">设备运维系统</a></td><td><a href="../threejs-learning-lab/#equipment-build">从几何体搭建设备</a></td></tr><tr><td>2</td><td><a href="./01-gmp-pharmaceutical.html">GMP 制药车间：场景与面板</a></td><td><a href="../01-gmp-pharmaceutical/practice.html">模型、相机与动画</a></td><td><a href="../01-gmp-pharmaceutical/">制药车间</a></td><td><a href="../threejs-learning-lab/#factory-layout">搭建车间布局</a></td></tr><tr><td>3</td><td><a href="./02-industrial-control.html">工业控制：动画启停</a></td><td><a href="../02-industrial-control/practice.html">加载与摆放产线</a></td><td><a href="../02-industrial-control/">工业控制</a></td><td><a href="../threejs-learning-lab/#production-controls">启动、停止和复位</a></td></tr><tr><td>4</td><td><a href="./03-green-exhibition-hall.html">绿色展厅：环境与漫游</a></td><td><a href="../03-green-exhibition-hall/practice.html">展厅模型与相机</a></td><td><a href="../03-green-exhibition-hall/">绿色主题展厅</a></td><td><a href="../threejs-learning-lab/#exhibition-walk">键盘漫游与边界</a></td></tr><tr><td>5</td><td><a href="./05-smart-energy.html">智慧能源：趋势与流向</a></td><td><a href="../05-smart-energy/practice.html">ECharts 数据绑定</a></td><td><a href="../05-smart-energy/">智慧能源</a></td><td><a href="../threejs-learning-lab/#energy-flow">能量沿曲线流动</a></td></tr></tbody></table></div>
+<p>每篇教程顶部还提供“基础练习”“组件拆解”和“拖拽搭建”入口，可以随时切换。完整案例使用原站公开组件与本地模型；学习工坊和教学练习使用另写的简化实现，适合一步步理解原理。</p>
+<p>绿色展厅使用压缩后的模型，约 58.41 MB（55.71 MiB）。先只打开一个大型场景，等模型加载完成，再体验漫游。</p>
+<h2 id="section-6">6. 每个案例都按这四步学习</h2>
+<ol><li>阅读详细教程的“本课学习目标”，打开单项练习，确认模型或图表正常显示。</li><li>找到 <code>practice.mjs</code> 和 <code>source/template.json</code>，先改一个参数或样例数字。</li><li>保存并刷新，比较预期结果与实际结果，记录修改的文件和参数。</li><li>打开完整案例，再阅读 <code>replica.mjs</code> 的对应部分，尝试在自己的独立项目中实现同一种功能。</li></ol>
+<p>例如学工业控制，先确认动画能播放，再读 <code>AnimationMixer</code> 和 <code>AnimationAction</code>，最后完成启动、停止和复位；学展厅时，先学相机与键盘移动，再理解重力与碰撞。</p>
+<h2 id="section-7">7. 音效与下一步练习</h2>
+<p>五个案例的音效保存在项目本地。进入案例后使用右下角音效面板启用、试听和调节音量，再操作设备、按钮或人物。浏览器需要先收到一次点击，才能允许网页发声。</p>
+<p>音效的使用与替换方法见<a href="../docs/THREEJS-LEARNING-GUIDE.html#section-5">音效教程</a>。完成后，给自己的独立项目加一个按钮音、运行提示音或脚步声，并在素材说明中保留来源与许可。</p>
+<p>每个案例的 <code>AI_PROMPT.md</code> 是依据模板整理的复现提示词。可以把它交给 Codex，先生成一个独立项目，再逐项检查画面、交互和代码；原模型和配置是否使用，应在练习记录中写清楚。</p>
+<h2 id="section-8">8. 遇到问题时先检查什么</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="现象、检查与处理"><table><thead><tr><th scope="col">现象</th><th scope="col">检查与处理</th></tr></thead><tbody><tr><td>页面打不开</td><td>确认根目录服务正在运行，地址含 <code>:8760</code></td></tr><tr><td>教程链接跳到别的电脑</td><td>使用本教程的相对链接，始终沿用当前访问地址</td></tr><tr><td>模型不出现</td><td>确认 Git LFS 素材已下载，查看页面加载提示和浏览器网络请求</td></tr><tr><td>画面卡顿</td><td>关闭其他大型场景，降低分辨率或像素倍率；网页由访问端浏览器渲染</td></tr><tr><td>没有声音</td><td>点击页面，检查案例音效面板、浏览器标签页静音和系统音量</td></tr><tr><td>修改后没变化</td><td>保存文件后用 <code>Ctrl+F5</code> 刷新，确认修改的是当前运行目录</td></tr></tbody></table></div>
+<p>需要从头查看操作步骤时，返回<a href="../docs/THREEJS-LEARNING-GUIDE.html">克隆与本地启动教程</a>；准备开始第一节课时，点击<a href="../threejs-learning-lab/#first-scene">第一张画面与第一行代码</a>。</p></article>
+      <nav class="page-turn" aria-label="前后教程"><span></span><a href="../docs/THREEJS-LEARNING-GUIDE.html"><span>下一篇</span>克隆与本地启动 →</a></nav>
+    </main>
+    <aside class="toc-sidebar"><h2>本篇内容</h2><nav aria-label="本篇章节"><a href="#section-1">1. 准备项目：克隆与启动</a><a href="#section-2">2. 第一节课：修改欢迎语</a><a href="#section-3">3. 基础教程：圆、方块、相机与贴图</a><a href="#section-4">4. 拖拽练习：搭建一个自己的场景</a><a href="#section-5">5. 五个案例：先读教程，再打开练习</a><a href="#section-6">6. 每个案例都按这四步学习</a><a href="#section-7">7. 音效与下一步练习</a><a href="#section-8">8. 遇到问题时先检查什么</a></nav><a class="back-top" href="#page-title">回到顶部 ↑</a></aside>
+  </div>
+  <footer class="site-footer">先读教程，再做练习。所有课程入口沿用当前服务地址。</footer>
+</body>
+</html>

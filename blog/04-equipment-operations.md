@@ -2,24 +2,23 @@
 
 本篇带你用“设备运维系统”完成一次从运行、观察到改代码的学习。理解运维大屏如何由二维图表、滚动表格和一个小型三维设备窗口构成。
 
-本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整入口直接使用原站公开组件与原始素材，可读练习另行编写；两者的来源与用途分别说明。首次学习建议先读[学习路线](https://my.feishu.cn/docx/Sqvzda7k4o5DWdxZLIUcDoefnDh)。
+本文依据已保存的 OneTwin 公开模板配置和本地可运行代码编写。完整入口直接使用原站公开组件与原始素材，可读练习另行编写；两者的来源与用途分别说明。首次学习建议先读[学习路线](./00-学习路线总览.html)。
+
+**本课目标：** 理解单模型自动取景、鼠标控制，以及运维表格与雷达图的数据结构。
+
+**完成标准：** 能指出模型和一项图表数据的位置，独立修改一项数值并观察结果。
 
 ## 1. 先运行，再观察
 
-这台笔记本的项目目录是 
-
-```text
-D:\workspace\front\threejs-onetwin-beginners\04-equipment-operations
-```
-
-在 PowerShell 中运行：
+首次运行先按[克隆与本地启动教程](../docs/THREEJS-LEARNING-GUIDE.html)取得仓库。在终端进入克隆后的仓库根目录（能看到 `server.mjs` 的位置），启动统一服务：
 
 ```powershell
-cd 'D:\workspace\front\threejs-onetwin-beginners\04-equipment-operations'
 node server.mjs
 ```
 
-看到服务地址后，打开[完整案例](http://127.0.0.1:8744/)。如果该地址已经能打开，说明服务正在运行，不要重复启动。地址栏里不能使用 file:// 直接打开 HTML，模块与素材需要通过 HTTP 加载。
+本机浏览器打开 `http://127.0.0.1:8760/`。本案例代码位于仓库的 `04-equipment-operations/`。如果你已经通过局域网打开课程，就直接使用下面的入口，无需重复启动服务。请通过 HTTP 访问，不能直接双击 HTML 文件。
+
+[打开完整案例](../04-equipment-operations/) · [打开单项练习](../04-equipment-operations/practice.html) · [打开基础练习](../04-equipment-operations/lesson.html) · [打开组件拆解](../04-equipment-operations/replica.html) · [拖拽搭建练习](../threejs-learning-lab/drag-lab/?preset=maintenance)
 
 1. 打开主页面，确认左侧曲线和表格、中央雷达、右侧设备模型、底部山峰图出现。
 2. 拖动右侧设备模型旋转，滚轮缩放，观察单模型展示与整个三维车间的区别。
@@ -27,7 +26,7 @@ node server.mjs
 4. 打开 practice.html，只显示设备模型，学习包围盒取中心和相机取景。
 5. lesson.html 保留了基础对象拾取等教学练习；原模板并没有这些新增的设备状态联动功能。
 
-同一局域网的其他设备可以使用“这台笔记本的实际局域网 IP:8744”。这是笔记本上的项目，与 192.168.1.9 的 Saltline 服务是不同的服务。网页三维画面由访问端浏览器绘制。
+同一局域网的其他设备使用“部署电脑的实际 IP:8760”访问统一入口。本页链接沿用当前服务地址，不会跳到访问者自己的电脑；三维画面由访问端浏览器绘制。
 
 ## 2. 对照模板，认识文件
 
@@ -55,7 +54,7 @@ node server.mjs
 
 ## 3. 跑通一个完整的单项示例
 
-打开[单项练习](http://127.0.0.1:8744/practice.html)。它只保留模型、相机、灯光、动画和鼠标控制，去掉完整大屏的干扰；光照经过教学简化，因此不是完整页面的截图复刻。
+打开[单项练习](../04-equipment-operations/practice.html)。它只保留模型、相机、灯光、动画和鼠标控制，去掉完整大屏的干扰；光照经过教学简化，因此不是完整页面的截图复刻。
 
 practice.html 的完整内容如下，可用它理解页面如何引入本地模块：
 

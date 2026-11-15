@@ -31,6 +31,8 @@ node server.mjs
 
 完整入口使用原站公开组件、原始配置与素材；可读教学实现另存于 practice.mjs、lesson.html 和 replica.mjs。来源、校验与适配见 reference-runtime/SOURCE.md。公开模板没有原始 AI 对话，AI_PROMPT.md 是依据模板重新整理的提示词。
 
-维护公共运行器时编辑 `runtime/`，再运行 `node tools/build-replicas.mjs`；该命令会覆盖各目录生成的运行文件。更新教程运行 `node tools/write-guides.mjs`。
+维护公共运行器时编辑 `runtime/`，再运行 `node tools/build-replicas.mjs`；该命令会覆盖各目录生成的运行文件。
+
+学习路线和五篇教程已提供 HTML 阅读页，地址为 `/blog/00-学习路线总览.html`。旧 MD 地址会自动跳转到阅读页；加 `?raw=1` 可查看源文。修改 `blog/*.md` 或学生指南后，运行 `node tools/render-guides.mjs` 更新页面，再运行 `node tools/check-guides.mjs` 检查本地链接与章节；不需要安装依赖。旧的 `node tools/write-guides.mjs` 默认也只渲染阅读页，避免覆盖首页。
 
 学生从克隆到本地运行、局域网访问、学习顺序和音效替换，请阅读 [`docs/THREEJS-LEARNING-GUIDE.md`](docs/THREEJS-LEARNING-GUIDE.md)。音效文件和许可说明位于 `runtime/assets/audio/`。

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="下载项目、启动服务、使用音效，再开始自己的练习。">
+  <title>Three.js + OneTwin 新手学习与运行指南 · Three.js 学习手册</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../blog/tutorial.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到教程正文</a>
+  <header class="site-header"><a class="brand" href="../">Three.js 学习手册</a><nav aria-label="快捷入口"><a href="../threejs-learning-lab/#first-scene">互动课堂</a><a href="../threejs-learning-lab/drag-lab/">拖拽搭建</a><a href="../">课程首页</a></nav></header>
+  <div class="reader-layout">
+    <aside class="course-sidebar"><p class="eyebrow">从零开始 · 逐步实践</p><h2>教程目录</h2><nav aria-label="教程目录"><a href="../blog/00-学习路线总览.html">学习路线</a>
+<a href="../docs/THREEJS-LEARNING-GUIDE.html" aria-current="page">克隆与本地启动</a>
+<a href="../blog/01-gmp-pharmaceutical.html">GMP 制药车间数字孪生平台</a>
+<a href="../blog/02-industrial-control.html">工业控制</a>
+<a href="../blog/03-green-exhibition-hall.html">绿色主题展厅</a>
+<a href="../blog/04-equipment-operations.html">设备运维系统</a>
+<a href="../blog/05-smart-energy.html">智慧能源</a></nav><div class="sidebar-tip"><strong>每次只改一项</strong><p>读懂一个参数，做一次修改，再到预览中验证结果。</p></div></aside>
+    <main id="main" class="article" tabindex="-1">
+      <div class="article-top"><span>教程 / 克隆与本地启动</span><a href="./THREEJS-LEARNING-GUIDE.md?raw=1" download>下载 MD 源文</a></div>
+      <div class="lesson-actions" aria-label="动手入口"><a href="../threejs-learning-lab/#first-scene" target="_blank" rel="noopener">开始第 1 课 ↗</a><a href="../threejs-learning-lab/drag-lab/" target="_blank" rel="noopener">拖拽搭建练习 ↗</a></div>
+      <details class="mobile-toc"><summary>本篇章节目录</summary><nav><a href="#section-1">1. 获取项目</a><a href="#section-2">2. 本地启动</a><a href="#section-3">3. 推荐学习顺序</a><a href="#section-4">4. 三个页面区域怎么用</a><a href="#section-5">5. 音效功能</a><a href="#section-6">6. 学生的第一个修改任务</a><a href="#section-7">7. 继续做五个独立项目</a><a href="#section-8">8. 常见问题</a></nav></details>
+      <article><h1 id="page-title">Three.js + OneTwin 新手学习与运行指南</h1>
+<p>这份文档给第一次接触 Three.js 的同学使用。项目把五个综合案例、零基础学习工坊、拖拽搭建实验和本地音效放在同一个仓库里，由一个 Node.js 服务统一提供。</p>
+<p>已经能访问课程的同学，可以直接进入<a href="../threejs-learning-lab/#first-scene">第 1 课</a>，或者先看<a href="../blog/00-学习路线总览.html">完整学习路线</a>。</p>
+<h2 id="section-1">1. 获取项目</h2>
+<p>任选一个代码托管地址即可。两个地址内容保持同步：</p>
+<ul><li>GitHub：<a href="https://github.com/XuelinHu/threejs-onetwin-beginners" target="_blank" rel="noopener noreferrer">https://github.com/XuelinHu/threejs-onetwin-beginners</a></li><li>Gitee：<a href="https://gitee.com/XuelinHu/threejs-onetwin-beginners" target="_blank" rel="noopener noreferrer">https://gitee.com/XuelinHu/threejs-onetwin-beginners</a></li></ul>
+<p>推荐国内网络环境使用 Gitee：</p>
+<figure class="code-block"><figcaption>powershell · 2 行</figcaption><pre><code class="language-powershell">git clone https://gitee.com/XuelinHu/threejs-onetwin-beginners.git
+cd threejs-onetwin-beginners</code></pre></figure>
+<p>也可以使用 GitHub：</p>
+<figure class="code-block"><figcaption>powershell · 2 行</figcaption><pre><code class="language-powershell">git clone https://github.com/XuelinHu/threejs-onetwin-beginners.git
+cd threejs-onetwin-beginners</code></pre></figure>
+<p>绿色展厅包含较大的 GLB 文件。若使用 GitHub 版本并看到模型文件是指针文件，先安装 Git LFS，然后执行：</p>
+<figure class="code-block"><figcaption>powershell · 2 行</figcaption><pre><code class="language-powershell">git lfs install
+git lfs pull</code></pre></figure>
+<h2 id="section-2">2. 本地启动</h2>
+<p>先确认 Node.js 版本：</p>
+<figure class="code-block"><figcaption>powershell · 1 行</figcaption><pre><code class="language-powershell">node --version</code></pre></figure>
+<p>Node.js 18 或更新版本即可。这个项目使用原生 Node.js 静态服务，不需要安装 npm 包：</p>
+<figure class="code-block"><figcaption>powershell · 1 行</figcaption><pre><code class="language-powershell">node server.mjs</code></pre></figure>
+<p>浏览器打开：</p>
+<figure class="code-block"><figcaption>text · 1 行</figcaption><pre><code class="language-text">http://127.0.0.1:8760/</code></pre></figure>
+<p>局域网中的其他电脑打开本机 IP 加端口即可。例如部署电脑是 <code>192.168.1.9</code>：</p>
+<figure class="code-block"><figcaption>text · 1 行</figcaption><pre><code class="language-text">http://192.168.1.9:8760/</code></pre></figure>
+<p>服务绑定 <code>0.0.0.0</code>，因此同一局域网可以直接访问。若打不开，检查 Windows 防火墙是否允许 Node.js 访问 8760 端口，并确认服务窗口仍在运行。</p>
+<h2 id="section-3">3. 推荐学习顺序</h2>
+<ol><li>进入<a href="../threejs-learning-lab/#first-scene">零基础第 1 课</a>，先学习场景、相机、几何体、材质、灯光和动画。</li><li>打开<a href="../threejs-learning-lab/drag-lab/">拖拽组件搭建练习</a>，拖入方块、圆柱、文字和灯光，修改右侧关键 API 参数。</li><li>按<a href="../blog/00-学习路线总览.html#section-5">学习路线</a>进入五个综合案例。每个案例都提供完整案例、单项练习和基础练习。</li><li>最后再阅读每个案例的 <code>AI_PROMPT.md</code>，尝试只根据提示词重新实现一个独立小项目。</li></ol>
+<p>建议每学完一个知识点就做一次小修改，例如把立方体颜色改成红色、把相机距离改为 <code>8</code>、把旋转速度改成 <code>0.01</code>，然后刷新页面观察变化。</p>
+<h2 id="section-4">4. 三个页面区域怎么用</h2>
+<p>学习工坊使用一个网页完成三个区域的学习：</p>
+<ul><li>左侧：课程目录，按基础知识到综合练习排列。</li><li>中间：实时 Three.js 预览，修改参数后可以马上观察结果。</li><li>右侧：关键 API、参数含义和常见原理。完整代码通过按钮弹窗查看，不会挤占预览空间。</li></ul>
+<p>综合案例的“完整案例”保留原始组件对照；“单项练习”是更容易读懂的 Three.js 版本；“基础练习”使用简化场景帮助初学者理解相机、灯光、模型和图表。</p>
+<h2 id="section-5">5. 音效功能</h2>
+<p>页面右下角的“音效”面板可以：</p>
+<ul><li>点击“启用音效”，再点“试听音效”确认当前页面可以发声。</li><li>拖动音量滑块调整音量。</li><li>点击“静音/取消静音”按钮切换静音。</li><li>在 GMP 制药车间和工业产线中，跟随设备动画的运行状态播放运行声。</li><li>选择工业控制中的“启动、停止、急停”等按钮时播放对应提示音。</li><li>进入绿色展厅的漫游模式后按 <code>W/A/S/D</code> 移动时播放脚步声，松开按键自动停止。</li><li>其他按钮、相机预设、模型选中和图表控制会播放轻量点击音。</li></ul>
+<p>浏览器必须先收到一次用户点击或键盘操作，才能允许网页发声。音量和静音状态会保存到浏览器本地存储。统一入口的所有页面共用 <code>8760</code> 这个来源；如果单独在某个案例目录启动服务，该案例会保存自己的音量设置。</p>
+<p>音效已经下载到项目本地，不依赖运行时外网：</p>
+<ul><li><code>runtime/assets/audio/clicker-sound.ogg</code>：按钮点击，CC0 1.0。</li><li><code>runtime/assets/audio/short-beep.ogg</code>：设备启动/停止提示，CC0 1.0。</li><li><code>runtime/assets/audio/footsteps.ogg</code>：脚步，CC BY-SA 4.0。</li></ul>
+<p>来源和许可见 <a href="../runtime/assets/audio/ATTRIBUTION.md"><code>runtime/assets/audio/ATTRIBUTION.md</code></a>。五个案例目录也各自保留了一份音效文件和归属说明，便于单独运行。音频文件加载失败时，<code>runtime/audio.mjs</code> 会退回 Web Audio API 生成短音效，页面仍然可以学习和操作。</p>
+<p>修改共享音效模块或替换音频文件后，在仓库根目录同步到五个案例：</p>
+<figure class="code-block"><figcaption>powershell · 1 行</figcaption><pre><code class="language-powershell">node tools/sync-audio.mjs</code></pre></figure>
+<h2 id="section-6">6. 学生的第一个修改任务</h2>
+<p>以工业控制为例：</p>
+<ol><li>打开 <code>02-industrial-control/replica.html</code>。</li><li>在页面中点击“启动”和“停止”，观察模型动画和音效变化。</li><li>打开 <code>02-industrial-control/replica.mjs</code>，找到 <code>applyAction</code> 和按钮生成部分。</li><li>找到 <code>runtime/audio.mjs</code> 中的 <code>classify</code> 和 <code>FILES</code>，给一个新按钮增加自己的音效分类。</li><li>重新刷新页面，检查按钮文字、动画状态和音效是否一致。</li></ol>
+<p>以绿色展厅为例：</p>
+<ol><li>打开 <code>03-green-exhibition-hall/replica.html</code>，点击“游览”。</li><li>点击画布让它获得焦点，再按 <code>W/A/S/D</code> 漫游。</li><li>阅读 <code>runtime/audio.mjs</code> 中人物位置与移动状态的判断，观察人物停止或碰到边界时声音如何停止。</li><li>将脚步文件替换为自己的合法音效，并同步更新 <code>ATTRIBUTION.md</code>。</li></ol>
+<h2 id="section-7">7. 继续做五个独立项目</h2>
+<p>每个案例目录都可以作为独立学习单元，先打开教程，再进入练习：</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="教程、完整案例、单项练习"><table><thead><tr><th scope="col">教程</th><th scope="col">完整案例</th><th scope="col">单项练习</th></tr></thead><tbody><tr><td><a href="../blog/01-gmp-pharmaceutical.html">GMP 制药车间教程</a></td><td><a href="../01-gmp-pharmaceutical/">打开制药车间</a></td><td><a href="../01-gmp-pharmaceutical/practice.html">模型、相机与动画</a></td></tr><tr><td><a href="../blog/02-industrial-control.html">工业控制教程</a></td><td><a href="../02-industrial-control/">打开工业控制</a></td><td><a href="../02-industrial-control/practice.html">产线模型</a></td></tr><tr><td><a href="../blog/03-green-exhibition-hall.html">绿色展厅教程</a></td><td><a href="../03-green-exhibition-hall/">打开绿色展厅</a></td><td><a href="../03-green-exhibition-hall/practice.html">模型与环境</a></td></tr><tr><td><a href="../blog/04-equipment-operations.html">设备运维教程</a></td><td><a href="../04-equipment-operations/">打开设备运维</a></td><td><a href="../04-equipment-operations/practice.html">单模型取景</a></td></tr><tr><td><a href="../blog/05-smart-energy.html">智慧能源教程</a></td><td><a href="../05-smart-energy/">打开智慧能源</a></td><td><a href="../05-smart-energy/practice.html">趋势图数据绑定</a></td></tr></tbody></table></div>
+<p>每个目录都包含 <code>index.html</code>、<code>reference.html</code>、<code>replica.html</code>、<code>practice.html</code>、<code>lesson.html</code> 和对应的 JavaScript。修改共享运行器时编辑 <code>runtime/</code>，再运行：</p>
+<figure class="code-block"><figcaption>powershell · 1 行</figcaption><pre><code class="language-powershell">node tools/build-replicas.mjs</code></pre></figure>
+<p>修改学习工坊时进入 <code>threejs-learning-lab/</code>，按照该目录的 README 操作。拖拽实验检查命令为：</p>
+<figure class="code-block"><figcaption>powershell · 2 行</figcaption><pre><code class="language-powershell">cd threejs-learning-lab
+npm run check:drag</code></pre></figure>
+<h2 id="section-8">8. 常见问题</h2>
+<p><strong>页面显示空白或模型一直加载</strong>：先等待大型 GLB 下载完成，再打开浏览器开发者工具查看 Network；确认是通过 <code>http://</code> 访问，而不是直接双击 HTML 文件。</p>
+<p><strong>点击后没有声音</strong>：先点右下角“启用音效”，再点“试听音效”。检查是否静音、音量是否为 0，并确认浏览器标签页没有被静音。</p>
+<p><strong>局域网访问不了</strong>：确认服务器终端没有退出，访问地址包含 <code>:8760</code>，并在部署电脑上放行 Node.js 的专用网络访问。</p>
+<p><strong>修改后看不到变化</strong>：使用 <code>Ctrl+F5</code> 强制刷新。服务器对 HTML、JavaScript 和 CSS 使用了禁止缓存设置。</p>
+<p><strong>想换音效</strong>：替换对应的 <code>.ogg</code> 文件即可，但要保留合法许可来源，并在 <code>ATTRIBUTION.md</code> 中写明作者、原始地址和许可证。</p></article>
+      <nav class="page-turn" aria-label="前后教程"><a href="../blog/00-学习路线总览.html"><span>上一篇</span>学习路线</a><a href="../blog/01-gmp-pharmaceutical.html"><span>下一篇</span>GMP 制药车间数字孪生平台 →</a></nav>
+    </main>
+    <aside class="toc-sidebar"><h2>本篇内容</h2><nav aria-label="本篇章节"><a href="#section-1">1. 获取项目</a><a href="#section-2">2. 本地启动</a><a href="#section-3">3. 推荐学习顺序</a><a href="#section-4">4. 三个页面区域怎么用</a><a href="#section-5">5. 音效功能</a><a href="#section-6">6. 学生的第一个修改任务</a><a href="#section-7">7. 继续做五个独立项目</a><a href="#section-8">8. 常见问题</a></nav><a class="back-top" href="#page-title">回到顶部 ↑</a></aside>
+  </div>
+  <footer class="site-footer">先读教程，再做练习。所有课程入口沿用当前服务地址。</footer>
+</body>
+</html>

@@ -3,6 +3,12 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { cases } from './cases.mjs';
 
+// 默认只更新阅读页；旧的源文生成流程需显式选择，避免覆盖已维护的首页和教材。
+if (!process.argv.includes('--regenerate-source')) {
+  await import('./render-guides.mjs');
+  process.exit(0);
+}
+
 const root = fileURLToPath(new URL('../', import.meta.url));
 const fence = (language, code) => `\n\n\`\`\`${language}\n${code.trim()}\n\`\`\`\n\n`;
 const localPath = folder => `D:\\workspace\\front\\threejs-onetwin-beginners\\${folder}`;

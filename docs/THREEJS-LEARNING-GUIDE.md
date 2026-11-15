@@ -2,6 +2,8 @@
 
 这份文档给第一次接触 Three.js 的同学使用。项目把五个综合案例、零基础学习工坊、拖拽搭建实验和本地音效放在同一个仓库里，由一个 Node.js 服务统一提供。
 
+已经能访问课程的同学，可以直接进入[第 1 课](../threejs-learning-lab/#first-scene)，或者先看[完整学习路线](../blog/00-学习路线总览.html)。
+
 ## 1. 获取项目
 
 任选一个代码托管地址即可。两个地址内容保持同步：
@@ -60,9 +62,9 @@ http://192.168.1.9:8760/
 
 ## 3. 推荐学习顺序
 
-1. 进入统一入口的“零基础学习工坊”，先学习场景、相机、几何体、材质、灯光和动画。
-2. 打开“拖拽组件搭建练习”，拖入方块、圆柱、文字和灯光，修改右侧关键 API 参数。
-3. 按 `01` 到 `05` 的顺序阅读五个综合案例。每个案例都提供完整案例、单项练习和基础练习。
+1. 进入[零基础第 1 课](../threejs-learning-lab/#first-scene)，先学习场景、相机、几何体、材质、灯光和动画。
+2. 打开[拖拽组件搭建练习](../threejs-learning-lab/drag-lab/)，拖入方块、圆柱、文字和灯光，修改右侧关键 API 参数。
+3. 按[学习路线](../blog/00-学习路线总览.html#section-5)进入五个综合案例。每个案例都提供完整案例、单项练习和基础练习。
 4. 最后再阅读每个案例的 `AI_PROMPT.md`，尝试只根据提示词重新实现一个独立小项目。
 
 建议每学完一个知识点就做一次小修改，例如把立方体颜色改成红色、把相机距离改为 `8`、把旋转速度改成 `0.01`，然后刷新页面观察变化。
@@ -81,8 +83,10 @@ http://192.168.1.9:8760/
 
 页面右下角的“音效”面板可以：
 
+- 点击“启用音效”，再点“试听音效”确认当前页面可以发声。
 - 拖动音量滑块调整音量。
-- 点击“已静音/音效”按钮切换静音。
+- 点击“静音/取消静音”按钮切换静音。
+- 在 GMP 制药车间和工业产线中，跟随设备动画的运行状态播放运行声。
 - 选择工业控制中的“启动、停止、急停”等按钮时播放对应提示音。
 - 进入绿色展厅的漫游模式后按 `W/A/S/D` 移动时播放脚步声，松开按键自动停止。
 - 其他按钮、相机预设、模型选中和图表控制会播放轻量点击音。
@@ -97,6 +101,12 @@ http://192.168.1.9:8760/
 
 来源和许可见 [`runtime/assets/audio/ATTRIBUTION.md`](../runtime/assets/audio/ATTRIBUTION.md)。五个案例目录也各自保留了一份音效文件和归属说明，便于单独运行。音频文件加载失败时，`runtime/audio.mjs` 会退回 Web Audio API 生成短音效，页面仍然可以学习和操作。
 
+修改共享音效模块或替换音频文件后，在仓库根目录同步到五个案例：
+
+```powershell
+node tools/sync-audio.mjs
+```
+
 ## 6. 学生的第一个修改任务
 
 以工业控制为例：
@@ -104,27 +114,27 @@ http://192.168.1.9:8760/
 1. 打开 `02-industrial-control/replica.html`。
 2. 在页面中点击“启动”和“停止”，观察模型动画和音效变化。
 3. 打开 `02-industrial-control/replica.mjs`，找到 `applyAction` 和按钮生成部分。
-4. 找到 `runtime/audio.mjs` 中的 `classifyButton`，给一个新按钮增加自己的音效分类。
+4. 找到 `runtime/audio.mjs` 中的 `classify` 和 `FILES`，给一个新按钮增加自己的音效分类。
 5. 重新刷新页面，检查按钮文字、动画状态和音效是否一致。
 
 以绿色展厅为例：
 
 1. 打开 `03-green-exhibition-hall/replica.html`，点击“游览”。
 2. 点击画布让它获得焦点，再按 `W/A/S/D` 漫游。
-3. 修改 `startWalking()` 的播放速度，比较不同脚步速度的效果。
+3. 阅读 `runtime/audio.mjs` 中人物位置与移动状态的判断，观察人物停止或碰到边界时声音如何停止。
 4. 将脚步文件替换为自己的合法音效，并同步更新 `ATTRIBUTION.md`。
 
 ## 7. 继续做五个独立项目
 
-每个案例目录都可以作为独立学习单元：
+每个案例目录都可以作为独立学习单元，先打开教程，再进入练习：
 
-```text
-01-gmp-pharmaceutical/       GMP 制药车间
-02-industrial-control/        工业控制与自动化
-03-green-exhibition-hall/     绿色展厅与人物漫游
-04-equipment-operations/     设备运维大屏
-05-smart-energy/             智慧能源图表
-```
+| 教程 | 完整案例 | 单项练习 |
+| --- | --- | --- |
+| [GMP 制药车间教程](../blog/01-gmp-pharmaceutical.html) | [打开制药车间](../01-gmp-pharmaceutical/) | [模型、相机与动画](../01-gmp-pharmaceutical/practice.html) |
+| [工业控制教程](../blog/02-industrial-control.html) | [打开工业控制](../02-industrial-control/) | [产线模型](../02-industrial-control/practice.html) |
+| [绿色展厅教程](../blog/03-green-exhibition-hall.html) | [打开绿色展厅](../03-green-exhibition-hall/) | [模型与环境](../03-green-exhibition-hall/practice.html) |
+| [设备运维教程](../blog/04-equipment-operations.html) | [打开设备运维](../04-equipment-operations/) | [单模型取景](../04-equipment-operations/practice.html) |
+| [智慧能源教程](../blog/05-smart-energy.html) | [打开智慧能源](../05-smart-energy/) | [趋势图数据绑定](../05-smart-energy/practice.html) |
 
 每个目录都包含 `index.html`、`reference.html`、`replica.html`、`practice.html`、`lesson.html` 和对应的 JavaScript。修改共享运行器时编辑 `runtime/`，再运行：
 
@@ -143,7 +153,7 @@ npm run check:drag
 
 **页面显示空白或模型一直加载**：先等待大型 GLB 下载完成，再打开浏览器开发者工具查看 Network；确认是通过 `http://` 访问，而不是直接双击 HTML 文件。
 
-**点击后没有声音**：先点击页面或按一次键盘，再检查右下角是否静音、音量是否为 0，并确认浏览器标签页没有被静音。
+**点击后没有声音**：先点右下角“启用音效”，再点“试听音效”。检查是否静音、音量是否为 0，并确认浏览器标签页没有被静音。
 
 **局域网访问不了**：确认服务器终端没有退出，访问地址包含 `:8760`，并在部署电脑上放行 Node.js 的专用网络访问。
 

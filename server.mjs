@@ -17,11 +17,21 @@ const mime = {
 http.createServer(async (req, res) => {
   try {
     if (!['GET','HEAD'].includes(req.method)) return res.writeHead(405, { allow:'GET, HEAD' }).end();
-    const pathname = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
+    const requestUrl = new URL(req.url, 'http://localhost');
+    const pathname = decodeURIComponent(requestUrl.pathname);
     let file = resolve(root, `.${pathname}`);
     if (!file.startsWith(root.endsWith(sep) ? root : root + sep) && file !== resolve(root)) return res.writeHead(403).end();
     const relative = file.slice(root.length).replaceAll('\\', '/');
     if (relative.split('/').some(part => part.startsWith('.') || part === 'node_modules') || /(?:^|\/)(?:server(?:-error)?\.log|.*\.pid)$/.test(relative)) return res.writeHead(404).end();
+    // 教材旧地址仍可用；下载源文时显式传 raw=1。
+    if (/^(?:blog\/|docs\/THREEJS-LEARNING-GUIDE\.md$)/.test(relative) && extname(file) === '.md' && requestUrl.searchParams.get('raw') !== '1') {
+      try {
+        if ((await stat(file.slice(0, -3) + '.html')).isFile()) {
+          requestUrl.pathname = pathname.slice(0, -3) + '.html';
+          return res.writeHead(302, { location: requestUrl.pathname + requestUrl.search, 'cache-control': 'no-store' }).end();
+        }
+      } catch (error) { if (error.code !== 'ENOENT') throw error; }
+    }
     let info = await stat(file);
     if (info.isDirectory()) { file = resolve(file, 'index.html'); info = await stat(file); }
     const etag = `"${info.size}-${Math.trunc(info.mtimeMs)}"`;
